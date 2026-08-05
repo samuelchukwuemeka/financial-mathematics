@@ -1,0 +1,1935 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-102287542-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-102287542-1');
+    </script>
+
+    <script data-ad-client="ca-pub-9463984700780669" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    
+    <meta charset="utf-8">
+    <meta name="google-site-verification" content="dWWImG59lcpKRGrhVSEW_j8U2jW1vMTG1_J2dUBrF4s">
+    <meta name="msvalidate.01" content="85DBCF5F806AB8C9BD2FC30728535125">
+    <meta name="google-site-verification" content="dq1XmHfXW0b3WlsawOYEk5yvgZDJ7CesBFu9QrSmHrs">
+
+    <title>Financial Mathematics</title>
+    
+    <meta name="description" content="Samuel Dominic Chukwuemeka (SamDom For Peace) gives all the credit to our LORD and GOD, JESUS CHRIST. We are experts in the mathematics of finance.">
+    
+    <meta name="keywords" content="samuel, chukwuemeka, samuel chukwuemeka, samdom for peace, math, mathematics, mathematics of finance, 
+                financial mathematics, financial math, simple interest, compound interest, continuous compound interest, annual percentage yield, 
+                apy, annuity, ordinary annuity, annuity due, amortization, present value, future value, sinking fund, rule of 78, 
+                loan amortization, mortgage payments, stocks, bonds, investment decision rules, debt financing, time value of money,
+                project evaluation, refund fraction, coupon bonds, bond coupons, bond coupon amount, bond coupon number, bond price, 
+                face value, par value, bond coupon rate, yield to maturity, market value, credit card, debit card">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles/financialMathematics.css" rel="stylesheet" type="text/css" media="all">
+    <link rel="shortcut icon" type="image/x-icon" href="https://finance-calculators.appspot.com/images/favicon.ico">
+</head>
+
+<body>
+    <!-- Navbar (sit on top) -->
+    <div class="w3-top">
+        <div class="w3-bar w3-black w3-padding w3-card">
+            <a href="#" class="w3-bar-item w3-button"><b>Financial Mathematics</b></a>
+            <!-- Float links to the right. Hide them on small screens -->
+            <div class="w3-right w3-hide-small">
+                <a href="#quotes" class="w3-bar-item w3-button">Quotes</a>
+                <a href="#welcome" class="w3-bar-item w3-button">Welcome</a>
+                <a href="https://www.youtube.com/playlist?list=PLjyyswMG9g9D4-hvqIt8PW76u0E9adRsR&disable_polymer=true" target="_blank" class="w3-bar-item w3-button">Videos</a>
+                <a href="https://finance-calculators.appspot.com" target="_blank" class="w3-bar-item w3-button">Calculators</a>
+                <a href="#references" class="w3-bar-item w3-button">References</a>
+                <a href="https://www.chukwuemekasamuel.com/portfolios.html" target="_blank" class="w3-bar-item w3-button">Portfolio</a>
+                <a href="https://chukwuemekasamuel.weebly.com/" target="_blank" class="w3-bar-item w3-button">Contact</a>
+            </div>
+            <div id="google_translate_element"></div>
+            <script>
+                function googleTranslateElementInit() {
+                    new google.translate.TranslateElement({ pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, gaTrack: true, gaId: 'UA-102287542-1' }, 'google_translate_element');
+                }
+            </script>
+            <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="w3-padding-70 white" id="quotes">
+        <br>
+        <div class="w3-center">
+            <button class="solutions" onclick="solutions('solutionQuotes')">Quotes of the Day</button>
+        </div>
+        <div class="w3-content quote" id="solutionQuotes">
+            <p>
+                <q>
+                    If there is one prayer that you should <b>pray/sing</b> every day and every hour, it is the 
+                    <a href="https://www.samdomforpeace.com/Theology/prayer.html" target="_blank">LORD's prayer (Our FATHER in Heaven prayer)</a> <br>
+                    It is the <b>most powerful prayer</b>.
+                    A <b>pure heart</b>, a <b>clean mind</b>, and a <b>clear conscience</b> is necessary for it.
+                </q> - Samuel Dominic Chukwuemeka 
+            </p>
+            <p id="messages8"><q>For in GOD we live, and move, and have our being.</q> - Acts 17:28</p>
+            <p><q>The <b>Joy</b> of a <b>Teacher</b> is the <b>Success</b> of his <b>Students</b>.</q> - Samuel Dominic Chukwuemeka</p>
+        </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- Page content -->
+    <div class="w3-content w3-padding" style="max-width:1564px">
+        <hr>
+        <!-- Welcome -->
+        <div class="w3-container w3-padding-32" id="welcome">
+            <h1>The Mathematics of Finance</h1>
+            <p>
+                <a href="https://www.samuelchukwuemeka.com/" target="_blank" title="Samuel Chukwuemeka">
+                    <img src="images/samdom4peace.jpg" alt="Samdom For Peace" title="Samuel Dominic Chukwuemeka (SamDom For Peace)" class="image">
+                </a>
+                <span id="greetings"></span> <br>
+                I greet you this day,
+                <script>document.write(Date() + ".");</script> <br>
+                <u>First:</u> read the notes. <br>
+                <u>Second:</u> view the videos. <br>
+                <u>Third:</u> solve the questions/solved examples. <br>
+                <u>Fourth:</u> check your solutions with my <b>thoroughly-explained</b> solutions. <br>
+                <u>Fifth:</u> check your answers with my specially developed calculators and/or the Texas Instruments (TI) calculators. <br>
+                I wrote the codes for the <a href="https://finance-calculators.appspot.com" target="_blank">calculators</a> using JavaScript, a client-side scripting language. Please use the
+                latest Internet browsers. The calculators should work. <br>
+                Comments, ideas, areas of improvement, questions, and constructive criticisms are welcome. You may
+                contact me. However, if you are my student; please do not contact me here. Contact me via the school's system. <br>
+                Thank you.
+            </p>
+            <p><strong>Samuel Dominic Chukwuemeka</strong> (SamDom For Peace) <span style="font-size: medium">B.Eng.,A.A.T, M.Ed., M.S</span></p>
+        </div>
+
+        <div class="w3-row-padding">
+            <div class="w3-col l3 m6 w3-margin-bottom">
+                <div class="w3-display-container">
+                    <button class="topics" onclick="location.href='#overview';">Overview</button>
+                </div>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom">
+                <div class="w3-display-container">
+                    <button class="topics" onclick="location.href='#symbols';">Symbols/Meanings</button>
+                </div>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom">
+                <div class="w3-display-container">
+                    <button class="topics" onclick="location.href='#formulas';">Formulas</button>
+                </div>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom">
+                <div class="w3-display-container">
+                    <button class="topics" onclick="window.open('https://finance-calculators.appspot.com/financialMathematicsLiteracy.html');">Finance Literacy</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-row-padding">
+            <div class="w3-col l3 m6 w3-margin-bottom">
+                <div class="w3-display-container">
+                    <button class="topics" onclick="location.href='#simpleInterest';">Simple Interest</button>
+                </div>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom">
+                <div class="w3-display-container">
+                    <button class="topics" onclick="location.href='#compoundInterest';">Compound Interest</button>
+                </div>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom">
+                <div class="w3-display-container">
+                    <button class="topics" onclick="location.href='#continuousCompoundInterest';">Continuous Compound Interest</button>
+                </div>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom">
+                <div class="w3-display-container">
+                    <button class="topics" onclick="location.href='#annualPercentageYield';">Annual Percentage Yield (APY)</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-row-padding">
+            <div class="w3-col l3 m6 w3-margin-bottom">
+                <div class="w3-display-container">
+                    <button class="topics" onclick="location.href='#investmentsRetirement';">Investments for Retirement</button>
+                </div>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom">
+                <div class="w3-display-container">
+                    <button class="topics" onclick="location.href='#ordinaryAnnuity';">Future Value of Ordinary Annuity/Sinking Fund</button>
+                </div>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom">
+                <div class="w3-display-container">
+                    <button class="topics" onclick="location.href='#amortization';">Present Value of Ordinary Annuity/Amortization</button>
+                </div>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom">
+                <div class="w3-display-container">
+                    <button class="topics" onclick="location.href='#annuityDue';">Annuity Due</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-row-padding">
+            <div class="w3-col l3 m6 w3-margin-bottom">
+                <div class="w3-display-container">
+                    <button class="topics" onclick="location.href='#rule78';">Rule of 78</button>
+                </div>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom">
+                <div class="w3-display-container">
+                    <button class="topics" onclick="location.href='#stock';">Stocks</button>
+                </div>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom">
+                <div class="w3-display-container">
+                    <button class="topics" onclick="location.href='#bond';">Bonds</button>
+                </div>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom">
+                <div class="w3-display-container">
+                    <button class="topics" onclick="location.href='#investmentRules';">Investment Decision Rules</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-row-padding">
+            <!--
+            <div class="w3-col l3 m6 w3-margin-bottom">
+                <div class="w3-display-container">
+                    <button class="topics" onclick="window.open('https://www.samdomforpeace.com/EngineeringEconomics/timeValueMoney.html');">Time Value of Money (TVM)</button>
+                </div>
+            </div>
+            
+            <div class="w3-col l3 m6 w3-margin-bottom">
+                <div class="w3-display-container">
+                    <button class="topics" onclick="window.open('https://www.samdomforpeace.com/EngineeringEconomics/projectEvaluation.html');">Project Evaluation</button>
+                </div>
+            </div>
+            
+            <div class="w3-col l3 m6 w3-margin-bottom">
+                <div class="w3-display-container">
+                    <button class="topics" onclick="location.href='#debtFinancing';">Debt Financing</button>
+                </div>
+            </div>
+            -->
+            <div class="w3-col l3 m6 w3-margin-bottom">
+                <div class="w3-display-container">
+                    <button class="topics"
+                        onclick="window.open('https://finance-calculators.appspot.com/financialMathematicsApplications.html');">Solved Examples: All Topics</button>
+                </div>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom">
+                <div class="w3-display-container">
+                    <button class="topics" onclick="window.open('https://finance-calculators.appspot.com/TI-calculators-finance.html');">TI Calculator for Finance</button>
+                </div>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom">
+                <div class="w3-display-container">
+                    <button class="topics" onclick="window.open('https://finance-calculators.appspot.com/investmentApplications.html');">Investment Applications</button>
+                </div>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom">
+                <div class="w3-display-container">
+                    <button class="topics" onclick="window.open('https://finance-calculators.appspot.com/incomeTaxes.html');">Income Taxes</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-row-padding">
+            
+
+            <!--
+            <div class="w3-col l3 m6 w3-margin-bottom">
+                <div class="w3-display-container">
+                    <button class="topics"
+                        onclick="window.open('https://www.samuelchukwuemeka.com/SNHU-MAT130/module7homework.html');">Examples: Part 2</button>
+                </div>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom">
+                <div class="w3-display-container">
+                    <button class="topics"
+                        onclick="window.open('https://www.samuelchukwuemeka.com/SNHU-MAT130/module8homework.html');">Examples: Part 3</button>
+                </div>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom">
+                <div class="w3-display-container">
+                    <button class="topics"
+                        onclick="window.open('https://www.samuelchukwuemeka.com/SNHU-MAT130/module8exam.html');">Examples: Part 4</button>
+                </div>
+            </div>
+            -->
+        </div>
+        <div class="w3-row-padding">
+            <div class="w3-col l6 m6 w3-margin-bottom">
+                <div class="w3-display-container">
+                    <button class="topics"
+                        onclick="window.open('https://www.samuelchukwuemeka.com/math/math-notes/ATCU_in_the_Classroom_2016.pdf');">Presentation by Alabama Teachers Credit Union (ATCU): Part 1 (ATCU in the Classroom): 09/20/2016</button>
+                </div>
+            </div>
+            <div class="w3-col l6 m6 w3-margin-bottom">
+                <div class="w3-display-container">
+                    <button class="topics"
+                        onclick="window.open('https://www.samuelchukwuemeka.com/math/math-notes/Investment_Basics.pdf');">Presentation by Alabama Teachers Credit Union (ATCU): Part 2 (Investment Basics): 09/20/2016</button>
+                </div>
+            </div>
+        </div>
+        
+        <br>
+        <!-- Google Search Bar -->
+        <script async src='https://cse.google.com/cse.js?cx=partner-pub-9463984700780669:9446949375'></script><div class="gcse-searchbox-only"></div>
+        <!-- End Google Search Bar -->
+        <br>
+
+        <!-- Overview -->
+        <div class="w3-container w3-padding-32" id="overview">
+            <h2 class="w3-padding-16">Mathematics of Finance</h2>
+            <hr>
+
+            <h3>Objectives</h3>
+            <p>
+                Students will: <br>
+            
+                (1.) Discuss the topic of simple interest. <br>
+                (2.) Solve applied problems involving simple interest. <br>
+                (3.) Discuss the topic of compound interest. <br>
+                (4.) Solve applied problems involving compound interest. <br>
+                (5.) Discuss the topic of continuous compound interest. <br>
+                (6.) Solve applied problems involving continuous compound interest. <br>
+                (7.) Discuss the topic of annual percentage yield. <br>
+                (8.) Solve applied problems involving annual percentage yield. <br>
+                (9.) Discuss several investments for retirement. <br>
+                (10.) Discuss the topic of ordinary annuity. <br>
+                (11.) Solve applied problems involving ordinary annuity. <br>
+                (12.) Discuss the topic of annuity due. <br>
+                (13.) Solve applied problems involving annuity due. <br>
+                (14.) Discuss the topic of amortization. <br>
+                (15.) Solve applied problems involving amortization. <br>
+                (16.) Discuss the topic of sinking fund. <br>
+                (17.) Solve applied problems involving sinking fund. <br>
+                (18.) Discuss the rule of 78. <br>
+                (19.) Solve applied problems involving the rule of 78. <br>
+                (20.) Discuss the buying of a car in the United States. <br>
+                (21.) Discuss the buying of a home in the United States. <br>
+                (22.) Solve finance problems using technology including my specially developed calculators and Texas Instruments (TI) calculators.
+            </p>
+
+            <br>
+            <h3><u>Skills Measured/Acquired</u></h3>
+            <p>(1.) Use of prior knowledge</p>
+            <p>(2.) Critical Thinking</p>
+            <p>(3.) Interdisciplinary connections/applications</p>
+            <p>(4.) Technology</p>
+            <p>(5.) Active participation through direct questioning</p>
+            <p>(6.) Research</p>
+
+            <br>
+            <h4>
+                <u>NOTE:</u> Unless instructed otherwise; <br>
+                For all financial calculations, do not round until the final answer. <br>
+                Do not round intermediate calculations. If it is too long, write it to <u>at least</u> 5 decimal
+                places (5 or more decimal places). <br>
+                Round your final answer to 2 decimal places. <br>
+                Make sure you include your unit.
+            </h4>
+        </div>
+        <!-- End Overview -->
+
+        <br><br>
+
+        <!-- Symbols and Meanings -->
+        <div class="w3-container w3-padding-32" id="symbols">
+            <h2 class="w3-padding-16">Symbols and Meanings</h2>
+            <hr>
+
+            <ul class="w3-ul white">
+                <li class="w3-padding-16">$Per\:\:annum$ OR $Per\:\:year$ OR $Annually$ OR $Yearly$ means for a year (per $1$ year)</li>
+                <li class="w3-padding-16">$SI$ OR $I$ = Simple Interest or Dividend or Yield or Return (<span>$</span>)</li>
+                <li class="w3-padding-16">$P$ = Principal or Present Value or Investment (<span>$</span>)</li>
+                <li class="w3-padding-16">$r$ = Rate or Annual Interest Rate or Annual Percentage Rate (%)</li>
+                <li class="w3-padding-16">$APR$ = Rate or Annual Percentage Rate (%)</li>
+                <li class="w3-padding-16">$t$ = Time $(years)$</li>
+                <li class="w3-padding-16">$A$ = Amount or Future Value (<span>$</span>)</li>
+                <li class="w3-padding-16">$CI$ OR $I$ = Compound Interest or Yield or Dividend or Return(<span>$</span>)</li>
+                <li class="w3-padding-16">$m$ = Number of Compounding Periods Per Year </li>
+                <li class="w3-padding-16">$n$ = Total Number of Compounding Periods $(years)$</li>
+                <li class="w3-padding-16">$i$ = Interest Rate Per Period $(\%) \:\:per\:\: period$</li>
+                <li class="w3-padding-16">$CCI$ = Continuous Compound Interest or Yield or Dividend or Return(<span>$</span>)</li>
+                <li class="w3-padding-16">$APY$ = Annual Percentage Yield or Effective Interest Rate or True Interest Rate (%)</li>
+                <li class="w3-padding-16">$FV$ = Future Value (<span>$</span>)</li>
+                <li class="w3-padding-16">$PMT$ = periodic payment (<span>$</span>)</li>
+                <li class="w3-padding-16">$PMTs$ = total periodic payments (<span>$</span>)</li>
+                <li class="w3-padding-16">$PV$ = Present Value of all payments (<span>$</span>)</li>
+                <li class="w3-padding-16">$a_{n\i}$ = $a$ angle $n$ at $i$</li>
+                <li class="w3-padding-16">$s_{n\i}$ = $s$ angle $n$ at $i$</li>
+                <li class="w3-padding-16">$PV$ = Present Value of all payments (<span>$</span>)</li>
+                <li class="w3-padding-16">$payoff$ = payoff amount for a mortgage</li>
+                <li class="w3-padding-16">$k$ = number of remaining payments</li>
+                <li class="w3-padding-16">$CFV$ = Combined Future Value (<span>$</span>)</li>
+                <li></li>
+                <li class="w3-padding-16"><b>Rule of $78$</b></li>
+                <li class="w3-padding-16">$UI$ = Unearned Interest or Interest Refund (<span>$</span>)</li>
+                <li class="w3-padding-16">$PMT$ = Monthly Payment (<span>$</span>)</li>
+                <li class="w3-padding-16">$k$ = Number of remaining monthly payments OR remaining number of monthly payments</li>
+                <li class="w3-padding-16">$TI$ = Total Interest (<span>$</span>)</li>
+                <li class="w3-padding-16">$n$ = original number of payments</li>
+                <li class="w3-padding-16">$TP$ = Total Payments (<span>$</span>)</li>
+                <li class="w3-padding-16">$LA$ = Loan Amount or Finance Charge (<span>$</span>)</li>
+                <li class="w3-padding-16">$RF$ = Refund Fraction</li>
+                <li class="w3-padding-16">$LAR$ = Loan Amount Refund or Finance Charge Refund (<span>$</span>)</li>
+                <li></li>
+                <li class="w3-padding-16"><b>Bonds</b></li>
+                <li class="w3-padding-16">$CP$ = Coupon Payment (<span>$</span>)</li>
+                <li class="w3-padding-16">$CR$ = Coupon Rate (%)</li>
+                <li class="w3-padding-16">$FV$ = Face Value or Par Value of the Bond (<span>$</span>)</li>
+                <li class="w3-padding-16">
+                    $m$ = Number of Coupon Payments per year <br>
+                    This is similar to the number of compounding periods per year.
+                </li>
+                <li class="w3-padding-16">$BP$ = Bond Price (<span>$</span>)</li>
+                <li class="w3-padding-16">$YTM$ = Yield to Maturity ($\%$)</li>
+                <li class="w3-padding-16">$t$ = time to reach maturity (years)</li>
+                <li class="w3-padding-16">$Annualized\:\:YTM$ = Annualized Yield to Maturity ($\%$)</li>
+            </ul>
+            <br>
+            <h4>
+                <u>NOTE:</u> Unless instructed otherwise; <br>
+                For all financial calculations, do not round until the final answer. <br>
+                Do not round intermediate calculations. If it is too long, write it to <u>at least</u> 5 decimal
+                places (5 or more decimal places). <br>
+                Round your final answer to 2 decimal places. <br>
+                Make sure you include your unit.
+            </h4>
+        </div>
+        <!-- End Symbols and Meanings -->
+
+        <br><br>
+
+        <!-- Formulas -->
+        <div class="w3-container w3-padding-32" id="formulas">
+            <h2 class="w3-padding-16">Formulas</h2>
+            <hr>
+            <h3>Financial Mathematics Literacy</h3>
+            <p>
+                (1.) Monthly interest payment = Monthly interest rate * Average balance <br><br>
+                (2.) Net monthly cash flow = Monthly income &minus; Monthly expenses 
+            </p>
+            <br>
+            <h3>Simple Interest</h3>
+            <p>
+                $
+                (1.)\:\: SI = Prt \\[3ex]
+                (2.)\:\: SI = A - P \\[3ex]
+                (3.)\:\: P = \dfrac{SI}{rt} \\[5ex]
+                (4.)\:\: t = \dfrac{SI}{Pr} \\[5ex]
+                (5.)\:\: r = \dfrac{SI}{Pt} \\[5ex]
+                (6.)\:\: A = P + SI \\[3ex]
+                (7.)\:\: A = P(1 + rt) \\[3ex]
+                (8.)\:\: P = \dfrac{A}{1 + rt} \\[5ex]
+                (9.)\:\: t = \dfrac{A - P}{Pr} \\[5ex]
+                (10.)\:\: r = \dfrac{A - P}{Pt} \\[5ex]
+                (11.)\:\: SI = \dfrac{Art}{1 + rt}
+                $
+            </p>
+            <br>
+            <h3>Compound Interest</h3>
+            <p>
+                $
+                (1.)\:\: A = P\left(1 + \dfrac{r}{m}\right)^{mt} \\[7ex]
+                (2.)\:\: P = \dfrac{A}{\left(1 + \dfrac{r}{m}\right)^{mt}} \\[10ex]
+                (3.)\:\: r = m\left[\left(\dfrac{A}{P}\right)^{\dfrac{1}{mt}} - 1\right] \\[10ex]
+                (4.)\:\: r = m\left(10^{\dfrac{\log\left(\dfrac{A}{P}\right)}{mt}} - 1\right) \\[10ex]
+                (5.)\:\: t = \dfrac{\log\left(\dfrac{A}{P}\right)}{m\log\left(1 + \dfrac{r}{m}\right)} \\[7ex]
+                (6.)\:\: A = P + CI \\[3ex]
+                (7.)\:\: CI = A - P \\[3ex]
+                (8.)\:\: A = P(1 + i)^n \\[4ex]
+                (9.)\:\: P = \dfrac{A}{(1 + i)^n} \\[7ex]
+                (10.)\:\: i = \dfrac{r}{m} \\[5ex]
+                (11.)\:\: n = mt \\[3ex]
+                (12.)\;\; Total\;\;Return = \dfrac{A - P}{P} * 100\% \\[7ex]
+                (13.)\;\; Annual\;\;Return = \left(\dfrac{A}{P}\right)^{\dfrac{1}{t}} * - 1 \\[7ex]
+                $
+                <b>Future Value (Amount) of Cash Flows (Principal) for Several Years</b> <br><br>
+                $
+                (13.)\:\:At\:\:the\:\:end\:\:of\:\:each\:\:year:\:\: FV = PV\left(1 +
+                \dfrac{r}{m}\right)^{m(last\:\:year - that\:\:year)} \\[7ex]
+                (14.)\:\: Total\:FV = \Sigma FV
+                $
+            </p>
+
+            <p class="w3-center">
+                <b>Values of $m$</b>
+            </p>
+            <table>
+                <tr>
+                    <th class="green" style="width: 50%;">If Compounded:</th>
+                    <th class="green" style="width: 50%;"><i>m</i> = </th>
+                </tr>
+                <tr>
+                    <td>
+                        Annually
+                    </td>
+                    <td>
+                        $1$ ($1$ time per year) <br>
+                        Also means every twelve months
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Semiannually
+                    </td>
+                    <td>
+                        2 (2 times per year) <br>
+                        Also means every six months
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Quarterly
+                    </td>
+                    <td>
+                        4 (4 times per year) <br>
+                        Also means every three months
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Monthly
+                    </td>
+                    <td>
+                        12 (12 times per year) <br>
+                        Also means every month
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Weekly
+                    </td>
+                    <td>
+                        52 (52 times per year)
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Daily (Ordinary/Banker's Rule)
+                    </td>
+                    <td>
+                        360 (360 times per year)
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Daily (Exact)
+                    </td>
+                    <td>
+                        365 (365 times per year)
+                    </td>
+                </tr>
+            </table>
+
+            <br>
+            <h3>Continuous Compound Interest</h3>
+            <p>
+                $
+                (1.)\:\: A = Pe^{rt} \\[4ex]
+                (2.)\:\: P = \dfrac{A}{e^{rt}} \\[7ex]
+                (3.)\:\: t = \dfrac{\ln \left(\dfrac{A}{P}\right)}{r} \\[7ex]
+                (4.)\:\: r = \dfrac{\ln \left(\dfrac{A}{P}\right)}{t} \\[7ex] 
+                (5.)\;\; Total\;\;Return = \dfrac{A - P}{P} * 100\% \\[7ex] 
+                (6.)\;\; Annual\;\;Return = \left(\dfrac{A}{P}\right)^{\dfrac{1}{t}} * - 1
+                $
+            </p>
+
+            <br>
+            <h3>APY for Compound Interest</h3>
+            <p>
+                $
+                (1.)\:\: APY = \left(1 + \dfrac{r}{m}\right)^m - 1 \\[7ex]
+                (2.)\:\: r = m\left[(APY + 1)^{\dfrac{1}{m}} - 1\right] \\[7ex]
+                (3.)\:\: r = m\left(\sqrt[m]{APY + 1} - 1\right)
+                $
+            </p>
+
+            <br>
+            <h3>APY for Continuous Compound Interest</h3>
+            <p>
+                $
+                (1.)\:\: APY = e^r - 1 \\[4ex]
+                (2.)\:\: r = \ln(APY + 1)
+                $
+            </p>
+
+            <br>
+            <h3>Investments</h3>
+            <p>
+                (1.) Market Capitalization (Market Cap) = Total Number of Outstanding Shares * Current Share Price <br><br>
+                
+
+            </p>
+
+            <br>
+            <h3>Future Value of Ordinary Annuity</h3>
+            <p>
+                $
+                (1.)\:\: FV = m * PMT * \left[\dfrac{\left(1 + \dfrac{r}{m}\right)^{mt} - 1}{r}\right] \\[10ex]
+                (2.)\;\; FV = PMT * \dfrac{\left[\left(1 + \dfrac{r}{m}\right)^{mt} - 1\right]}{\dfrac{r}{m}} \\[10ex]
+                (3.)\:\: t = \dfrac{\log\left[\dfrac{r * FV}{m * PMT} + 1\right]}{m * \log\left(1 + \dfrac{r}{m}\right)} \\[10ex]
+                (4.)\:\: Total\:\:PMTs = PMT * m * t \\[3ex]
+                (5.)\:\: CI = FV - Total\:\:PMTs \\[5ex]
+                (6.)\:\: FV = PMT * \left[\dfrac{(1 + i)^n - 1}{i}\right] \\[7ex]
+                (7.)\:\: n = \dfrac{\log\left[\dfrac{i * FV}{PMT} + 1\right]}{\log(1 + i)} \\[10ex]
+                (8.)\:\: s_{n\i} = \dfrac{m}{r} * \left[\left(1 + \dfrac{r}{m}\right)^{mt} - 1\right] \\[7ex]
+                (9.)\:\: s_{n\i} = \dfrac{(1 + i)^n - 1}{i} \\[5ex]
+                (10.)\:\: FV = PMT * s_{n\i} \\[3ex]
+                (11.)\:\: i = \dfrac{r}{m} \\[5ex]
+                (12.)\:\: n = mt \\[3ex]
+                (13.)\:\: Annual\:\:Fuel\:\:Expense = \dfrac{Annual\:\:Miles\:\:Driven}{Miles\:\:per\:\:Gallon} *
+                Price\:\:per\:\:Gallon
+                $
+            </p>
+
+            <br>
+            <h3>Sinking Fund</h3>
+            <p>
+                $
+                (1.)\:\: PMT = \dfrac{r * FV}{m * \left[\left(1 + \dfrac{r}{m}\right)^{mt} - 1\right]} \\[10ex]
+                (2.)\:\: t = \dfrac{\log\left[\dfrac{r * FV}{m * PMT} + 1\right]}{m * \log\left(1 + \dfrac{r}{m}\right)}
+                \\[10ex]
+                (3.)\:\: Total\:\:PMTs = PMT * m * t \\[3ex]
+                (4.)\:\: CI = FV - Total\:\:PMTs \\[3ex]
+                (5.)\:\: PMT = \dfrac{i * FV}{(1 + i)^n - 1} \\[7ex]
+                (6.)\:\: n = \dfrac{\log\left[\dfrac{i * FV + PMT}{PMT}\right]}{\log(1 + i)} \\[10ex]
+                (7.)\:\: s_{n\i} = \dfrac{m}{r} * \left[\left(1 + \dfrac{r}{m}\right)^{mt} - 1\right] \\[7ex]
+                (8.)\:\: s_{n\i} = \dfrac{(1 + i)^n - 1}{i} \\[5ex]
+                (9.)\:\: i = \dfrac{r}{m} \\[5ex]
+                (10.)\:\: n = mt
+                $
+            </p>
+
+            <br>
+            <h3>Present Value of Ordinary Annuity</h3>
+            <p>
+                $
+                (1.)\:\: PV = m * PMT * \left[\dfrac{1 - \left(1 + \dfrac{r}{m}\right)^{-mt}}{r}\right] \\[10ex]
+                (2.)\:\: t = -\dfrac{\log\left[1 - \dfrac{r * PV}{m * PMT}\right]}{m * \log\left(1 +
+                \dfrac{r}{m}\right)} \\[10ex]
+                (3.)\:\: PV = PMT * \left[\dfrac{1 - (1 + i)^{-n}}{i}\right] \\[7ex]
+                (4.)\:\: n = \dfrac{\log \left[\dfrac{PMT}{PMT - i * PV}\right]}{\log(1 + i)} \\[10ex]
+                (5.)\:\: a_{n\i} = \dfrac{m}{r} * \left[1 - \left(1 + \dfrac{r}{m}\right)^{-mt}\right] \\[7ex]
+                (6.)\:\: a_{n\i} = \dfrac{1 - (1 + i)^{-n}}{i} \\[5ex]
+                (7.)\:\: PV = PMT * a_{n\i} \\[3ex]
+                (8.)\:\: i = \dfrac{r}{m} \\[5ex]
+                (9.)\:\: n = mt \\[3ex]
+                (10.)\:\: Total\:\:PMTs = PMT * m * t \\[3ex]
+                (11.)\:\: CI = Total\:\:PMTs - PV
+                $
+            </p>
+
+            <br>
+            <h3>Amortization</h3>
+            <p>
+                $
+                (1.)\:\: PMT = \dfrac{PV}{m} * \left[\dfrac{r}{1 - \left(1 + \dfrac{r}{m}\right)^{-mt}}\right] \\[10ex]
+                (2.)\:\: t = -\dfrac{\log\left[1 - \dfrac{r * PV}{m * PMT}\right]}{m * \log\left(1 +
+                \dfrac{r}{m}\right)} \\[10ex]
+                (3.)\:\: PMT = \dfrac{i * PV}{1 - (1 + i)^{-n}} \\[7ex]
+                (4.)\:\: n = \dfrac{\log \left[\dfrac{PMT}{PMT - i * PV}\right]}{\log(1 + i)} \\[10ex]
+                (5.)\:\: i = \dfrac{r}{m} \\[5ex]
+                (6.)\:\: n = mt \\[3ex]
+                (7.)\:\: Payoff = PMT * n * \left[\dfrac{1 - \left(1 + \dfrac{r}{n}\right)^{-k}}{r}\right] \\[10ex]
+                (8.)\:\: Total\:\:PMTs = PMT * m * t \\[3ex]
+                (9.)\:\: CI = Total\:\:PMTs - PV \\[3ex]
+                (10.)\:\: CI = PMT * m * t - PV \\[3ex]
+                (11.)\:\: Number\:\:of\:\:payments = m * t \\[3ex]
+                (12.)\:\: Down\:\:Payment = Given\:\:Rate * Purchase\:\:Price \\[3ex]
+                (13.)\:\: Amount\:\:of\:\:Mortgage = Purchase\:\:Price - Down\:\:Payment \\[3ex]
+                (14.)\:\: Payment\:\:for\:\:x\:\:points\:\:at\:closing = x\:\:as\:\:\% * Amount\:\:of\:\:Mortgage
+                $
+            </p>
+
+            <br>
+            <h3>Future Value of an Annuity Due</h3>
+            <p>
+                $
+                (1.)\:\: FV = m * PMT * \left[\dfrac{\left(1 + \dfrac{r}{m}\right)^{mt} - 1}{r}\right] * \left(1 +
+                \dfrac{r}{m}\right) \\[10ex]
+                (2.)\:\: PMT = \dfrac{r * FV}{(m + r) * \left[\left(1 + \dfrac{r}{m}\right)^{mt} - 1\right]} \\[10ex]
+                (3.)\:\: t = \dfrac{\log\left[\dfrac{r * FV}{PMT(m + r)} + 1\right]}{m * \log\left(1 +
+                \dfrac{r}{m}\right)} \\[10ex]
+                (4.)\:\: Total\:\:PMTs = PMT * m * t \\[3ex]
+                (5.)\:\: CI = FV - Total\:\:PMTs \\[3ex]
+                (6.)\:\: FV = PMT * \left[\dfrac{(1 + i)^n - 1}{i}\right] * (1 + i) \\[7ex]
+                (7.)\:\: PMT = \dfrac{i * FV}{(1 + i)\left[(1 + i)^n - 1\right]} \\[7ex]
+                (8.)\:\: n = \dfrac{\log\left[\dfrac{i * FV}{PMT(1 + i)} + 1\right]}{\log(1 + i)} \\[10ex]
+                (9.)\:\: i = \dfrac{r}{m} \\[5ex]
+                (10.)\:\: n = mt \\[3ex]
+                (11.)\:\: CFV = P\left(1 + \dfrac{r}{m}\right)^{mt} + m * PMT * \left[\dfrac{\left(1 +
+                \dfrac{r}{m}\right)^{mt} - 1}{r}\right] * \left(1 + \dfrac{r}{m}\right) \\[10ex]
+                (12.)\:\: t = \dfrac{\log\left[\dfrac{rCFV + PMT(m + r)}{rP + PMT(m + r)}\right]}{m\log\left(1 +
+                \dfrac{r}{m}\right)}
+                $
+            </p>
+
+            <br>
+            <h3>Rule of 78</h3>
+            <p>
+                $
+                \underline{Monthly} \\[3ex]
+                (1.)\:\: UI = \dfrac{TI * k * (k + 1)}{n(n + 1)} \\[5ex]
+                (2.)\:\: TP = n * PMT \\[3ex]
+                (3.)\:\: TI = TP - LA \\[3ex]
+                (4.)\:\: RF = \dfrac{UI}{TI} \\[5ex]
+                (5.)\:\: RF =
+                \dfrac{sum\:\:of\:\:digits\:\:for\:\:up\:\:to\:\:k}{sum\:\:of\:\:digits\:\:for\:\:up\:\:to\:\:n} \\[5ex]
+                (6.)\:\: LAR = LA * RF \\[3ex]
+                (7.)\:\: UI = TI * RF
+                $
+            </p>
+
+            <br>
+            <h3>Zero-Coupon Bonds</h3>
+            <p>
+                $
+                (1.)\:\: CP = \dfrac{CR * FV}{m} \\[7ex]
+                (2.)\:\: YTM = \left(\dfrac{FV}{BP}\right)^{\dfrac{1}{t}} - 1 \\[7ex]
+                (3.)\:\: BP = \dfrac{FV}{(YTM + 1)^t} \\[7ex]
+                (4.)\:\: FV = BP * (YTM + 1)^t \\[5ex]
+                (5.)\:\: t = \dfrac{\log\left(\dfrac{FV}{BP}\right)}{\log(YTM + 1)}
+                $
+            </p>
+
+            <br>
+            <h3>Coupon Bonds</h3>
+            <p>
+                $
+                (1.)\:\: CP = \dfrac{CR * FV}{m} \\[5ex]
+                (2.)\:\: BP = \dfrac{FV * CR}{YTM} * \left[1 - \dfrac{1}{\left(1 + \dfrac{YTM}{m}\right)^{mt}}\right] +
+                \dfrac{FV}{\left(1 + \dfrac{YTM}{m}\right)^{mt}} \\[10ex]
+                (3.)\:\: YTM \approx \dfrac{m * t * CP + FV - BP}{t(FV + BP)} \\[7ex]
+                (4.)\:\: Annualized\:\:YTM \approx \dfrac{2(m * t * CP + FV - BP)}{t(FV + BP)} \\[7ex]
+                (5.)\:\: YTM \approx \dfrac{t * CR * FV + FV - BP}{t(FV + BP)} \\[7ex]
+                (6.)\:\: Annualized\:\:YTM \approx \dfrac{2(t * CR * FV + FV - BP)}{t(FV + BP)} \\[7ex]
+                $
+            </p>
+
+            <br>
+            <h4>
+                <u>NOTE:</u> Unless instructed otherwise; <br>
+                For all financial calculations, do not round until the final answer. <br>
+                Do not round intermediate calculations. If it is too long, write it to <u>at least</u> 5 decimal
+                places (5 or more decimal places). <br>
+                Round your final answer to 2 decimal places. <br>
+                Make sure you include your unit.
+            </h4>
+        </div>
+        <!-- End Formulas -->
+
+        <br><br>
+
+        <!-- Simple Interest -->
+        <div class="w3-container w3-padding-32" id="simpleInterest">
+            <h2 class="w3-padding-16">Simple Interest</h2>
+            <hr>
+
+            <p>
+                <i>
+                    Discuss savings account. <br>
+                    Discuss the importance and benefits of credit unions over banks. <br>
+                    Use these "personal experience" examples and others as time demands: <br>
+                    (1.) <a href="https://www.atcu.com/" target="_blank">Alabama Teachers Credit Union</a>
+                    <br>
+                    (2.) <a href="https://www.wellsfargo.com/" target="_blank">Wells Fargo</a>
+                </i>
+            </p>
+            <p>
+                Simple Interest is a topic discussed in Financial Mathematics, Finite Mathematics, Business Mathematics,
+                Financial Management, and other finance/business classes. <br><br>
+
+                Say you: <br>
+                (1.) Wanted to save some money OR set aside some money for a <em>rainy day</em> <br>
+                (2.) Opened a savings account with a financial institution such as a credit union or a bank <br>
+                (3.) Deposited some money into that savings account <br><br>
+
+                That initial sum of money you deposited is known as the <b>Principal</b> or <b>Principal sum of money</b>
+                or <b>Investment</b> <br>
+                The financial institution uses your money for financial transactions including lending loans to
+                individuals and businesses among others. <br>
+                That money you deposited (Principal) is supposed to give you an <em>extra</em> money over a certain period of
+                time. <br>
+                That <em>extra</em> money you get over a period of time due to the initial money you deposited is known as
+                <b>Simple Interest</b> or <b>Dividend</b> or <b>Yield</b> or <b>Return</b> <br>
+                This is because the individuals or businesses that borrowed the loans from the financial institution (which used your money) 
+                pay back those loans with some <em>extra money.</em> <br>
+                So, the financial institution gives you a <em>portion</em> of that interest. <br><br>
+
+                <i>
+                    <b>Teacher:</b> Why would the financial institution charge the <b>extra money (interest)</b> on the loans they give to 
+                    an individual or business? <br>
+                    <b>Student:</b> Because they traded with your money. <br>
+                    <b>Teacher:</b> Partly, yes. But not fully. <br>
+                    <b>Student:</b> Why not fully? <br>
+                    What are the other reasons? <br>
+                    <b>Teacher:</b> Assume someone, say your friend asks you to lend him some money. <br>
+                    Assume you wanted to use that money to purchase land. <br>
+                    But you realize that your friend's need for your money is probably a higher priority <br>
+                    You decide to lend him the money if he promises to pay back within a month <br>
+                    This is because you really wanted to purchase that land because it was listed for a reasonable price you could afford <br>
+                    Your friend did not pay back the money in a month. <br>
+                    Did not pay back in two, three, four, ..., ten months. <br>
+                    He pays you back the money in a year <br>
+                    You found out that the land you wanted to purchase has appreciated in value, and hence was listed at a higher price <br>
+                    Would you be happy if your friend pays you the exact amount he borrowed from you? <br>
+                    <b>Student:</b> Not really <br>
+                    <b>Teacher:</b> Why? <br>
+                    <b>Student:</b> Because I can no longer purchase the land for the amount I loaned him <br>
+                    <b>Teacher:</b> Makes sense. <br>
+                    But, what if you could still purchase the land for that amount or for a lesser amount? <br>
+                    <b>Student:</b> Well, as a Christian; I probably would not be angry <br>
+                    <b>Teacher:</b> Why? <br>
+                    <b>Student:</b> Because of Psalm 15:5...lending money without interest <br>
+                    <b>Teacher:</b> I understand. <br>
+                    But, do you understand the concept of charging interest on money borrowed, or giving interest on money deposited? <br>
+                    <b>Student:</b> Yes... because of inflation <br>
+                    Because what you would have done with the money has probably appreciated in value 
+                </i> <br><br>
+
+                As someone taught by Mr. C (this is my advice, you are encouraged to think for yourselves and decide for
+                yourselves); you should: <br>
+                Look for credit unions with free savings accounts: no conditions except the one-time $\$25.00$
+                membership fee (which is refunded to you upon closing the account) <br><br>
+                Look for credit union(s) with <em>okay</em> interest rates on savings accounts. <br>
+                Small interest is better than no interest. <br>
+                Again, take note: no conditions except the membership fee. <br><br>
+                Look for credit union(s) with free checking accounts. Absolutely no conditions except the membership
+                fee. <br><br>
+                Look for credit union(s) with <em>okay</em> interest rates on checking accounts. <br>
+                This may have some conditions, but it should be fair conditions that you can meet without worries. <br>
+                Regardless of any conditions for receiving an interest on the checking account, there should definitely
+                be no penalty whatsoever. <br><br>
+                <i>
+                    Depending on the instruction time, give some examples of these credit unions <br>
+                    Some students may ask the advantage of using banks over  credit unions. <br>
+                    Be prepared to answer those questions. 
+                </i> 
+            
+                <br><br>
+
+                Say someone <u>deposited</u>: <br>
+                an <b>initial sum of money,</b> $P$ in dollars, naira, yen, etc. <br>
+                into a financial institution that <u>gives</u> an <b>interest rate,</b> $r$ in percent <br>
+                then, after some <b>time,</b> $t$ in years <br>
+                the person will <u>earn</u> a <b>simple interest,</b> $SI$ in dollars, naira, yen, etc. <br>
+                where the $Simple\:\:Interest = Principal * rate * time$ <br><br>
+                The <b>total amount</b> the person receives will now be the sum of the principal and the simple interest
+                earned. <br>
+                $Amount = Principal + Simple\:\:Interest$ <br><br>
+                OR <br><br>
+                Say someone <u>borrowed</u>: <br>
+                an <b>initial sum of money,</b> $P$ in dollars, naira, yen, etc. <br>
+                from a financial institution that <u>charges</u> an <b>interest rate,</b> $r$ in percent <br>
+                then, after some <b>time,</b> $t$ in years <br>
+                the person will <u>owe</u> a <b>simple interest,</b> $SI$ in dollars, naira, yen, etc. <br>
+                where the $Simple\:\:Interest = Principal * rate * time$ <br><br>
+                The <b>total amount</b> the person will pay back will now be the <u>sum</u> of the principal and the simple
+                interest earned. <br>
+                $Amount = Principal + Simple\:\:Interest$ <br><br>
+            
+                The <b>Principal</b> is the initial sum of money deposited in a financial institution for the
+                purpose of earning an interest. <b>OR</b>
+                the initial sum of money borrowed from a financial institution for the purpose of paying an interest.
+                <br>
+                It is also known as <b>Investment</b> <br><br>
+
+                The <b>Simple Interest</b> is the sum of money earned when a principal is deposited, or charged when a principal is borrowed; at 
+                a certain rate over a period of time. <br><br>
+            
+                Please write <u>all</u> the formulas that you see under <b>Simple Interest</b> and let us 
+                <a href="https://finance-calculators.appspot.com/simpleInterestApplications.html" target="_blank" class="w3-yellow w3-bar-item w3-button w3-hover-black">solve some examples</a> 
+            </p>
+
+            <h4>
+                <u>NOTE:</u> Unless instructed otherwise; <br>
+                For all financial calculations, do not round until the final answer. <br>
+                Do not round intermediate calculations. If it is too long, write it to <u>at least</u> 5 decimal
+                places (5 or more decimal places). <br>
+                Round your final answer to 2 decimal places. <br>
+                Make sure you include your unit.
+            </h4>
+        </div>
+        <!-- End Simple Interest -->
+
+        <br><br>
+
+        <!-- Compound Interest -->
+        <div class="w3-container w3-padding-32" id="compoundInterest">
+            <h2 class="w3-padding-16">Compound Interest</h2>
+            <hr>
+
+            <p>
+                To explain the concept of <em>Compound Interest</em>, let us analyze the two cases: 
+                <b>Case 1</b> and <b>Case 2</b> and the two tables: <b>Table 1</b> and <b>Table 2</b> <br><br>
+            
+                <b>Case 1:</b> <br>
+                Say you deposited an initial sum of money, <span>$1000.00</span> in a financial institution that has an interest
+                rate of 10% <br>
+                How much would you have after 3 years?
+            </p>
+
+            <h3>Table 1</h3>
+            <table class="w3-center">
+                <tr>
+                    <th class="green" style="width:10%">$Year$</th>
+                    <th class="green" style="width:25%">$P(\$)$</th>
+                    <th class="green" style="width:15%">$r(\%)$</th>
+                    <th class="green" style="width:10%">$t(years)$</th>
+                    <th class="green" style="width:15%">$SI(\$)$</th>
+                    <th class="green" style="width:25%">$A(\$)$</th>
+                </tr>
+                <tr>
+                    <td>$1$</td>
+                    <td>$1000$</td>
+                    <td>$0.1$</td>
+                    <td>$1$</td>
+                    <td>$100$</td>
+                    <td>$1100$</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>$1000$</td>
+                    <td>$0.1$</td>
+                    <td>$1$</td>
+                    <td>$100$</td>
+                    <td>$1200$</td>
+                </tr>
+                <tr>
+                    <td>$3$</td>
+                    <td>$1000$</td>
+                    <td>$0.1$</td>
+                    <td>$1$</td>
+                    <td>$100$</td>
+                    <td>$1300$</td>
+                </tr>
+            </table>
+
+            <p>
+                Interest after $3$ years = $100 + 100 + 100 = \$300$ <br>
+                Amount after $3$ years = $\$1300$ <br><br>
+            
+                <i>
+                    Teacher: Is this familiar to you - what we just did? <br>
+                    Student: Why would you do it by using a Table? <br>
+                    It is much easier to use the Simple Interest Formula! <br>
+                    Teacher: That is correct. However, observe the second table: Table 2 <br>
+                    I want to teach you something &#128522;
+                </i> <br><br>
+            
+                <b>Case 2:</b> <br>
+                Say you deposited an initial sum of money, <span>$1000.00</span> in a financial institution that has an interest
+                rate of 10% <b><i>compounded</i></b> once (one time) per year. <br>
+                How much would you have after 3 years?
+            </p>
+
+            <h3>Table 2</h3>
+            <table class="w3-center">
+                <tr>
+                    <th class="green" style="width:10%">$Year$</th>
+                    <th class="green" style="width:25%">$P(\$)$</th>
+                    <th class="green" style="width:15%">$r(\%)$</th>
+                    <th class="green" style="width:10%">$t(years)$</th>
+                    <th class="green" style="width:15%">$CI(\$)$</th>
+                    <th class="green" style="width:25%">$A(\$)$</th>
+                </tr>
+                <tr>
+                    <td>$1$</td>
+                    <td>$1000$</td>
+                    <td>$0.1$</td>
+                    <td>$1$</td>
+                    <td>$100$</td>
+                    <td>$1100$</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>$1100$</td>
+                    <td>$0.1$</td>
+                    <td>$1$</td>
+                    <td>$110$</td>
+                    <td>$1210$</td>
+                </tr>
+                <tr>
+                    <td>$3$</td>
+                    <td>$1210$</td>
+                    <td>$0.1$</td>
+                    <td>$1$</td>
+                    <td>$121$</td>
+                    <td>$1331$</td>
+                </tr>
+            </table>
+
+            <p>
+                Interest after $3$ years = $100 + 110 + 121 = \$331$ <br>
+                Amount after $3$ years = $\$1331$ <br><br>
+            
+                <i>
+                    Teacher: What did you notice? <br>
+                    Student: The interest is $\$331$ <br>
+                    It is $\$31$ greater than the interest in Table 1 <br>
+                    Teacher: Correct! <br>
+                    What else? <br>
+                    Student: The amount in Table 2 is also greater than the amount in Table 1 by $\$31$ <br>
+                    Teacher: That is right. <br>
+                    Is that all? <br>
+                    This leads to ...
+                </i> <br><br>
+            
+                <b>Compound Interest</b> <br>
+                As noticed from Table 2: <br>
+                The amount at the end of Year 1 is the principal at the beginning of Year 2 <br>
+                The amount at the end of Year 2 is the principal at the beginning of Year 3 <br>
+                This implies that the interest is compounded. <br>
+                <b>Compound Interest is the interest compounded on a principal sum of money over a period of time.</b> <br>
+                It is the <b>interest</b> on the <b>principal plus interest.</b> <br><br>
+           
+                In the example we just did, (Table 2), the interest was compounded every year. <br>
+                In other words, the interest was compounded <em>annually</em> or <em>yearly</em> <br>
+                In other words, the interest was compounded <em>once every year</em> <br><br>
+            
+                If the interest is <b>compounded annually</b>, it is <b>compounded once (1) time a year</b> (every twelve months) <br>
+                If the interest is <b>compounded semiannually</b>, it is <b>compounded twice (2) times a year</b> (every six months) <br>
+                If the interest is <b>compounded quarterly</b>, it is <b>compounded four (4) times a year</b> (every three months) <br>
+                If the interest is <b>compounded monthly</b>, it is <b>compounded twelve (12) times a year</b> (every month) <br>
+                If the interest is <b>compounded weekly</b>, it is <b>compounded fifty two (52) times a year</b> <br>
+                If the interest is <b>compounded ordinary daily</b>, it is <b>compounded three hundred and sixty (360) times a year</b> <br>
+                If the interest is <b>compounded exact daily</b>, it is <b>compounded three hundred and sixty five (365) times a year</b> <br><br>
+            
+                <i>
+                    <b>Student:</b> What if we want to compound it 1000 times a year, what is called? <br>
+                    <b>Teacher:</b> We can. But, these are the standard compounding periods. <br>
+                    We can compound it as many times as you want per year. <br>
+                    <b>Student:</b> Which interest is greater - compounding the same amount annually versus semiannually? <br>
+                    <b>Teacher:</b> You are asking great questions. <br>
+                    What do you think? <br>
+                    <b>Student:</b> I think compounding it semiannually will give more interest than compounding it annually
+                    <br>
+                    <b>Teacher:</b> You are correct. <br>
+                    <b>Student:</b> So, I guess some people or most people would want it to be compounded a million times a
+                    year. <br>
+                    Is there any limit on how many times you can compound in a year? <br>
+                    <b>Teacher:</b> Great question! <br>
+                    We shall answer that question when we do <b>Continuous Compound Interest</b>
+                </i> <br><br>
+           
+                As you see, <br>
+                There is a difference between "daily - ordinary (ordinary days)" and "daily - exact (exact days)" in a
+                year. <br>
+                <b>Daily - Ordinary</b> is 360 days in a year. <br>
+                It is also known as <b>Banker's Rule.</b> <br>
+                It is taken as a year consisting of 12 months in which each month consists of 30 days. <br><br>
+
+                <b>Exact - Ordinary</b> is 365 days in a year. <br><br>
+            
+                <i>
+                    <b>Teacher:</b> Rather than using Table 2, is there any way we could have calculated the compound
+                    interest and the compound amount? <br>
+                    What if we wanted to compound annually for a period of 30 years? <br>
+                    <b>Student:</b> That would be a "yuge" table <br>
+                    <b>Teacher:</b> LOL... <br>
+                    So, yes, we can do it another way. <br>
+                    <b>Student:</b> Is is a simpler way? <br>
+                    <b>Teacher:</b> Of course. Algebraically: By Formula <br>
+                    Let us derive that formula. Let us do some Algebra. <br>
+                    Let us use that Table and use variables with it. 
+                </i>
+            </p>
+
+            <table>
+                <caption>Table 2: Algebraically</caption>
+                <tr>
+                    <th class="green w3-padding" style="width: 5%;">Year</th>
+                    <th class="green w3-padding" style="width: 20%">$P(\$)$</th>
+                    <th class="green w3-padding" style="width: 5%">$r(\%)$</th>
+                    <th class="green w3-padding" style="width: 5%">$t(years)$</th>
+                    <th class="green w3-padding" style="width: 25%">$CI(\$)$</th>
+                    <th class="green w3-padding" style="width: 40%">$A(\$)$</th>
+                </tr>
+                <tr>
+                    <td class="w3-center">$1$</td>
+                    <td class="w3-center">$P$</td>
+                    <td class="w3-center">$r$</td>
+                    <td class="w3-center">$t$</td> 
+                    <td class="w3-center">$Prt$</td>
+                    <td class="w3-padding">
+                        $P + Prt$ <br>
+                        $P(1 + rt)$
+                    </td>
+                </tr>
+                <tr>
+                    <td class="w3-center">2</td>
+                    <td class="w3-center">$P(1 + rt)$</td>
+                    <td class="w3-center">$r$</td>
+                    <td class="w3-center">$t$</td> 
+                    <td class="w3-center">$Prt(1 + rt)$</td>
+                    <td class="w3-padding">
+                        $P(1 + rt) + Prt(1 + rt)$ <br>
+                        $P(1 + rt)[1 + rt]$ <br>
+                        $P(1 + rt)^2$
+                    </td>
+                </tr>
+                <tr>
+                    <td class="w3-center">$3$</td>
+                    <td class="w3-center">$P(1 + rt)^2$</td>
+                    <td class="w3-center">$r$</td>
+                    <td class="w3-center">$t$</td> 
+                    <td class="w3-center">$Prt(1 + rt)^2$</td>
+                    <td class="w3-padding">
+                        $P(1 + rt) + Prt(1 + rt)$ <br>
+                        $P(1 + rt)^2[1 + rt]$ <br>
+                        $P(1 + rt)^3$
+                    </td>
+                </tr>
+            </table>
+
+            <p>
+                <i>
+                    <b>Teacher:</b> For Year 4, what will the amount be? <br>
+                    <b>Student:</b> $A = P(1 + rt)^4$ <br>
+                    <b>Teacher:</b> For 5 years (Year 5), what will it be? <br>
+                    <b>Student:</b> $A = P(1 + rt)^5$ <br>
+                    <b>Teacher:</b> And for $t$ years; <br>
+                    <b>Student:</b> $A = P(1 + rt)^t$ <br>
+                    <b>Teacher:</b> That is correct. <br>
+                    Keep in mind that this is a case where the interest is compounded annually: one time per year <br>
+                    Assume the interest is compounded semiannually (two times per year) <br>
+                    What factors in that table will be affected? <br>
+                    <b>Student:</b> The rate will be affected <br>
+                    <b>Teacher:</b> How will it be affected? <br>
+                    <b>Student:</b> For example: a rate of 4% per year implies a rate of 2% every six months <br>
+                    <b>Teacher:</b> Say: the variable: <b>m</b> represents the number of compounding periods per year <br><br>
+                    <b>Student:</b> The rate will be: $\dfrac{r}{m}$ <br><br>
+                    <b>Teacher:</b> That is correct. <br>
+                    What other factor is affected? <br>
+                    <b>Student:</b> The time <br>
+                    Time of 1 for one year implies time of 2 every six months <br>
+                    <b>Teacher:</b> In terms of the number of compounding periods of year, what will be the formula for the time?
+                    <br>
+                    <b>Student:</b> The time will be: $mt$ <br>
+                    <b>Teacher:</b> So, what do you think the formula will be considering the number of compounding periods per
+                    year? <br><br>
+                    <b>Student:</b> $A = P\left(1 + \dfrac{r}{m}\right)^{mt}$ <br><br>
+                    <b>Teacher:</b> Correct. <br>
+                    This is known as the <b>Compound Amount Formula</b>
+                </i> <br><br>
+            
+                The <b>Compound Amount Formula</b> is: <br><br>
+                $A = P\left(1 + \dfrac{r}{m}\right)^{mt} \\[5ex]$
+                Say someone: <br>
+                deposited an <b>initial sum of money,</b> $P$ <br>
+                in a financial institution that <u>gives</u> an interest rate of $r\%$, <br>
+                compounded $m$ times per year; <br>
+                then, after $t$ years, <br>
+                the person will earn an amount, $A$ <br><br>
+                OR <br><br>
+                Say someone: <br>
+                borrowed an <b>initial sum of money,</b> $P$ <br>
+                from a financial institution that <u>charges</u> an interest rate of $r\%$, <br>
+                compounded $m$ times per year; <br>
+                then, after $t$ years, <br>
+                the person will pay back an amount, $A$
+            </p>
+
+            <br><br>
+
+            <p id="SimpleInterestEqualsCompoundInterest">            
+                <i>
+                    <b>Student:</b> Is there any case when the simple interest will be equal to the compound interest? <br>
+                     <b>Teacher:</b> Yes... <br>
+                     What do you suggest? <br>
+                     <b>Student:</b> If you have the same principal, for example $\$$1000 <br>
+                     the same interst rate, for example 10% <br>
+                     the time must be 1 year <br>
+                     then, the simple interest will be the same as the compound interest compounded annually <br> 
+                     I've done the calculation with some numbers. <br>
+                     But, I appreciate if you can do it without numbers. <br>
+                     I'm trying to be very comfortablw with Algebra <br>
+                     <b>Teacher:</b> Sure... let's do it.          
+                </i> <br><br>
+
+                <b>When Simple Interest Equals Compound Interest</b> <br>
+                The principal must be the same <br>
+                The interest rate must be the same <br>
+                The time must be one year. <br>
+                The interest must be compounded annually (for the case of the compound interest) <br><br>
+                $
+                \underline{Simple Interest} \\[3ex] 
+                SI = Prt \\[3ex] 
+                t = 1 \\[3ex]
+                SI = P * r * 1 \\[3ex]
+                SI = Pr \\[5ex]
+
+                \underline{Compound\;\;Interest} \\[3ex]
+                compounded\;\;annually \implies m = 1 \\[3ex] 
+                t = 1 \\[3ex]
+                A = P\left(1 + \dfrac{r}{m}\right)^{mt} \\[5ex]
+                A = P\left(1 + \dfrac{r}{1}\right)^{1 * 1} \\[5ex]
+                A = P(1 + r)^1 \\[3ex]
+                A = P(1 + r) \\[3ex]
+                CI = A - P \\[3ex]
+                CI = P(1 + r) - P \\[3ex] 
+                CI = P + Pr - P \\[3ex]
+                CI = Pr \\[3ex] 
+                $
+                            
+                Please write <u>all</u> the formulas that you see under <b>Compound Interest</b> and let us
+                <a href="https://finance-calculators.appspot.com/compoundInterestApplications.html" target="_blank" class="w3-yellow w3-bar-item w3-button w3-hover-black">solve some examples</a>
+                <br><br>
+                The total return on an investment is the relative change in the value of the investment. <br>
+                It shows the percentage change as the value of the investment changes. <br>
+                Assume an investment grows an initial principal, <i>P</i> to an amount <i>A</i>. <br>
+                The total return is the percentage change in the investment value. <br><br>
+                The annual return on an investment is the annual percentage yield (APY) that would give the same overall growth over <i>t</i> years. 
+            </p>
+            
+            <h4>
+                <u>NOTE:</u> Unless instructed otherwise; <br>
+                For all financial calculations, do not round until the final answer. <br>
+                Do not round intermediate calculations. If it is too long, write it to <u>at least</u> 5 decimal
+                places (5 or more decimal places). <br>
+                Round your final answer to 2 decimal places. <br>
+                Make sure you include your unit.
+            </h4>
+        </div>
+        <!-- End Compound Interest -->
+
+        <br><br>
+
+        <!-- Continuous Compound Interest -->
+        <div class="w3-container w3-padding-32" id="continuousCompoundInterest">
+            <h2 class="w3-padding-16">Continuous Compound Interest</h2>
+            <hr>
+            <p>
+                <i>
+                    Teacher: Now, we can get to your question. <br>
+                    Student: Yes... <br>
+                    I would like to know if there is a limit to how much money one can earn. <br>
+                    I mean...who would want his/her money to be compounded annually when he/she makes more money
+                    when the same amount of money is compounded semiannually?
+                </i>
+            
+                <br><br>
+
+                Say you deposit $\$1$ in a financial institution that has an annual interest rate of $100\%$ for $1$
+                year. <br>
+                Let us calculate the <b>Amount</b> for several options of times: annually, semiannually, quarterly,
+                monthly, weekly, ordinary-daily, exact-daily, and several times per year. <br>
+                We want to see how much you would get for each option of time for that same principal of 
+                <span>$</span>1 for that same time of 1 year.
+            
+                <br><br>
+
+                Recall the Compound Amount Formula: <br><br>
+                $
+                A = P\left(1 + \dfrac{r}{m}\right)^{mt} \\[5ex]
+                P = \$1 \\[3ex]
+                r = 100\% = \dfrac{100}{100} = 1 \\[5ex]
+                t = 1\:\: year \\[3ex]
+                $
+                Let us calculate and observe. &#128522;
+            </p>
+            <table class="w3-center">
+                <tr>
+                    <th class="green" style="width: 25%;">Compounded:</th>
+                    <th class="green" style="width: 25%;"><i>m</i></th>
+                    <th class="green" style="width: 50%;"><i>A</i></th>
+                </tr>
+                <tr>
+                    <td>Annually</td>
+                    <td>1</td>
+                    <td>
+                        $$
+                        A = 1 * \left(1 + \dfrac{1}{1}\right)^{1 * 1} \\[5ex]
+                        A = 1(1 + 1)^1 \\[3ex]
+                        A = 1(2)^1 \\[3ex]
+                        A = 1(2) \\[3ex]
+                        A = \$2.00
+                        $$
+                    </td>
+                </tr>
+                <tr>
+                    <td>Semiannually</td>
+                    <td>2</td>
+                    <td>
+                        $$
+                        A = 1 * \left(1 + \dfrac{1}{2}\right)^{2 * 1} \\[5ex]
+                        A = 1(1 + 0.5)^2 \\[3ex]
+                        A = 1(1.5)^2 \\[3ex]
+                        A = 1(2.25) \\[3ex]
+                        A = \$2.25
+                        $$
+                    </td>
+                </tr>
+                <tr>
+                    <td>Quarterly</td>
+                    <td>4</td>
+                    <td>
+                        $$
+                        A = 1 * \left(1 + \dfrac{1}{4}\right)^{4 * 1} \\[5ex]
+                        A = 1(1 + 0.25)^4 \\[3ex]
+                        A = 1(1.25)^4 \\[3ex]
+                        A = 1(2.44140625) \\[3ex]
+                        A = \$2.44
+                        $$
+                    </td>
+                </tr>
+                <tr>
+                    <td>Monthly</td>
+                    <td>12</td>
+                    <td>
+                        $$
+                        A = 1 * \left(1 + \dfrac{1}{12}\right)^{12 * 1} \\[5ex]
+                        A = 1(1 + 0.0833333333)^{12} \\[3ex]
+                        A = 1(1.0833333333)^{12} \\[3ex]
+                        A = 1(2.61303529) \\[3ex]
+                        A = \$2.61
+                        $$
+                    </td>
+                </tr>
+                <tr>
+                    <td>Weekly</td>
+                    <td>52</td>
+                    <td>
+                        $$
+                        A = 1 * \left(1 + \dfrac{1}{52}\right)^{52 * 1} \\[5ex]
+                        A = 1(1 + 0.0192307692)^{52} \\[3ex]
+                        A = 1(1.019230769)^{52} \\[3ex]
+                        A = 1(2.692596954) \\[3ex]
+                        A = \$2.69
+                        $$
+                    </td>
+                </tr>
+                <tr>
+                    <td>Daily - Ordinary</td>
+                    <td>360</td>
+                    <td>
+                        $$
+                        A = 1 * \left(1 + \dfrac{1}{360}\right)^{360 * 1} \\[5ex]
+                        A = 1(1 + 0.0027777778)^{360} \\[3ex]
+                        A = 1(1.002777778)^{360} \\[3ex]
+                        A = 1(2.714516025) \\[3ex]
+                        A = \$2.71
+                        $$
+                    </td>
+                </tr>
+                <tr>
+                    <td>Daily - Exact</td>
+                    <td>365</td>
+                    <td>
+                        $$
+                        A = 1 * \left(1 + \dfrac{1}{365}\right)^{365 * 1} \\[5ex]
+                        A = 1(1 + 0.002739726)^{365} \\[3ex]
+                        A = 1(1.002739726)^{365} \\[3ex]
+                        A = 1(2.714567482) \\[3ex]
+                        A = \$2.71
+                        $$
+                    </td>
+                </tr>
+                <tr>
+                    <td>500 times per year</td>
+                    <td>500</td>
+                    <td>
+                        $$
+                        A = 1 * \left(1 + \dfrac{1}{500}\right)^{500 * 1} \\[5ex]
+                        A = 1(1 + 0.002)^{500} \\[3ex]
+                        A = 1(1.002)^{500} \\[3ex]
+                        A = 1(2.715568521) \\[3ex]
+                        A = \$2.72
+                        $$
+                    </td>
+                </tr>
+                <tr>
+                    <td>1,000 times per year</td>
+                    <td>1,000</td>
+                    <td>
+                        $$
+                        A = 1 * \left(1 + \dfrac{1}{1000}\right)^{1000 * 1} \\[5ex]
+                        A = 1(1 + 0.001)^{1000} \\[3ex]
+                        A = 1(1.001)^{1000} \\[3ex]
+                        A = 1(2.716923932) \\[3ex]
+                        A = \$2.72
+                        $$
+                    </td>
+                </tr>
+                <tr>
+                    <td>10,000 times per year</td>
+                    <td>10,000</td>
+                    <td>
+                        $$
+                        A = 1 * \left(1 + \dfrac{1}{10000}\right)^{10000 * 1} \\[5ex]
+                        A = 1(1 + 0.0001)^{10000} \\[3ex]
+                        A = 1(1.0001)^{10000} \\[3ex]
+                        A = 1(2.718145927) \\[3ex]
+                        A = \$2.72
+                        $$
+                    </td>
+                </tr>
+                <tr>
+                    <td>100,000 times per year</td>
+                    <td>100,000</td>
+                    <td>
+                        $$
+                        A = 1 * \left(1 + \dfrac{1}{100000}\right)^{100000 * 1} \\[5ex]
+                        A = 1(1 + 0.00001)^{100000} \\[3ex]
+                        A = 1(1.00001)^{100000} \\[3ex]
+                        A = 1(2.718268237) \\[3ex]
+                        A = \$2.72
+                        $$
+                    </td>
+                </tr>
+                <tr>
+                    <td>1,000,000 times per year</td>
+                    <td>1,000,000</td>
+                    <td>
+                        $$
+                        A = 1 * \left(1 + \dfrac{1}{1000000}\right)^{1000000 * 1} \\[5ex]
+                        A = 1(1 + 0.000001)^{1000000} \\[3ex]
+                        A = 1(1.000001)^{1000000} \\[3ex]
+                        A = 1(2.718280469) \\[3ex]
+                        A = \$2.72
+                        $$
+                    </td>
+                </tr>
+                <tr>
+                    <td>10,000,000 times per year</td>
+                    <td>10,000,000</td>
+                    <td>
+                        $$
+                        A = 1 * \left(1 + \dfrac{1}{10000000}\right)^{10000000 * 1} \\[5ex]
+                        A = 1(1 + 0.0000001)^{10000000} \\[3ex]
+                        A = 1(1.0000001)^{10000000} \\[3ex]
+                        A = 1(2.718281693) \\[3ex]
+                        A = \$2.72
+                        $$
+                    </td>
+                </tr>
+            </table>
+
+            <p>
+                <i>
+                    <b>Teacher:</b> Did you notice anything? <br>
+                    <b>Student:</b> THANK GOD for cents (2 decimal places) <br>
+                    <b>Teacher:</b> Exactly! <br>
+                    Imagine if money was not rounded to 2 decimal places <br>
+                    <b>Student:</b> It would continue...and...continue...and...continue... <br>
+                    <b>Teacher:</b> That is right. <br>
+                    What did you notice? <br>
+                    <b>Student:</b> The final amount is $\$2.72$ <br>
+                    Would it continue that way even if you compound it a trillion times per year? <br>
+                    <b>Teacher:</b> Yes, it would still give an amount of $\$2.72$ <br>
+                    So, no matter how many times you compound $\$1$ in $1$ year, <br>
+                    <b>Student:</b> The amount at the end of $1$ year would be $\$2.72$ <br>
+                    <b>Teacher:</b> and the compound interest would be ... <br>
+                    <b>Student:</b> $2.72 - 1.00 = \$1.72$ <br>
+                    <b>Teacher:</b> Correct! <br>
+                    Did you notice any constant in the last four that we did: from $m = 10,000$ up to to $m =
+                    10,000,000$? <br>
+                    <b>Student:</b> Yes, the first four digits is: 2.718 <br>
+                </i> <br><br>
+            
+                <b>Observation:</b> <br>
+                The amount from when we compounded $\$1$ (a dollar), $10,000$ (ten thousand) times up to when we
+                compounded it $10,000,000$ (ten million) times in $1$ year, the first four digits were constant. <br>
+                The amount was approximately $2.718$ <br>
+                This constant is known as the <b>Euler number</b>, by Leonhard Euler (a Swiss mathematician) OR
+                <b>Napier's constant</b>, John Napier (a Scottish/English mathematician). <br><br>
+                <i>
+                    Teacher: To be honest, any one of you could have discovered this constant. <br>
+                    You have learned what they discovered. <br>
+                    Now, think and work towards discovering your own. <br>
+                    Let me show you this constant in your calculator.
+                </i> <br><br>
+                The constant is denoted by $e$ <br>
+                $e \approx 2.718$ <br>
+                The logarithm to base, $e$ is known as <b>Natural Logarithm</b> or <b>Napierian Logarithm</b> <br>
+                The logarithm to base $e$ of $x$ is written as: $\log_e{x}$ or $\ln{x}$
+            
+                <br><br>
+
+                Write down <u>all</u> the formulas that you see under <b>Continuous Compound Interest</b> and let us 
+                <a href="https://finance-calculators.appspot.com/continuousCompoundInterestApplications.html" target="_blank" class="w3-yellow w3-bar-item w3-button w3-hover-black">solve some examples</a>
+                <br><br>
+                The total return on an investment is the relative change in the value of the investment. <br>
+                It shows the percentage change as the value of the investment changes. <br>
+                Assume an investment grows an initial princial, <i>P</i> to an amount <i>A</i>. <br>
+                The total return is the percentage change in the investment value. <br><br>
+                The annual return on an investment is the annual percentage yield (APY) that would give the same 
+                overall growth over <i>Y</i> years.
+            </p>
+            <br>
+            <h4>
+                <u>NOTE:</u> Unless instructed otherwise; <br>
+                For all financial calculations, do not round until the final answer. <br>
+                Do not round intermediate calculations. If it is too long, write it to <u>at least</u> 5 decimal
+                places (5 or more decimal places). <br>
+                Round your final answer to 2 decimal places. <br>
+                Make sure you include your unit.
+            </h4>
+        </div>
+        <!-- End Continuous Compound Interest -->
+
+        <br><br>
+
+        <!-- Annual Percentage Yield -->
+        <div class="w3-container w3-padding-32" id="annualPercentageYield">
+            <h2 class="w3-padding-16">Annual Percentage Yield</h2>
+            <hr>
+            <p>
+                <i>
+                    <b>Teacher:</b> Everyone would want a compounded interest rate. Right? <br>
+                    <b>Student:</b> To be honest, I would want a continuous compounded interest rate. <br>
+                    <b>Teacher:</b> That is right. It is still compounded though &#128522; <br>
+                    So, how do we solve this problem? <br>
+                    Would there be any need for simple interest rate? <br>
+                    <b>Student:</b> I guess not. <br>
+                    <b>Teacher:</b> So, how about finding a simple interest rate that would give the same compound
+                    amount in one year as if we used the compound interest compounded annually? <br>
+                    <b>Student:</b> May you please elaborate? <br>
+                    <b>Teacher:</b> Let us review this example: <br>
+                    Say Mr. C deposits $\$1000$ in a financial institution that gives an interest rate of $7\%$. <br>
+                    How much will be in his account after $1$ year? <br><br>
+                    <b>Student:</b> <br>
+                    $
+                    P = \$1000 \\[3ex]
+                    r = 7\% = 0.07 \\[3ex]
+                    t = 1\:year \\[3ex]
+                    SI = 1000(0.07)(1) = \$70 \\[3ex]
+                    A = 1000 + 70 = \$1070 \\[3ex]
+                    Mr.\:C\:\:will\:\:have\:\:\$1070\:\:after\:\:1\:year \\[3ex]
+                    $
+                    <b>Teacher:</b> That is correct! <br>
+                    Say Mr. C deposits $\$1000$ in a financial institution that gives an interest rate of $7\%$. <br>
+                    How much will be in his account after $1$ year if the interest rate is compounded annually? <br><br>
+                    <b>Student:</b> <br>
+                    $
+                    P = \$1000 \\[3ex]
+                    r = 7\% = 0.07 \\[3ex]
+                    t = 1\:year \\[3ex]
+                    m = 1...compounded\:\:annually \\[3ex]
+                    A = P\left(1 + \dfrac{r}{m}\right)^{mt} \\[5ex]
+                    mt = 1(1) = 1 \\[3ex]
+                    \dfrac{r}{1} = \dfrac{0.07}{1} = 0.07 \\[5ex]
+                    A = 1000(1 + 0.07)^1 \\[5ex]
+                    A = 1000(1.07)^1 \\[3ex]
+                    A = 1000(1.07) \\[3ex]
+                    A = \$1070 \\[3ex]
+                    Mr.\:C\:\:will\:\:have\:\:\$1070\:\:after\:\:1\:year \\[3ex]
+                    It\:\:is\:\:the\:\:same\:\:amount\:\:after\:\:1\:\:year \\[3ex]
+                    $
+                    <b>Teacher:</b> That is correct! <br>
+                    <b>Teacher:</b> So, the question is this. <br>
+                    Can we find a simple interest rate that will give $\$1070$ in one year? <br>
+                    In other words, can we find a simple interest rate that will give that compound amount of
+                    $\$1070$ in one year? <br>
+                    <b>Student:</b> Well, we did already. <br>
+                    That simple interest rate of $7\%$ gave the same amount of $\$1070$ after one year. <br>
+                    <b>Teacher:</b> That is correct... in this case. <br>
+                    The simple interest rate that will give the same compound amount after one year is known as the
+                    <b>Annual Percentage Yield for Compound Interest</b> <br>
+                    Annual Percentage Yield is also known as APY <br>
+                    <b>Student:</b> Do we have the Annual Percentage Yield for Continuous Compound Interest as well?
+                    <br>
+                    <b>Teacher:</b> Yes, we do! <br>
+                    How would you define it? <br>
+                    <b>Student:</b> I guess it will be the simple interest rate that will give the same continuous
+                    compound amount after one year. <br>
+                    <b>Teacher:</b> Correct! <br>
+                    Let us find out. <br>
+                    Say Mr. C deposits $\$1000$ in a financial institution that gives an interest rate of $7\%$. <br>
+                    How much will be in his account after $1$ year if the interest rate is continously compounded?
+                    <br><br>
+                    <b>Student:</b> <br>
+                    $
+                    P = \$1000 \\[3ex]
+                    r = 7\% = 0.07 \\[3ex]
+                    t = 1\:year \\[3ex]
+                    A = Pe^{rt} \\[3ex]
+                    rt = 0.07(1) = 0.07 \\[3ex]
+                    A = 1000 * e^{0.07} \\[5ex]
+                    A = 1000(1.07250818) \\[3ex]
+                    A = 1072.50818 \\[3ex]
+                    A \approx \$1072.51 \\[3ex]
+                    Mr.\:C\:\:will\:\:have\:\:\$1072.51\:\:after\:\:1\:year \\[3ex]
+                    $
+                    <b>Teacher:</b> That is correct! <br>
+                    The simple interest rate of $7\%$ will not work this time. <br>
+                    This means that it is not the APY for the Continuous Compound Interest <br>
+                    <b>Student:</b> How do we find that APY? <br>
+                    Just to be sure, how do we find the simple interest rate that will give $\$1072.51$ after one year?
+                    <br>
+                    <b>Teacher:</b> Try the simple interest rate of $7.2508\%$ <br>
+                    Say Mr. C deposits $\$1000$ in a financial institution that gives an interest rate of $7.2508\%$.
+                    <br>
+                    How much will be in his account after $1$ year? <br><br>
+                    <b>Student:</b> <br>
+                    $
+                    P = \$1000 \\[3ex]
+                    r = 7.2508\% = 0.072508 \\[3ex]
+                    t = 1\:year \\[3ex]
+                    SI = 1000(0.072508)(1) = \$72.08 \\[3ex]
+                    A = 1000 + 72.08 = \$1072.08 \\[3ex]
+                    Mr.\:C\:\:will\:\:have\:\:\$1072.08\:\:after\:\:1\:year \\[3ex]
+                    $
+                    It is almost the same...just a few cents difference <br>
+                    It seems you gave me a rounded value, Sir. <br>
+                    But, you asked not not to round. <br>
+                    <b>Teacher:</b> You are right. It is a rounded value. <br>
+                    You are right. I asked you not to round, if I did not ask you to round. &#128522; <br>
+                    Here, try this value...the simple interest rate of $7.25081813\%$ <br>
+                    <b>Student:</b> <br>
+                    $
+                    P = \$1000 \\[3ex]
+                    r = 7.25081813\% = 0.0725081813 \\[3ex]
+                    t = 1\:year \\[3ex]
+                    SI = 1000(0.0725081813)(1) = \$72.5081813 \\[3ex]
+                    A = 1000 + 72.5081813 = \$1072.50818 \\[3ex]
+                    Mr.\:C\:\:will\:\:have\:\:\$1072.51\:\:after\:\:1\:year \\[3ex]
+                    $
+                    How did you get that rate? This is interesting! <br>
+                    <b>Teacher:</b> Yes it is! Welcome to APY!!!
+                </i>
+            </p>
+            <p>
+                The <b>Annual Percentage Yield</b> is also known as <b>APY</b> or <b>Effective Interest Rate</b> or
+                <b>Effective Rate</b> or <b>True Interest Rate</b> <br><br>
+                The <b>Annual Percentage Yield for Compound Interest</b> is defined as the <b>simple interest rate</b>
+                that will yield the <b>same amount</b> as the <b>compound amount</b> after <b>one year.</b> <br>
+                APR and APY are the same with annual compounding. <br>
+                However, with more than one compounding per year, the APY is always greater than the APR. It reflects the cumulative effects of several compoundings during the year. 
+                Thus, the more compoundings during the year, the greater the APY. <br>
+                It does not depend on the starting principal. It gives the percentage increase in the balance.
+                Let us derive the formula. <br>
+                This means that: <br>
+                Amount at Simple Interest after one year is equal to Amount at Compound Interest after one year.
+                <br><br>
+                $
+                \underline{Simple\:\:Interest} \\[3ex]
+                A = P(1 + rt) \\[3ex]
+                After\:\:1\:\:year \rightarrow t = 1\:year \\[3ex]
+                A = P(1 + r * 1) \\[3ex]
+                A = P(1 + r) \\[3ex]
+                \underline{Compound\:\:Interest} \\[3ex]
+                A = P\left(1 + \dfrac{r}{m}\right)^{mt} \\[5ex]
+                After\:\:1\:\:year \rightarrow t = 1\:year \\[3ex]
+                A = P\left(1 + \dfrac{r}{m}\right)^{m * 1} \\[5ex]
+                A = P\left(1 + \dfrac{r}{m}\right)^{m} \\[5ex]
+                Equate\:\:both\:\:amounts \\[3ex]
+                A = A \\[3ex]
+                P(1 + r) = P\left(1 + \dfrac{r}{m}\right)^{m} \\[5ex]
+                But\:\:the\:\:r\:\:in\:\:Simple\:\:Interest = APY \\[3ex]
+                P(1 + APY) = P\left(1 + \dfrac{r}{m}\right)^{m} \\[5ex]
+                Divide\:\:both\:\:sides\:\:by\:\:P \\[3ex]
+                1 + APY = \left(1 + \dfrac{r}{m}\right)^{m} \\[5ex]
+                Subtract\:\:1\:\:from\:\:both\:\:sides \\[3ex]
+                \therefore APY = \left(1 + \dfrac{r}{m}\right)^{m} - 1 \\[5ex]
+                This\:\:is\:\:the\:\:APY\:\:for\:\:Compound\:\:Interest
+                $
+            </p>
+            <br>
+            <p>
+                The <b>Annual Percentage Yield for Continuous Compound Interest</b> is defined as the <b>simple interest
+                    rate</b> that will
+                yield the <b>same amount</b> as the <b>continuous compound amount</b> after <b>one year.</b> <br>
+                Let us derive the formula. <br>
+                This means that: <br>
+                Amount at Simple Interest after one year is equal to Amount at Continuous Compound Interest after one
+                year. <br><br>
+                $
+                \underline{Simple\:\:Interest} \\[3ex]
+                A = P(1 + rt) \\[3ex]
+                After\:\:1\:\:year \rightarrow t = 1\:year \\[3ex]
+                A = P(1 + r * 1) \\[3ex]
+                A = P(1 + r) \\[3ex]
+                \underline{Continuous Compound\:\:Interest} \\[3ex]
+                A = Pe^{rt} \\[3ex]
+                After\:\:1\:\:year \rightarrow t = 1\:year \\[3ex]
+                A = Pe^{r * 1} \\[3ex]
+                A = Pe^r \\[3ex]
+                Equate\:\:both\:\:amounts \\[3ex]
+                A = A \\[3ex]
+                P(1 + r) = Pe^r \\[3ex]
+                But\:\:the\:\:r\:\:in\:\:Simple\:\:Interest = APY \\[3ex]
+                P(1 + APY) = e^r \\[3ex]
+                Divide\:\:both\:\:sides\:\:by\:\:P \\[3ex]
+                1 + APY = e^r \\[3ex]
+                Subtract\:\:1\:\:from\:\:both\:\:sides \\[3ex]
+                \therefore APY = e^r - 1 \\[5ex]
+                This\:\:is\:\:the\:\:APY\:\:for\:\:Continuous\:\:Compound\:\:Interest
+                $
+            </p>
+            <br>
+            <p>
+                Write down <u>all</u> the formulas that you see under <b>Annual Percentage Yield</b> and let us 
+                <a href="https://finance-calculators.appspot.com/apyApplications.html" target="_blank" class="w3-yellow w3-bar-item w3-button w3-hover-black">solve some examples</a>
+            </p>
+            <br>
+            <h4>
+                <u>NOTE:</u> Unless instructed otherwise; <br>
+                For all financial calculations, do not round until the final answer. <br>
+                Do not round intermediate calculations. If it is too long, write it to <u>at least</u> 5 decimal
+                places (5 or more decimal places). <br>
+                Round your final answer to 2 decimal places. <br>
+                Make sure you include your unit.
+            </h4>
+        </div>
+        <!-- End Annual Percentage Yield -->
+
+        <br><br>
+
+        <!-- Investments for Retirement -->
+        <div class="w3-container w3-padding-32" id="investmentsRetirement">
+            <h2 class="w3-padding-16">Investments for Retirement</h2>
+            <hr>
+            <p>
+                <iframe src="https://onedrive.live.com/embed?resid=88EBB445149781E7%2199979&amp;authkey=!AME4Dwg2E_r6n5Y&amp;em=2&amp;wdAr=1.7777777777777777" width="476" height="288" style="border: 0;"></iframe>                
+            
+                <br><br>
+
+                Write down <u>all</u> the formulas that you see under <b>Investment for Retirement</b> and
+                let us 
+                <a href="https://finance-calculators.appspot.com/investmentApplications.html" target="_blank" class="w3-yellow w3-bar-item w3-button w3-hover-black">solve some examples: Part 1</a>
+                and 
+                <a href="https://finance-calculators.appspot.com/futureValueOrdinaryAnnuityApplications.html" target="_blank" class="w3-yellow w3-bar-item w3-button w3-hover-black">solve some examples: Part 2</a>
+            </p>
+            <h4>
+                <u>NOTE:</u> Unless instructed otherwise; <br>
+                For all financial calculations, do not round until the final answer. <br>
+                Do not round intermediate calculations. If it is too long, write it to <u>at least</u> 5 decimal
+                places (5 or more decimal places). <br>
+                Round your final answer to 2 decimal places. <br>
+                Make sure you include your unit.
+            </h4>
+        </div>
+        <!-- End Investments for Retirement -->
+
+        <br><br>
+
+        <!-- Future Value of Ordinary Annuity and Sinking Fund -->
+        <div class="w3-container w3-padding-32" id="ordinaryAnnuity">
+            <h2 class="w3-padding-16">Future Value of Ordinary Annuity and Sinking Fund</h2>
+            <hr>
+
+            <p>
+                An <b>annuity</b> is defined as a <b>sequence of equal periodic payments.</b> <br>
+                If the payments are made at the end of each period, it is known as an <b>ordinary annuity</b> <br>
+                If the payments are made at the beginning of each period, it is known as an <b>annuity due</b>
+                <br><br>
+                An <b>Ordinary Annuity</b> is a <b>sequence of equal periodic payments</b> in which <b>each payment is made at the end of each period.</b> <br>
+                The periods could be yearly, monthly (most common), biweekly (also common), and weekly among others. <br>
+                The <b>Future Value of an Ordinary Annuity</b> is the <b>sum of all the periodic payments</b> <u>and</u> <b>all the earned interests.</b> <br>
+                Applications of the Future Value of an Ordinary Annuity are seen in: college savings accounts, IRAs (Individual Retirement Accounts), 401(k), 403(b), and other investments that 
+                require periodic payments. <br>
+                <u>For example:</u> If someone is contributing a certain percentage of his salary or a certain amount of his salary every month to a 401(k) investment account, how much would the 
+                person have when he retires at a certain age, or when he stops contributing after some time?
+            </p>
+            <br>
+            <p>
+                Write down <u>all</u> the formulas that you see under <b>Future Value of Ordinary Annuity</b> and
+                <b>Sinking Fund</b> and let us 
+                <a href="https://finance-calculators.appspot.com/futureValueOrdinaryAnnuityApplications.html" target="_blank" class="w3-yellow w3-bar-item w3-button w3-hover-black">solve some examples</a>
+            </p>
+
+            <br>
+            <h4>
+                <u>NOTE:</u> Unless instructed otherwise; <br>
+                For all financial calculations, do not round until the final answer. <br>
+                Do not round intermediate calculations. If it is too long, write it to <u>at least</u> 5 decimal
+                places (5 or more decimal places). <br>
+                Round your final answer to 2 decimal places. <br>
+                Make sure you include your unit.
+            </h4>
+        </div>
+        <!-- End Future Value of Ordinary Annuity and Sinking Fund -->
+
+        <br><br>
+
+        <!-- Present Value of Ordinary Annuity and Amortization -->
+        <div class="w3-container w3-padding-32" id="amortization">
+            <h2 class="w3-padding-16">Present Value of Ordinary Annuity and Amortization</h2>
+            <hr>
+
+            <p>
+                An <b>installment loan</b> is a <b>loan or money</b> that is <b>borrowed</b> and agreed to be
+                <b>paid back in installments.</b> <br>
+                Typically, equal periodic payments are made over the term of the loan (duration of the loan). <br>
+                The periodic payments could be weekly payments, bi-weekly payments, monthly payments, or some other
+                periodic payments as the case may be. <br>
+                Installment loans allow consumers to finance high price purchases of some things that they would
+                otherwise not be able to afford immediately. These include cars and homes among others.
+                <br><br>
+                <b>Amortization</b> is defined as the <b>repayment of a loan by installments.</b> <br>
+                In the United States, most installment loans are based on monthly payments, and the interest on those
+                loans is compounded on a monthly basis.
+            </p>
+            <br>
+            <table class="w3-center noborder">
+                <tr>
+                    <td style="width: 50%">
+                        <iframe src="https://onedrive.live.com/embed?resid=88EBB445149781E7%2199972&amp;authkey=!AIV_-aEUmFaMKGs&amp;em=2&amp;wdAr=1.7777777777777777" width="476" height="288" style="border: 0;"></iframe>
+                    </td>
+                    <td style="width: 50%">
+                        <iframe src="https://onedrive.live.com/embed?resid=88EBB445149781E7%2199977&amp;authkey=!ABBvLWPQ2ust9PQ&amp;em=2&amp;wdAr=1.7763888888888888" width="476" height="288" style="border: 0;"></iframe>
+                    </td>
+                </tr>
+            </table>
+            <br>
+            <p>
+                Write down <u>all</u> the formulas that you see under <b>Amortization</b> and the <b>Present Value of Ordinary Annuity</b>
+                and let us 
+                <a href="https://finance-calculators.appspot.com/presentValueOrdinaryAnnuityApplications.html" target="_blank" class="w3-yellow w3-bar-item w3-button w3-hover-black">solve some examples</a>
+            </p>
+
+            <br>
+            <h4>
+                <u>NOTE:</u> Unless instructed otherwise; <br>
+                For all financial calculations, do not round until the final answer. <br>
+                Do not round intermediate calculations. If it is too long, write it to <u>at least</u> 5 decimal
+                places (5 or more decimal places). <br>
+                Round your final answer to 2 decimal places. <br>
+                Make sure you include your unit.
+            </h4>
+        </div>
+        <!-- End Present Value of Ordinary Annuity and Amortization -->
+
+        <br><br>
+
+        <div class="w3-container w3-padding-32" id="references">
+            <h2 class="w3-padding-16">References</h2>
+            <hr>
+            <p>
+                Chukwuemeka, S.D (2016, April 30). <i>Samuel Chukwuemeka Tutorials - Math, Science, and Technology.</i>
+                Retrieved from <a href="https://www.samuelchukwuemeka.com/" target="_blank">https://www.samuelchukwuemeka.com</a>
+                <br><br>
+                Bennett, J. O., & Briggs, W. L. (2019). 
+                <i>Using and Understanding Mathematics: A Quantitative Reasoning Approach.</i> Pearson.
+                <br><br>
+                Blitzer, R. (2015). <i>Thinking Mathematically</i> (6th ed.).
+                Boston: Pearson
+                <br><br>
+                Cleaves, C. S., Hobbs, M. J., & Noble, J. J. (2014). <i>Business Math</i> (10th ed.).
+                Upper Saddle River, NJ: Prentice Hall.
+                <br><br>
+                Tan, S. (2015). <i>Finite Mathematics for the Managerial, Life, and Social Sciences</i> (11th ed.).
+                Boston: Cengage Learning.
+                <br><br>
+                Microsoft Office Clip Art. (n.d.). Retrieved from
+                https://support.office.com/en-us/article/add-clip-art-to-your-file-0a01ae25-973c-4c2c-8eaf-8c8e1f9ab530?legRedir=true&CorrelationId=9c8bb412-68e2-4db0-9704-c9af116e2521&ui=en-US&rs=en-US&ad=US
+                <br><br>
+                Authority (NZQA), (n.d.). Mathematics and Statistics subject resources. www.nzqa.govt.nz. Retrieved December 14,
+                2020, from https://www.nzqa.govt.nz/ncea/subjects/mathematics/levels/
+                <br><br>
+                CrackACT. (n.d.). Retrieved from http://www.crackact.com/act-downloads/
+                <br><br>
+                CMAT Question Papers CMAT Previous Year Question Bank - Careerindia. (n.d.). https://www.careerindia.com. Retrieved
+                May 30, 2020, from https://www.careerindia.com/entrance-exam/cmat-question-papers-e23.html
+                <br><br>
+                CSEC Math Tutor. (n.d). Retrieved from https://www.csecmathtutor.com/past-papers.html
+                <br><br>
+                TI Products | Calculators and Technology | Texas Instruments. (n.d.). Education.ti.com. Retrieved March 18, 2023, from https://education.ti.com/en/products
+                <br><br>
+                Desmos. (n.d.). Desmos Graphing Calculator. https://www.desmos.com/calculator
+                <br><br>
+                Durante, A. (2022, October 18). 2023 Tax Brackets. Tax Foundation. https://taxfoundation.org/2023-tax-brackets/
+                <br><br>
+                DLAP Website. (n.d.). Curriculum.gov.mt.
+                https://curriculum.gov.mt/en/Examination-Papers/Pages/list_secondary_papers.aspx
+                <br><br>
+                Free Jamb Past Questions And Answer For All Subject 2020. (2020, January 31). Vastlearners.
+                https://www.vastlearners.com/free-jamb-past-questions/
+                <br><br>
+                Geogebra. (2019). Graphing Calculator - GeoGebra. Geogebra.org. https://www.geogebra.org/graphing?lang=en
+                <br><br>
+                GCSE Exam Past Papers: Revision World. Retrieved April 6, 2020, from
+                https://revisionworld.com/gcse-revision/gcse-exam-past-papers
+                <br><br>
+                HSC exam papers | NSW Education Standards. (2019). Nsw.edu.au.
+                https://educationstandards.nsw.edu.au/wps/portal/nesa/11-12/resources/hsc-exam-papers
+                <br><br>
+                JAMB Past Questions, WAEC, NECO, Post UTME Past Questions. (n.d.). Nigerian Scholars. Retrieved February 12, 2022,
+                from https://nigerianscholars.com/past-questions/
+                <br><br>
+                KCSE Past Papers by Subject with Answers-Marking Schemes. (n.d.). ATIKA SCHOOL.
+                Retrieved June 16, 2022, from https://www.atikaschool.org/kcsepastpapersbysubject
+                <br><br>
+                Myschool e-Learning Centre - It's Time to Study! - Myschool. (n.d.). https://myschool.ng/classroom
+                <br><br>
+                Netrimedia. (2022, May 2). ICSE 10th Board Exam Previous Papers- Last 10 Years. Education Observer.
+                https://www.educationobserver.com/icse-class10-previous-papers/
+                <br><br>
+                NSC Examinations. (n.d.). www.education.gov.za.
+                https://www.education.gov.za/Curriculum/NationalSeniorCertificate(NSC)Examinations.aspx
+                <br><br>
+                School Curriculum and Standards Authority (SCSA): K-12. Past ATAR Course Examinations. Retrieved December 10, 2021,
+                from https://senior-secondary.scsa.wa.edu.au/further-resources/past-atar-course-exams
+                <br><br>
+                West African Examinations Council (WAEC). Retrieved May 30, 2020, from
+                https://waeconline.org.ng/e-learning/Mathematics/mathsmain.html
+                <br><br>
+                Papua New Guinea: Department of Education. (n.d.). www.education.gov.pg. Retrieved November 24, 2020, from
+                http://www.education.gov.pg/TISER/exams.html
+                <br><br>
+                51 Real SAT PDFs and List of 89 Real ACTs (Free) : McElroy Tutoring. (n.d.).
+                Mcelroytutoring.com. Retrieved December 12, 2022,
+                from https://mcelroytutoring.com/lower.php?url=44-official-sat-pdfs-and-82-official-act-pdf-practice-tests-free
+            </p>
+        </div>
+        <!-- End page content -->
+    </div>
+
+    <!-- Footer -->
+    <footer class="w3-center w3-black w3-padding-24">
+        <p>
+            <a href="https://www.youtube.com/user/samuelchukwuemeka" title="Subscribe to my YouTube channel" target="_blank">
+                <img src="images/youtube.png" alt="Subscribe to my YouTube channel">
+            </a>
+            <a href="https://twitter.com/samdom4peace" title="Follow me on twitter" target="_blank">
+                <img src="images/twitter.png" alt="Follow me on twitter">
+            </a>
+            <a href="http://samueldominicchukwuemeka.blogspot.com/?view=flipcard" title="Subscribe and follow my blog" target="_blank">
+                <img src="images/blogger.jpg" alt="Subscribe and follow my blog">
+            </a> <br>
+                &copy; 2018 &nbsp;<a href="https://www.chukwuemekasamuel.com/" target="_blank">Samdom4Peace</a>&nbsp;Designs.
+        </p>
+    </footer>
+    <!-- End Footer -->
+
+    <script src="scripts/messages8.js"></script>
+    <script src="scripts/financialMathematics.js"></script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+    <script async
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/4.0.0/math.min.js"></script>
+
+    <!--
+        Check the examples in the tab bar: Examples: Part 2, Examples: Part 3, Examples: Part 4
+
+        <div class="w3-col l6 m6 w3-margin-bottom">
+            <div class="w3-display-container">
+                <button class="topics"
+                    onclick="window.open('https://www.samuelchukwuemeka.com/technology/images/CalculatorProject.exe');">MS110 - Mathematics of Finance Calculator: Katelyn (Mr.C's Student): Jacksonville State University (Desktop App)
+                </button>
+            </div>
+        </div>
+    -->
+
+</body>
+</html>

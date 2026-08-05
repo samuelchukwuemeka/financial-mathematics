@@ -1,0 +1,1327 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-102287542-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
+
+            gtag('config', 'UA-102287542-1');
+        </script>
+
+        <script data-ad-client="ca-pub-9463984700780669" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+        <meta charset="utf-8">
+        <meta name="google-site-verification" content="dWWImG59lcpKRGrhVSEW_j8U2jW1vMTG1_J2dUBrF4s">
+        <meta name="msvalidate.01" content="85DBCF5F806AB8C9BD2FC30728535125">
+        <meta name="google-site-verification" content="dq1XmHfXW0b3WlsawOYEk5yvgZDJ7CesBFu9QrSmHrs">
+
+        <title>Ordinary Annuity and Amortization Applications</title>
+        
+        <meta name="description" content="SamDom4Peace gives all the credit to JESUS CHRIST. We are experts in the applications of the present value of ordinary annuities and amortizations.">
+        
+        <meta name="keywords" content="samuel, chukwuemeka, math, mathematics, mathematics of finance, financial mathematics, 
+                financial math, simple interest, compound interest, continuous compound interest, annual percentage yield, 
+                apy, annuity, ordinary annuity, annuity due, amortization, present value, future value, sinking fund, rule of 78, 
+                loan amortization, mortgage payments, stocks, bonds, investment decision rules, debt financing, time value of money,
+                project evaluation, refund fraction, coupon bonds, bond coupons, bond coupon amount, bond coupon number, bond price, 
+                face value, par value, bond coupon rate, yield to maturity, market value">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="styles/mathematicsFinance.css" rel="stylesheet" type="text/css" media="all">
+        <link rel="shortcut icon" type="image/x-icon" href="https://finance-calculators.appspot.com/images/favicon.ico">
+    </head>
+
+    <body>
+        <!-- Header -->
+        <header class="w3-padding-64 bisque" id="quotes">
+            <div class="w3-center">
+                <button class="quotations" onclick="solutions('solutionQuotes')">Quotes of the Day</button>
+            </div>
+            
+            <div class="quote w3-content" id="solutionQuotes">
+                <p>
+                    <q>
+                        If there is one prayer that you should <b>pray/sing</b> every day and every hour, it is the 
+                        <a href="https://www.samdomforpeace.com/Theology/prayer.html" target="_blank">LORD's prayer (Our FATHER in Heaven prayer)</a> <br>
+                        It is the <b>most powerful prayer</b>.
+                        A <b>pure heart</b>, a <b>clean mind</b>, and a <b>clear conscience</b> is necessary for it.
+                    </q> - Samuel Dominic Chukwuemeka 
+                </p>
+                <p id="messages6"><q>For in GOD we live, and move, and have our being.</q> - Acts 17:28</p>
+                <p><q>The <b>Joy</b> of a <b>Teacher</b> is the <b>Success</b> of his <b>Students</b>.</q> - Samuel Dominic Chukwuemeka</p>
+            </div>
+        </header>
+        <!-- End Header -->
+
+        <br><br>
+                        
+        <!-- Page Content -->
+        <h1>Solved Examples: Present Value of Ordinary Annuity and Amortization</h1>
+        
+        <p class="w3-container">
+            <!-- Image in top left corner -->
+            <a href="https://finance-calculators.appspot.com" title="Samuel Dominic Chukwuemeka (SamDom For Peace)">
+                <img src="images/dominic4peace.png" alt="Samuel Dominic Chukwuemeka (SamDom For Peace)" class="image">
+            </a>
+        
+            Formulas Used: <a href="https://finance-calculators.appspot.com/financialMathematics.html#formulas" target="_blank">Mathematics of Finance</a> <br>
+            Verify Answers with: <a href="https://finance-calculators.appspot.com/ordinaryAnnuity.html" target="_blank">Financial Mathematics Calculators</a> <br>
+            Verify Loan Amortization Table with: <a href="https://capitalbankmortgage.mortgage-application.net/calculators/payment.aspx?" target="_blank">Loan Amortization Table Calculator</a> <br><br>
+            <mark>
+                <u>NOTE:</u> Unless instructed otherwise; <br>
+                For all financial calculations, do not round until the final answer. <br>
+                Do not round intermediate calculations. If it is too long, write it to "at least" $5$ decimal places. <br>
+                Round your final answer to $2$ decimal places. <br>
+                Make sure you include your unit.
+            </mark> <br><br>
+            Solve all questions. <br>
+            Use at <u>least two methods</u> where applicable. <br>
+            Write the name of any formulas that you use. <br>
+            Show all work.
+        
+            <br><br>
+        
+            <mark>For NSC Students</mark> <br>
+            <u>For the Questions:</u> <br>
+            Any space included in a number indicates a comma used to separate digits...separating multiples of three digits from
+            behind. <br>
+            Any comma included in a number indicates a decimal point. <br>
+            <u>For the Solutions:</u> <br>
+            Decimals are used appropriately rather than commas <br>
+            Commas are used to separate digits appropriately.
+        </p>
+                
+        <div class="w3-row w3-container">          
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (1.) Peter purchased a car. <br>
+                    The car is going to be financed for <span>$</span>10,000 for 48 months at an APR (Annual Percentage Rate) of 7%. <br>
+                    (a.) Calculate the monthly payments on the loan. <br>
+                    (b.) What is the total interest? 
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionPVA1')">Show/Hide Answer</button>
+                    <div class="result" id="solutionPVA1">
+                        <br>
+                        This is a case of <b>Amortization</b> <br><br>
+                        $
+                        \underline{Amortization} \\[3ex]
+                        PV = \$10000 \\[3ex]
+                        t = 48\:months = \dfrac{48}{12}\:years = 4\: years \\[5ex]
+                        r = 7\% = \dfrac{7}{100} = 0.07 \\[5ex]
+                        Compounded\:\:monthly \rightarrow m = 12 \\[3ex]
+                        PMT = ? \\[3ex]
+                        (a.) \\[3ex]
+                        PMT = \dfrac{PV}{m} * \left[\dfrac{r}{1 - \left(1 + \dfrac{r}{m}\right)^{-mt}}\right] \\[10ex]
+                        PMT = \dfrac{PV}{m} * \left[\dfrac{r}{1 - \left(1 + \dfrac{r}{m}\right)^{-1 * m * t}}\right] \\[10ex]
+                        PMT = \dfrac{10000}{12} * \left[\dfrac{0.07}{1 - \left(1 + \dfrac{0.07}{12}\right)^{-1 * 12 * 4}}\right] \\[10ex]
+                        = \dfrac{10000}{12} * \left[\dfrac{0.07}{1 - \left(1 + 0.00583333333\right)^{-48}}\right] \\[7ex]
+                        = \dfrac{10000}{12} * \left[\dfrac{0.07}{1 - \left(1.00583333333\right)^{-48}}\right] \\[7ex] 
+                        = \dfrac{10000}{12} * \left[\dfrac{0.07}{1 - 0.756398825}\right] \\[5ex] 
+                        = \dfrac{10000}{12} * \left[\dfrac{0.07}{0.243601175}\right] \\[5ex] 
+                        = \dfrac{10000 * 0.07}{12 * 0.243601175} \\[5ex]
+                        = \dfrac{700}{2.9232141} \\[5ex]
+                        = 239.462446 \\[3ex]
+                        PMT \approx \$239.46 \\[3ex]
+                        (b.) \\[3ex]
+                        CI = PMT * m * t - PV \\[3ex]
+                        CI = 239.462446 * 12 * 4 - 10000 \\[3ex]
+                        = 11494.1974 - 10000 \\[3ex]
+                        = 1494.1974 \\[3ex]
+                        CI \approx \$1494.20
+                        $
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (2.) What monthly payment is required to amortize a loan of <span>$</span>30,000 over 13 years if interest at
+                    the rate of 3% per year is charged on the unpaid balance and interest calculations are made at the
+                    end of each month?
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionPVA2')">Show/Hide Answer</button>
+                    <div class="result" id="solutionPVA2">
+                        <br>
+                        This is a case of <b>Amortization</b> <br><br>
+                        $
+                        \underline{Amortization} \\[3ex]
+                        PV = \$30000 \\[3ex]
+                        r = 3\% = \dfrac{3}{100} = 0.03 \\[5ex]
+                        t = 13\: years \\[3ex]
+                        Compounded\:\:monthly \rightarrow m = 12 \\[3ex]
+                        PMT = ? \\[3ex]
+                        PMT = \dfrac{PV}{m} * \left[\dfrac{r}{1 - \left(1 + \dfrac{r}{m}\right)^{-mt}}\right] \\[10ex]
+                        PMT = \dfrac{PV}{m} * \left[\dfrac{r}{1 - \left(1 + \dfrac{r}{m}\right)^{-1 * m * t}}\right] \\[10ex]
+                        PMT = \dfrac{30000}{12} * \left[\dfrac{0.03}{1 - \left(1 + \dfrac{0.03}{12}\right)^{-1 * 12 * 13}}\right] \\[10ex]
+                        = 2500 * \left[\dfrac{0.03}{1 - \left(1 + 0.0025\right)^{-156}}\right] \\[7ex]
+                        = 2500 * \left[\dfrac{0.03}{1 - \left(1.0025\right)^{-156}}\right] \\[7ex] 
+                        = 2500 * \left[\dfrac{0.03}{1 - 0.677386471}\right] \\[5ex] 
+                        = 2500 * \left[\dfrac{0.03}{0.322613529}\right] \\[5ex] 
+                        = \dfrac{2500 * 0.03}{0.322613529} \\[5ex]
+                        = \dfrac{75}{0.322613529} \\[5ex]
+                        = 232.476301 \\[3ex]
+                        PMT \approx \$232.48 \\[3ex]
+                        $
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (3.) The price of a home in the <i>City of Truth or Consequences, New Mexico</i> is <span>$</span>139,000. <br>
+                    The bank requires a 20% down payment and 3 points at the time of closing. <br>
+                    Dove Bank has agreed to finance the home with a 30-year fixed-rate mortgage at 10%. <br>
+                    (a.) What is down payment? <br>
+                    (b.) Find the amount of the mortgage. <br>
+                    (c.) How much must be paid for 3 points of closing? <br>
+                    (d.) Calculate the monthly payment. Exclude taxes and insurance. <br>
+                    (e.) Calculate the total interest over the period of the loan.
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionPVA3')">Show/Hide Answer</button>
+                    <div class="result" id="solutionPVA3">
+                        <br>
+                        This is a case of <b>Amortization</b> <br><br>
+                        $
+                        (a.) \\[3ex]
+                        Down\:\:Payment = Given\:\:Rate * Purchase\:\:Price \\[3ex]
+                        Given\:\:Rate = 20\% = \dfrac{20}{100} = 0.2 \\[5ex]
+                        Purchase\:\:Price = \$139000 \\[3ex]
+                        Down\:\:Payment = 0.2(139000) = \$27,800.00 \\[3ex]
+                        (b.) \\[3ex]
+                        Amount\:\:of\:\:Mortgage = Purchase\:\:Price - Down\:\:Payment \\[3ex] 
+                        Amount\:\:of\:\:Mortgage = 139000 - 27800 \\[3ex]
+                        Amount\:\:of\:\:Mortgage = \$111,200.00 \\[3ex] 
+                        (c.) \\[3ex]
+                        Payment\:\:for\:\:x\:\:points\:\:at\:closing = x\:\:as\:\:\% * Amount\:\:of\:\:Mortgage \\[3ex]
+                        3\:\:points\:\:at\:closing = 3\% = \dfrac{3}{100} = 0.03 \\[5ex]
+                        Payment\:\:for\:\:3\:\:points\:\:at\:closing = 3\% * 111200 = 0.03(111200) = \$3,336.00 \\[3ex]
+                        (d.) \\[3ex]
+                        PV = Amount\:\:of\:\:Mortgage = \$111200 \\[3ex]
+                        t = 30\: years \\[3ex]
+                        r = 10\% = \dfrac{10}{100} = 0.1 \\[5ex]
+                        Compounded\:\:monthly \rightarrow m = 12 \\[3ex]
+                        PMT = ? \\[3ex]
+                        PMT = \dfrac{PV}{m} * \left[\dfrac{r}{1 - \left(1 + \dfrac{r}{m}\right)^{-mt}}\right] \\[10ex]
+                        PMT = \dfrac{PV}{m} * \left[\dfrac{r}{1 - \left(1 + \dfrac{r}{m}\right)^{-1 * m * t}}\right] \\[10ex]
+                        PMT = \dfrac{111200}{12} * \left[\dfrac{0.1}{1 - \left(1 + \dfrac{0.1}{12}\right)^{-1 * 12 * 30}}\right] \\[10ex]
+                        = \dfrac{111200}{12} * \left[\dfrac{0.1}{1 - \left(1 + 0.00833333333\right)^{-360}}\right] \\[7ex]
+                        = \dfrac{111200}{12} * \left[\dfrac{0.1}{1 - \left(1.00833333333\right)^{-360}}\right] \\[7ex] 
+                        = \dfrac{111200}{12} * \left[\dfrac{0.1}{1 - 0.0504098336}\right] \\[5ex] 
+                        = \dfrac{111200}{12} * \left[\dfrac{0.1}{0.949590166}\right] \\[5ex] 
+                        = \dfrac{111200 * 0.1}{12 * 0.949590166} \\[5ex]
+                        = \dfrac{11120}{11.395082} \\[5ex]
+                        = 975.859586 \\[3ex]
+                        PMT \approx \$975.86 \\[3ex]
+                        (e.) \\[3ex]
+                        CI = PMT * m * t - PV \\[3ex]
+                        CI = 975.859586 * 12 * 30 - 111200 \\[3ex]
+                        = 351309.451 - 111200 \\[3ex]
+                        = 240109.451 \\[3ex]
+                        CI \approx \$240,109.45
+                        $
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (4.) Paul is shopping for a new car. <br>
+                    He found a nice energy efficient car he liked, and negotiated a good price with the dealer: <span>$</span>21,995 including taxes and license fees. <br>
+                    In addition, the car manufacturer offered him two options: <br>
+                    <b>First Option:</b> He can choose a <span>$</span>2000 manufacturer's rebate and then finance the balance
+                    at the dealer's going rate of 6% APR (Annual Percentage Rate) for a 60-month loan. <br>
+                    <b>Second Option:</b> He can use a special financing at 2.4% APR for 60 months. <br>
+                    (a.) Which option should he choose? <br>
+                    (b.) How much savings would he have when comparing the two options over the period of the loan?
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionPVA4')">Show/Hide Answer</button>
+                    <div class="result" id="solutionPVA4">
+                        <br>
+                        This is a case of <b>Amortization</b> <br><br>
+                        $
+                        \underline{Amortization} \\[3ex]
+                        (a.) \\[3ex]
+                        \underline{Option\:1} \\[3ex]
+                        Rebate = \$2000 \\[3ex]
+                        PV = \$21995 - \$2000 = \$19995 \\[3ex]
+                        t = 60\:months =\dfrac{60}{12}\:years = 5\: years \\[5ex]
+                        r = 6\% = \dfrac{6}{100} = 0.06 \\[5ex]
+                        Compounded\:\:monthly \rightarrow m = 12 \\[3ex]
+                        PMT = ? \\[3ex]
+                        PMT = \dfrac{PV}{m} * \left[\dfrac{r}{1 - \left(1 + \dfrac{r}{m}\right)^{-mt}}\right] \\[10ex]
+                        PMT = \dfrac{PV}{m} * \left[\dfrac{r}{1 - \left(1 + \dfrac{r}{m}\right)^{-1 * m * t}}\right] \\[10ex]
+                        PMT = \dfrac{19995}{12} * \left[\dfrac{0.06}{1 - \left(1 + \dfrac{0.06}{12}\right)^{-1 * 12 * 5}}\right] \\[10ex]
+                        = \dfrac{19995}{12} * \left[\dfrac{0.06}{1 - \left(1 + 0.005\right)^{-60}}\right] \\[7ex]
+                        = \dfrac{19995}{12} * \left[\dfrac{0.06}{1 - \left(1.005\right)^{-60}}\right] \\[7ex] 
+                        = \dfrac{19995}{12} * \left[\dfrac{0.06}{1 - 0.741372196}\right] \\[5ex] 
+                        = \dfrac{19995}{12} * \left[\dfrac{0.06}{0.258627804}\right] \\[5ex] 
+                        = \dfrac{19995 * 0.06}{12 * 0.258627804} \\[5ex]
+                        = \dfrac{1199.7}{3.10353365} \\[5ex]
+                        = 386.559366 \\[3ex]
+                        PMT \approx \$386.56 \\[3ex]
+                        \underline{Option\:2} \\[3ex]
+                        PV = \$21995 \\[3ex]
+                        t = 60\:months =\dfrac{60}{12}\:years = 5\: years \\[5ex]
+                        r = 2.4\% = \dfrac{2.4}{100} = 0.024 \\[5ex]
+                        Compounded\:\:monthly \rightarrow m = 12 \\[3ex]
+                        PMT = ? \\[3ex]
+                        PMT = \dfrac{PV}{m} * \left[\dfrac{r}{1 - \left(1 + \dfrac{r}{m}\right)^{-mt}}\right] \\[10ex]
+                        PMT = \dfrac{PV}{m} * \left[\dfrac{r}{1 - \left(1 + \dfrac{r}{m}\right)^{-1 * m * t}}\right] \\[10ex]
+                        PMT = \dfrac{21995}{12} * \left[\dfrac{0.024}{1 - \left(1 + \dfrac{0.024}{12}\right)^{-1 * 12 * 5}}\right] \\[10ex]
+                        = \dfrac{21995}{12} * \left[\dfrac{0.024}{1 - \left(1 + 0.002\right)^{-60}}\right] \\[7ex]
+                        = \dfrac{21995}{12} * \left[\dfrac{0.024}{1 - \left(1.002\right)^{-60}}\right] \\[7ex] 
+                        = \dfrac{21995}{12} * \left[\dfrac{0.024}{1 - 0.887026732}\right] \\[5ex] 
+                        = \dfrac{21995}{12} * \left[\dfrac{0.024}{0.112973268}\right] \\[5ex] 
+                        = \dfrac{21995 * 0.024}{12 * 0.112973268} \\[5ex]
+                        = \dfrac{527.88}{1.35567922} \\[5ex]
+                        = 389.384149 \\[3ex]
+                        PMT \approx \$389.38 \\[3ex]
+                        \$386.56 \lt \$389.38 \\[3ex]
+                        He\:\:should\:\:choose\:\:Option\:1 \\[3ex]
+                        (b.) \\[3ex]
+                        Savings\:\:per\:\:month = 389.384149 - 386.559366 = \$2.824783 \\[3ex]
+                        Savings\:\:per\:\:month \approx \$2.82 \\[3ex]
+                        Savings\:\:over\:\:60\:months = 2.82(60) = \$169.20
+                        $
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (5.) A loan of <span>$</span>72,000.00 was taken for 30 years at 4.8% interest compounded quarterly. <br>
+                    Complete the table below. Fill only the boxes with the dollar symbol. <br>
+                    Round all answers to 2 decimal places. <br>
+                    <table>
+                        <tr>
+                            <th class="green w3-padding">Payment Number</th>
+                            <th class="green w3-padding">Payment Amount</th>
+                            <th class="green w3-padding">Principal Amount</th>
+                            <th class="green w3-padding">Interest</th>
+                            <th class="green w3-padding">Balance</th>
+                        </tr>
+                        <tr>
+                            <td>$(0.)$</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>$\$72,000.00$</td>
+                        </tr>
+                        <tr>
+                            <td>$(1.)$</td>
+                            <td>$\$...$</td>
+                            <td>$\$...$</td>
+                            <td>$\$...$</td>
+                           <td>$\$...$</td>
+                        </tr>
+                        <tr>
+                            <td>$(2.)$</td>
+                            <td></td>
+                            <td>$\$...$</td>
+                            <td>$\$...$</td>
+                           <td>$\$...$</td>
+                        </tr>
+                        <tr>
+                            <td>$(3.)$</td>
+                            <td></td>
+                            <td>$\$...$</td>
+                            <td>$\$...$</td>
+                           <td>$\$...$</td>
+                        </tr>
+                    </table>
+                    <br>
+                    <button class="solutions" onclick="solutions('solutionPVA5')">Show/Hide Answer</button>
+                    <div class="result" id="solutionPVA5">
+                        <br>
+                        This is a case of <b>Amortization</b> <br><br>
+                        $
+                        PV = \$72000 \\[3ex]
+                        t = 30\: years \\[3ex]
+                        r = 4.8\% = \dfrac{4.8}{100} = 0.048 \\[5ex]
+                        Compounded\:\:quarterly \rightarrow m = 4 \\[3ex]
+                        PMT = ? \\[3ex]
+                        PMT = \dfrac{PV}{m} * \left[\dfrac{r}{1 - \left(1 + \dfrac{r}{m}\right)^{-mt}}\right] \\[10ex]
+                        PMT = \dfrac{PV}{m} * \left[\dfrac{r}{1 - \left(1 + \dfrac{r}{m}\right)^{-1 * m * t}}\right] \\[10ex]
+                        PMT = \dfrac{72000}{4} * \left[\dfrac{0.048}{1 - \left(1 + \dfrac{0.048}{4}\right)^{-1 * 4 * 30}}\right] \\[10ex]
+                        = 18000 * \left[\dfrac{0.048}{1 - \left(1 + 0.012\right)^{-120}}\right] \\[7ex]
+                        = 18000 * \left[\dfrac{0.048}{1 - \left(1.012\right)^{-120}}\right] \\[7ex] 
+                        = 18000 * \left[\dfrac{0.048}{1 - 0.238967313}\right] \\[5ex] 
+                        = 18000 * \left[\dfrac{0.048}{0.761032687}\right] \\[5ex] 
+                        = \dfrac{18000 * 0.048}{0.761032687} \\[5ex]
+                        = \dfrac{864}{0.761032687} \\[5ex]
+                        = 1135.39946 \\[3ex]
+                        PMT \approx \color{darkblue}{\$1135.30}\\[3ex]
+                        $
+                        <table>
+                            <tr>
+                                <th class="green w3-padding">Payment Number</th>
+                                <th class="green w3-padding">Payment Amount</th>
+                                <th class="green w3-padding">Principal Amount</th>
+                                <th class="green w3-padding">Interest</th>
+                                <th class="green w3-padding">Balance</th>
+                            </tr>
+                            <tr>
+                                <td>$(0.)$</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>$\$72,000.00$</td>
+                            </tr>
+                            <tr>
+                                <td>$(1.)$</td>
+                                <td>$\color{darkblue}{\$1,135.30}$</td>
+                                <td>$\color{purple}{\$271.30}$</td>
+                                <td>$\color{black}{\$864.00}$</td>
+                                <td>$71,728.70$</td>
+                            </tr>
+                            <tr>
+                                <td>$(2.)$</td>
+                                <td></td>
+                                <td>$\color{purple}{\$274.56}$</td>
+                                <td>$\color{black}{\$860.74}$</td>
+                                <td>$71,454.14$</td>
+                            </tr>
+                            <tr>
+                                <td>$(3.)$</td>
+                                <td></td>
+                                <td>$\color{purple}{\$277.85}$</td>
+                                <td>$\color{black}{\$857.45}$</td>
+                                <td>$\$71,176.29$</td>
+                            </tr>
+                        </table>
+                        <br>
+                        $
+                        \underline{Payment\:\:Number\:1} \\[3ex]
+                        Interest = P * r * t = 72000 * 0.048 * \dfrac{1}{4} = \color{black}{\$864.00} \\[5ex]
+                        Principal\:\:Amount = Monthly\:\:Payment - Interest \\[3ex]
+                        Principal\:\:Amount = 1135.30 - 864.00 = \color{purple}{\$271.30} \\[3ex]
+                        Balance\:\:of\:\:Loan = Balance - Principal\:\:Amount \\[3ex]
+                        Balance\:\:of\:\:Loan = 72000.00 - 271.30 = \$71728.70 \\[3ex]
+                        $
+                        <u>NOTE:</u> <u>For the first payment:</u> <br>
+                        The Principal Amount is the Amount of Mortgage <br>
+                        The Principal is also the Amount of Mortgage. <br><br>
+                        <u>For the second payment:</u> <br>
+                        The Principal Amount is the Principal for the second payment. <br>
+                        The Principal Amount is also the Balance of Loan after the first payment. <br><br>
+                        <u>For the third payment:</u> <br>
+                        The Principal Amount is the Principal for the third payment. <br>
+                        The Principal Amount is also the Balance of Loan after the second payment. <br><br>
+                        ...and so on...and so forth... <br><br>
+                        $
+                        \underline{Payment\:\:Number\:2} \\[3ex]
+                        Interest = P * r * t = 71728.70 * 0.048 * \dfrac{1}{4} = 860.7444 \approx \color{black}{\$860.74} \\[5ex]
+                        Principal\:\:Amount = Monthly\:\:Payment - Interest \\[3ex]
+                        Principal\:\:Amount = 1135.30 - 860.7444 = 274.5556 \approx \color{purple}{\$274.56} \\[3ex]
+                        Balance\:\:of\:\:Loan = Balance - Principal\:\:Amount \\[3ex]
+                        Balance\:\:of\:\:Loan = 71728.70 - 274.5556 = 71454.1444 \approx \$71454.14 \\[3ex]
+                        \underline{Payment\:\:Number\:3} \\[3ex]
+                        Interest = P * r * t = 71454.14 * 0.048 * \dfrac{1}{4} = 857.44968 \approx \color{black}{\$857.45} \\[5ex]
+                        Principal\:\:Amount = Monthly\:\:Payment - Interest \\[3ex]
+                        Principal\:\:Amount = 1135.30 - 857.44968 = 277.85032 \approx \color{purple}{\$277.85} \\[3ex]
+                        Balance\:\:of\:\:Loan = Balance - Principal\:\:Amount \\[3ex]
+                        Balance\:\:of\:\:Loan = 71454.14 - 277.85032 = 71176.2897 \approx \$71176.29
+                        $
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (6.) Grace Auto Sales is offering a financing package consisting of a 4.5% APR (Annual Percentage Rate) compounded monthly for a term of 4 years for their used vehicles. <br>
+                    Rebecca wants her monthly payments to be at most <span>$</span>400. <br>
+                    What is the maximum amount that she should finance? 
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionPVA6')">Show/Hide Answer</button>
+                    <div class="result" id="solutionPVA6">
+                        <br>
+                        This is a case of <b>Present Value of Ordinary Annuity</b> <br><br>
+                        $
+                        r = 4.5\% = \dfrac{4.5}{100} = 0.045 \\[5ex]
+                        Compounded\:\:monthly \rightarrow m = 12 \\[3ex]
+                        t = 4\:years \\[3ex]
+                        PMT = \$400 \\[3ex]
+                        PV = m * PMT * \left[\dfrac{1 - \left(1 + \dfrac{r}{m}\right)^{-mt}}{r}\right] \\[10ex]
+                        PV = m * PMT * \left[\dfrac{1 - \left(1 + \dfrac{r}{m}\right)^{-1 * m * t}}{r}\right] \\[10ex]
+                        PV = 12 * 400 * \left[\dfrac{1 - \left(1 + \dfrac{0.045}{12}\right)^{-1 * 12 * 4}}{0.045}\right] \\[10ex]
+                        = 4800 * \left[\dfrac{1 - \left(1 + 0.00375\right)^{-48}}{0.045}\right] \\[7ex]
+                        = 4800 * \left[\dfrac{1 - \left(1.00375\right)^{-48}}{0.045}\right] \\[7ex]
+                        = 4800 * \left[\dfrac{1 - 0.83555146}{0.045}\right] \\[5ex]
+                        = 4800 * \left[\dfrac{0.16444854}{0.045}\right] \\[5ex]
+                        = \dfrac{4800 * 0.16444854}{0.045} \\[5ex]
+                        = \dfrac{789.352992}{0.045} \\[5ex]
+                        = 17541.1776 \\[3ex]
+                        PV \approx \$17,541.18 \\[3ex]
+                        $
+                        The maximum amount that she should finance is $\$17,541.18$
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="w3-row w3-container">          
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (7.) The Luke's family just closed on a 15-year mortgage home for <span>$</span>120,000 at 7% per annum. <br>
+                    Angel Bank is financing the home. <br>
+                    Prepare a <b>Loan Amortization Schedule</b> for the mortgage. 
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionPVA7')">Show/Hide Answer</button>
+                    <div class="result" id="solutionPVA7">
+                        <br>
+                        This is a case of <b>Amortization</b> <br><br>
+                        $
+                        PV = \$120000 \\[3ex]
+                        t = 15\: years \\[3ex]
+                        r = 7\% = \dfrac{7}{100} = 0.07 \\[5ex]
+                        Compounded\:\:monthly \rightarrow m = 12 \\[3ex]
+                        PMT = ? \\[3ex]
+                        PMT = \dfrac{PV}{m} * \left[\dfrac{r}{1 - \left(1 + \dfrac{r}{m}\right)^{-mt}}\right] \\[10ex]
+                        PMT = \dfrac{PV}{m} * \left[\dfrac{r}{1 - \left(1 + \dfrac{r}{m}\right)^{-1 * m * t}}\right] \\[10ex]
+                        PMT = \dfrac{120000}{12} * \left[\dfrac{0.07}{1 - \left(1 + \dfrac{0.07}{12}\right)^{-1 * 12 * 15}}\right] \\[10ex]
+                        = 10000 * \left[\dfrac{0.07}{1 - \left(1 + 0.00583333333\right)^{-180}}\right] \\[7ex]
+                        = 10000 * \left[\dfrac{0.07}{1 - \left(1.00583333333\right)^{-180}}\right] \\[7ex] 
+                        = 10000 * \left[\dfrac{0.07}{1 - 0.351006914}\right] \\[5ex] 
+                        = 10000 * \left[\dfrac{0.07}{0.648993086}\right] \\[5ex] 
+                        = \dfrac{10000 * 0.07}{0.648993086} \\[5ex]
+                        = \dfrac{700}{0.648993086} \\[5ex]
+                        = 1078.59393 \\[3ex]
+                        PMT \approx \$1078.59\\[3ex]
+                        Number\:\:of\:\:payments = m * t \\[3ex]
+                        Number\:\:of\:\:payments = 12 * 15 = 180\:payments \\[3ex]
+                        $
+                        <table class="w3-center">
+                            <tr>
+                                <th class="green" colspan="4">Loan Amortization Schedule for the Luke's Family</th>
+                            </tr>
+                            <tr>
+                                <td colspan="2" class="w3-padding">
+                                    Annual $\%$Rate: $7\%$ <br>
+                                    Amount of Mortgage: $\$120,000$ <br>
+                                    Number of Monthly Payments: $180$
+                                </td>
+                                <td colspan="2" class="w3-padding">
+                                    <br>
+                                    Monthly Payment: $\$1,078.59$ <br>
+                                    Term: Years $15$, Months $0$
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><b>Payment Number</b></td>
+                                <td><b>Interest Payment</b></td>
+                                <td><b>Principal Payment</b></td>
+                                <td><b>Balance of Loan</b></td>
+                            </tr>
+                            <tr>
+                                <td>$1$</td>
+                                <td>$\$700.00$</td>
+                                <td>$\$378.59$</td>
+                                <td>$\$119,621.41$</td>
+                            </tr>
+                            <tr>
+                                <td>$2$</td>
+                                <td>$\$697.79$</td>
+                                <td>$\$380.80$</td>
+                                <td>$\$119,240.61$</td>
+                            </tr>
+                            <tr>
+                                <td>Complete it</td>
+                                <td>Complete it</td>
+                                <td>Complete it</td>
+                                <td>Complete it</td>
+                            </tr>
+                        </table>
+                        <br>
+                        $
+                        \underline{Payment\:\:Number\:1} \\[3ex]
+                        Interest\:\:Payment = P * r * t = 120000 * 0.07 * \dfrac{1}{12} = \$700.00 \\[5ex]
+                        Principal\:\:Payment = Monthly\:\:Payment - Interest\:\:Payment \\[3ex]
+                        Principal\:\:Payment = 1078.59 - 700.00 = \$378.59 \\[3ex]
+                        Balance\:\:of\:\:Loan = Principal\:\:Balance - Principal\:\:Payment \\[3ex]
+                        Balance\:\:of\:\:Loan = 120000.00 - 378.59 = \$119621.41 \\[3ex]
+                        $
+                        <u>NOTE:</u> <u>For the first payment:</u> <br>
+                        The Principal Balance is the Amount of Mortgage <br>
+                        The Principal is also the Amount of Mortgage. <br><br>
+                        <u>For the second payment:</u> <br>
+                        The Principal Balance is the Principal for the second payment. <br>
+                        The Principal Balance is also the Balance of Loan after the first payment. <br><br>
+                        <u>For the third payment:</u> <br>
+                        The Principal Balance is the Principal for the third payment. <br>
+                        The Principal Balance is also the Balance of Loan after the second payment. <br><br>
+                        ...and so on...and so forth... <br><br>
+                        $
+                        \underline{Payment\:\:Number\:2} \\[3ex]
+                        Interest\:\:Payment = P * r * t = 11962.41 * 0.07 * \dfrac{1}{12} = \$697.79 \\[5ex]
+                        Principal\:\:Payment = Monthly\:\:Payment - Interest\:\:Payment \\[3ex]
+                        Principal\:\:Payment = 1078.59 - 697.79 = \$380.80 \\[3ex]
+                        Balance\:\:of\:\:Loan = Principal\:\:Balance - Principal\:\:Payment \\[3ex]
+                        Balance\:\:of\:\:Loan = 119621.41 - 380.80 = \$119240.61 \\[3ex]
+                        $
+                        Complete the rest of the Loan Amortization Table. <br>
+                        Check your answers with the calculator (please see the top page) <br>
+                        You can also check your answers using the table below. <br><br>
+                        <div class="w3-center">
+                            <img src="images/Answers/PVOrdinaryAnnuityApplications/loan-amortization-table-Number7-part1.png" alt="Loan Amortization Table: Number 7: Part 1">
+                            <img src="images/Answers/PVOrdinaryAnnuityApplications/loan-amortization-table-Number7-part2.png" alt="Loan Amortization Table: Number 7: Part 2">
+                            <img src="images/Answers/PVOrdinaryAnnuityApplications/loan-amortization-table-Number7-part3.png" alt="Loan Amortization Table: Number 7: Part 3">
+                            <img src="images/Answers/PVOrdinaryAnnuityApplications/loan-amortization-table-Number7-part4.png" alt="Loan Amortization Table: Number 7: Part 4">
+                            <img src="images/Answers/PVOrdinaryAnnuityApplications/loan-amortization-table-Number7-part5.png" alt="Loan Amortization Table: Number 7: Part 5">
+                            <img src="images/Answers/PVOrdinaryAnnuityApplications/loan-amortization-table-Number7-part6.png" alt="Loan Amortization Table: Number 7: Part 6">
+                            <img src="images/Answers/PVOrdinaryAnnuityApplications/loan-amortization-table-Number7-part7.png" alt="Loan Amortization Table: Number 7: Part 7">
+                            <img src="images/Answers/PVOrdinaryAnnuityApplications/loan-amortization-table-Number7-part8.png" alt="Loan Amortization Table: Number 7: Part 8">
+                            <img src="images/Answers/PVOrdinaryAnnuityApplications/loan-amortization-table-Number7-part9.png" alt="Loan Amortization Table: Number 7: Part 9">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (8.) Payments are made at the end of each month into an ordinary annuity earning interest at the rate of 2.25% per year compounded monthly for $9\dfrac{1}{4}$ years. <br>
+                    If the present value of the annuity is <span>$</span>45,000, determine the size of each payment.
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionPVA8')">Show/Hide Answer</button>
+                    <div class="result" id="solutionPVA8">
+                        <br>
+                        This is a case of <b>Amortization</b> <br><br>
+                        $
+                        PV = \$45000 \\[3ex]
+                        t = 9\dfrac{1}{4} = 9.25\: years \\[5ex]
+                        r = 2.25\% = \dfrac{2.25}{100} = 0.0225 \\[5ex]
+                        Compounded\:\:monthly \rightarrow m = 12 \\[3ex]
+                        PMT = ? \\[3ex]
+                        PMT = \dfrac{PV}{m} * \left[\dfrac{r}{1 - \left(1 + \dfrac{r}{m}\right)^{-mt}}\right] \\[10ex]
+                        PMT = \dfrac{PV}{m} * \left[\dfrac{r}{1 - \left(1 + \dfrac{r}{m}\right)^{-1 * m * t}}\right] \\[10ex]
+                        PMT = \dfrac{45000}{12} * \left[\dfrac{0.0225}{1 - \left(1 + \dfrac{0.0225}{12}\right)^{-1 * 12 * 9.25}}\right] \\[10ex]
+                        = 3750 * \left[\dfrac{0.0225}{1 - \left(1 + 0.001875\right)^{-111}}\right] \\[7ex]
+                        = 3750 * \left[\dfrac{0.0225}{1 - \left(1.001875\right)^{-111}}\right] \\[7ex] 
+                        = 3750 * \left[\dfrac{0.0225}{1 - 0.8122637906}\right] \\[5ex] 
+                        = 3750 * \left[\dfrac{0.0225}{0.1877362094}\right] \\[5ex] 
+                        = \dfrac{3750 * 0.0225}{0.1877362094} \\[5ex]
+                        = \dfrac{84.375}{0.1877362094} \\[5ex]
+                        = 449.4338107 \\[3ex]
+                        PMT \approx \$449.43
+                        $
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="w3-row w3-container">          
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (9.) The Peters wants to refinance their home. <br>
+                    The outstanding balance on their original loan is <span>$</span>120,000 <br>
+                    They were offered two options by their bank. <br>
+                    <b>First Option:</b> Fixed-rate mortgage of 5.5% per year compounded monthly to be paid in 300 equal monthly installments over a 25-year period. <br>
+                    <b>Second Option:</b> Fixed-rate mortgage of 5.25% per year compounded monthly to be paid in 180 equal monthly installments over a 15-year period. <br>
+                    (a.) Calculate the monthly payments needed to amortize the loan amount for both options. <br>
+                    (b.) How much interest would the Peters save if they choose the 15-year mortgage rather than the 25-year mortgage?
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionPVA9')">Show/Hide Answer</button>
+                    <div class="result" id="solutionPVA9">
+                        <br>
+                        This is a case of <b>Amortization</b> <br><br>
+                        $
+                        (a.) \\[3ex]
+                        \underline{Option\:\:A} \\[3ex]
+                        PV = \$120000 \\[3ex]
+                        t = 25\: years \\[3ex]
+                        r = 5.5\% = \dfrac{5.5}{100} = 0.055 \\[5ex]
+                        Compounded\:\:monthly \rightarrow m = 12 \\[3ex]
+                        PMT = ? \\[3ex]
+                        PMT = \dfrac{PV}{m} * \left[\dfrac{r}{1 - \left(1 + \dfrac{r}{m}\right)^{-mt}}\right] \\[10ex]
+                        PMT = \dfrac{PV}{m} * \left[\dfrac{r}{1 - \left(1 + \dfrac{r}{m}\right)^{-1 * m * t}}\right] \\[10ex]
+                        PMT = \dfrac{120000}{12} * \left[\dfrac{0.055}{1 - \left(1 + \dfrac{0.055}{12}\right)^{-1 * 12 * 25}}\right] \\[10ex]
+                        = 10000 * \left[\dfrac{0.055}{1 - \left(1 + 0.004583333\right)^{-300}}\right] \\[7ex]
+                        = 10000 * \left[\dfrac{0.055}{1 - \left(1.004583333\right)^{-300}}\right] \\[7ex] 
+                        = 10000 * \left[\dfrac{0.055}{1 - 0.2536351268}\right] \\[5ex] 
+                        = 10000 * \left[\dfrac{0.055}{0.7463648732}\right] \\[5ex] 
+                        = \dfrac{10000 * 0.055}{0.7463648732} \\[5ex]
+                        = \dfrac{550}{0.7463648732} \\[5ex]
+                        = 736.9049907 \\[3ex]
+                        PMT \approx \$736.90 \\[3ex]
+                        Total\:\:Payments = 736.9049907 * 12 * 25 = \$221071.4972 \\[3ex]
+                        Total\:\:Interest = Total\:\:Payments - Amount\:\:of\:\:Mortgage \\[3ex]
+                        Total\:\:Interest = 221071.4972 - 120000 = 101071.4972 \\[3ex]
+                        Total\:\:Interest \approx \$101,071.50 \\[5ex]
+                        \underline{Option\:\:B} \\[3ex]
+                        PV = \$120000 \\[3ex]
+                        t = 25\: years \\[3ex]
+                        r = 5.25\% = \dfrac{5.25}{100} = 0.0525 \\[5ex]
+                        Compounded\:\:monthly \rightarrow m = 12 \\[3ex]
+                        PMT = ? \\[3ex]
+                        PMT = \dfrac{PV}{m} * \left[\dfrac{r}{1 - \left(1 + \dfrac{r}{m}\right)^{-mt}}\right] \\[10ex]
+                        PMT = \dfrac{PV}{m} * \left[\dfrac{r}{1 - \left(1 + \dfrac{r}{m}\right)^{-1 * m * t}}\right] \\[10ex]
+                        PMT = \dfrac{120000}{12} * \left[\dfrac{0.0525}{1 - \left(1 + \dfrac{0.0525}{12}\right)^{-1 * 12 * 25}}\right] \\[10ex]
+                        = 10000 * \left[\dfrac{0.0525}{1 - \left(1 + 0.004375\right)^{-300}}\right] \\[7ex]
+                        = 10000 * \left[\dfrac{0.0525}{1 - \left(1.004375\right)^{-300}}\right] \\[7ex] 
+                        = 10000 * \left[\dfrac{0.0525}{1 - 0.2699179506}\right] \\[5ex] 
+                        = 10000 * \left[\dfrac{0.0525}{0.7300820494}\right] \\[5ex] 
+                        = \dfrac{10000 * 0.0525}{0.7300820494} \\[5ex]
+                        = \dfrac{525}{0.7300820494} \\[5ex]
+                        = 719.0972582 \\[3ex]
+                        PMT \approx \$719.10 \\[3ex]
+                        Total\:\:Payments = 719.0972582 * 12 * 25 = \$215729.1775 \\[3ex]
+                        Total\:\:Interest = Total\:\:Payments - Amount\:\:of\:\:Mortgage \\[3ex]
+                        Total\:\:Interest = 215729.1775 - 120000 = 95729.17747 \\[3ex]
+                        Total\:\:Interest \approx \$95,729.18 \\[5ex]
+                        (b.) \\[3ex]
+                        Interest\:\:Savings\:\:by\:\:choosing\:\:15-year\:\:mortgage \\[3ex]
+                        = 101071.4972 - 95729.17747 \\[3ex]
+                        = 5342.319734 \\[3ex]
+                        \approx \$5,342.32
+                        $
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (10.) The price of a new Jaguar Jeep is <span>$</span>24,000 <br>
+                    Augustine makes a down payment of 25% towards the purchase of the car. <br>
+                    He secures financing for the balance at the rate of 9% per year compounded monthly. <br>
+                    (a.) What monthly payment will he be required to make if the car is financed overa  period of 36 months? <br>
+                    (b.) Calculate the interest charges for the 36-month financing plan.
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionPVA10')">Show/Hide Answer</button>
+                    <div class="result" id="solutionPVA10">
+                        <br>
+                        This is a case of <b>Amortization</b> <br><br>
+                        $
+                        Purchase\:\:Price = \$24000 \\[3ex]
+                        25\%\:\:down\:\:payment = \dfrac{25}{100} * 24000 = 25(24) = \$6000 \\[5ex]
+                        (a.) \\[3ex]
+                        PV = \$24000 - \$6000 = \$18000 \\[3ex]
+                        t = 36\: months = 3\:years \\[3ex]
+                        r = 9\% = \dfrac{9}{100} = 0.09 \\[5ex]
+                        Compounded\:\:monthly \rightarrow m = 12 \\[3ex]
+                        PMT = ? \\[3ex]
+                        PMT = \dfrac{PV}{m} * \left[\dfrac{r}{1 - \left(1 + \dfrac{r}{m}\right)^{-mt}}\right] \\[10ex]
+                        PMT = \dfrac{PV}{m} * \left[\dfrac{r}{1 - \left(1 + \dfrac{r}{m}\right)^{-1 * m * t}}\right] \\[10ex]
+                        PMT = \dfrac{18000}{12} * \left[\dfrac{0.09}{1 - \left(1 + \dfrac{0.09}{12}\right)^{-1 * 12 * 3}}\right] \\[10ex]
+                        = 1500 * \left[\dfrac{0.09}{1 - \left(1 + 0.0075\right)^{-36}}\right] \\[7ex]
+                        = 1500 * \left[\dfrac{0.09}{1 - \left(1.0075\right)^{-36}}\right] \\[7ex] 
+                        = 1500 * \left[\dfrac{0.09}{1 - 0.7641489606}\right] \\[5ex] 
+                        = 1500 * \left[\dfrac{0.09}{0.2358510394}\right] \\[5ex] 
+                        = \dfrac{1500 * 0.09}{0.2358510394} \\[5ex]
+                        = \dfrac{135}{0.2358510394} \\[5ex]
+                        = 572.3951878 \\[3ex]
+                        PMT \approx \$572.40 \\[3ex]
+                        (b.) \\[3ex]
+                        Interest = PMT * m * t - PV \\[3ex]
+                        Interest = 572.3951878 * 12 * 3 - 18000 \\[3ex]
+                        = 20606.22676 - 18000 \\[3ex]
+                        = 2606.226762 \\[3ex]
+                        Interest \approx \$2606.23
+                        $
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-row w3-container">          
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (11.) To start an automobile sales firm, Paul borrwed a <span>$</span>10,000 loan from his bank 4 years ago. <br>
+                    His bank charged a 3% interest rate per year compounded monthly on the loan. <br>
+                    Paul wants to repay the loan at the same interest rate by amortizing it through monthly payments over 10 years. <br>
+                    Calculate his monthly payments.
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionPVA11')">Show/Hide Answer</button>
+                    <div class="result" id="solutionPVA11">
+                        <br>
+                        This is a case of <b>Compound Interest</b> and <b>Amortization</b> <br><br>
+                        $
+                        (a.) \\[3ex]
+                        Compound\:\:Interest \\[3ex]
+                        P = \$10000 \\[3ex]
+                        t = 4\: years \\[3ex]
+                        r = 3\% = \dfrac{3}{100} = 0.03 \\[5ex]
+                        Compounded\:\:monthly \rightarrow m = 12 \\[3ex]
+                        A = ? \\[3ex]
+                        A = P\left(1 + \dfrac{r}{m}\right)^{mt} \\[5ex]
+                        A = 10000 * \left(1 + \dfrac{0.03}{12}\right)^{12 * 4} \\[5ex]
+                        = 10000 * \left(1 + 0.0025\right)^{48} \\[5ex]
+                        = 10000 * \left(1.0025\right)^{48} \\[5ex]
+                        = 10000 * 1.127328021 \\[3ex]
+                        A = 1127.328021 \\[3ex]
+                        Amortization \\[3ex]
+                        PV = A = \$11273.28021 \\[3ex]
+                        t = 10\: years \\[3ex]
+                        r = 3\% = \dfrac{3}{100} = 0.03 \\[5ex]
+                        Compounded\:\:monthly \rightarrow m = 12 \\[3ex]
+                        PMT = ? \\[3ex]
+                        PMT = \dfrac{PV}{m} * \left[\dfrac{r}{1 - \left(1 + \dfrac{r}{m}\right)^{-mt}}\right] \\[10ex]
+                        PMT = \dfrac{PV}{m} * \left[\dfrac{r}{1 - \left(1 + \dfrac{r}{m}\right)^{-1 * m * t}}\right] \\[10ex]
+                        PMT = \dfrac{11273.28021}{12} * \left[\dfrac{0.03}{1 - \left(1 + \dfrac{0.03}{12}\right)^{-1 * 12 * 10}}\right] \\[10ex]
+                        = 939.4400175 * \left[\dfrac{0.03}{1 - \left(1 + 0.0025\right)^{-120}}\right] \\[7ex]
+                        = 939.4400175 * \left[\dfrac{0.03}{1 - \left(1.0025\right)^{-120}}\right] \\[7ex] 
+                        = 939.4400175 * \left[\dfrac{0.03}{1 - 0.7410956173}\right] \\[5ex] 
+                        = 939.4400175 * \left[\dfrac{0.03}{0.2589043827}\right] \\[5ex] 
+                        = \dfrac{939.4400175 * 0.03}{0.2589043827} \\[5ex]
+                        = \dfrac{28.18320053}{0.2589043827} \\[5ex]
+                        = 108.8556332 \\[3ex]
+                        PMT \approx \$108.86
+                        $
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (12.) Upright Capital, an investment firm purchased some acres of land for 5 million. <br>
+                    The firm made an initial down payment of 10% and obtained financing for the balance. <br>
+                    If the loan is to be amortized over 14 years at an interest rate of 5.1% per year compounded quarterly, find the required quarterly payment.
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionPVA12')">Show/Hide Answer</button>
+                    <div class="result" id="solutionPVA12">
+                        <br>
+                        This is a case of <b>Amortization</b> <br><br>
+                        $
+                        Purchase\:\:Price = \$5,000,000 \\[3ex]
+                        10\%\:\:down\:\:payment = \dfrac{10}{100} * 5000000 = 25(24) = \$500000 \\[5ex]
+                        PV = \$5000000 - \$500000 = \$4500000 \\[3ex]
+                        t = 14\:years \\[3ex]
+                        r = 5.1\% = \dfrac{5.1}{100} = 0.051 \\[5ex]
+                        Compounded\:\:monthly \rightarrow m = 4 \\[3ex]
+                        PMT = ? \\[3ex]
+                        PMT = \dfrac{PV}{m} * \left[\dfrac{r}{1 - \left(1 + \dfrac{r}{m}\right)^{-mt}}\right] \\[10ex]
+                        PMT = \dfrac{PV}{m} * \left[\dfrac{r}{1 - \left(1 + \dfrac{r}{m}\right)^{-1 * m * t}}\right] \\[10ex]
+                        PMT = \dfrac{4500000}{4} * \left[\dfrac{0.051}{1 - \left(1 + \dfrac{0.051}{4}\right)^{-1 * 4 * 14}}\right] \\[10ex]
+                        = 1125000 * \left[\dfrac{0.051}{1 - \left(1 + 0.012575\right)^{-56}}\right] \\[7ex]
+                        = 1125000 * \left[\dfrac{0.051}{1 - \left(1.01275\right)^{-56}}\right] \\[7ex] 
+                        = 1125000 * \left[\dfrac{0.051}{1 - 0.4918966854}\right] \\[5ex] 
+                        = 1125000 * \left[\dfrac{0.051}{0.5081033146}\right] \\[5ex] 
+                        = \dfrac{1125000 * 0.051}{0.5081033146} \\[5ex]
+                        = \dfrac{57375}{0.5081033146} \\[5ex]
+                        = 112919.9483 \\[3ex]
+                        PMT \approx \$112,919.95 
+                        $
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (13.) Calculate the present value of a <span>$</span>300 per month ordinary annuity at 4% per year compounded monthly for 12 years.
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionPVA13')">Show/Hide Answer</button>
+                    <div class="result" id="solutionPVA13">
+                        <br>
+                        This is a case of the <b>Present Value of Ordinary Annuity</b> <br><br>
+                        $
+                        \underline{Present\:\:Value\:\:of\:\:Ordinary\:\:Annuity} \\[3ex]
+                        PMT = \$300 \\[3ex]
+                        r = 4\% = \dfrac{4}{100} = 0.04 \\[5ex]
+                        Compounded\:\:monthly \rightarrow m = 12 \\[3ex]
+                        t = 12\:years \\[3ex]
+                        PV = ? \\[3ex]
+                        PV = m * PMT * \left[\dfrac{1 - \left(1 + \dfrac{r}{m}\right)^{-mt}}{r}\right] \\[10ex]
+                        PV = m * PMT * \left[\dfrac{1 - \left(1 + \dfrac{r}{m}\right)^{-1 * m * t}}{r}\right] \\[10ex]
+                        PV = 12 * 300 * \left[\dfrac{1 - \left(1 + \dfrac{0.04}{12}\right)^{-1 * 12 * 12}}{0.04}\right] \\[10ex]
+                        = 3600 * \left[\dfrac{1 - \left(1 + 0.00333333333\right)^{-144}}{0.04}\right] \\[7ex]
+                        = 3600 * \left[\dfrac{1 - \left(1.00333333333\right)^{-144}}{0.04}\right] \\[7ex]
+                        = 3600 * \left[\dfrac{1 - 0.619277519}{0.04}\right] \\[5ex]
+                        = 3600 * \left[\dfrac{0.380722481}{0.04}\right] \\[5ex]
+                        = \dfrac{3600 * 0.380722481}{0.04} \\[5ex]
+                        = \dfrac{1370.60093}{0.04} \\[5ex]
+                        PV = 34265.0233 \\[3ex]
+                        PV \approx \$34,265.02
+                        $
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (14.) Felicity's parents set up a <span>$</span>27,000 trust fund for her. <br>
+                    She is to receive the money over a 6-year period in equal installments at the end of each year. <br>
+                    If the trust fund earns interest at the rate of 4% per year compounded annually, calculate the amount she will 
+                    receive at the end of each year. 
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionPVA14')">Show/Hide Answer</button>
+                    <div class="result" id="solutionPVA14">
+                        <br>
+                        This is a case of <b>Amortization</b> <br><br>
+                        $
+                        PV = \$27000 \\[3ex]
+                        t = 6\:years \\[3ex]
+                        r = 4\% = \dfrac{4}{100} = 0.04 \\[5ex]
+                        Compounded\:\:annually \rightarrow m = 1 \\[3ex]
+                        PMT = ? \\[3ex]
+                        PMT = \dfrac{PV}{m} * \left[\dfrac{r}{1 - \left(1 + \dfrac{r}{m}\right)^{-mt}}\right] \\[10ex]
+                        PMT = \dfrac{PV}{m} * \left[\dfrac{r}{1 - \left(1 + \dfrac{r}{m}\right)^{-1 * m * t}}\right] \\[10ex]
+                        PMT = \dfrac{27000}{1} * \left[\dfrac{0.04}{1 - \left(1 + \dfrac{0.04}{1}\right)^{-1 * 1 * 6}}\right] \\[10ex]
+                        = 27000 * \left[\dfrac{0.04}{1 - \left(1 + 0.04\right)^{-6}}\right] \\[7ex]
+                        = 27000 * \left[\dfrac{0.04}{1 - \left(1.04\right)^{-6}}\right] \\[7ex] 
+                        = 27000 * \left[\dfrac{0.04}{1 - 0.7903145257}\right] \\[5ex] 
+                        = 27000 * \left[\dfrac{0.04}{0.2096854743}\right] \\[5ex] 
+                        = \dfrac{27000 * 0.04}{0.2096854743} \\[5ex]
+                        = \dfrac{1080}{0.2096854743} \\[5ex]
+                        = 5150.571367 \\[3ex]
+                        PMT \approx \$5,150.57
+                        $
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (15.) The Phoenician Hotels has agreed to pay Sarah $40$ installments of <span>$</span>25,000 per year in her lawsuit against them. <br>
+                    They intend to pay her <span>$</span>25,000 immediatley and will make the other payments at the end of each of each year for 
+                    the remaining years. <br>
+                    How much should they have in the bank to guarantee the payments, assuming that the balance on deposit with the 
+                    bank earns interest at the rate of 4% per year compounded yearly?
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionPVA15')">Show/Hide Answer</button>
+                    <div class="result" id="solutionPVA15">
+                        <br>
+                        $40$ installmental payments <br>
+                        Immediate payment of $\$25000$ <br>
+                        Remaining payments = $40 - 1 = 39$ payments = $39$  years <br>
+                        This is a case of the <b>Present Value of Ordinary Annuity</b> <br><br>
+                        $
+                        \underline{Present\:\:Value\:\:of\:\:Ordinary\:\:Annuity} \\[3ex]
+                        PMT = \$25000 \\[3ex]
+                        r = 4\% = \dfrac{4}{100} = 0.04 \\[5ex]
+                        Compounded\:\:yearly \rightarrow m = 1 \\[3ex]
+                        t = 39\:years \\[3ex]
+                        PV = ? \\[3ex]
+                        PV = m * PMT * \left[\dfrac{1 - \left(1 + \dfrac{r}{m}\right)^{-mt}}{r}\right] \\[10ex]
+                        PV = m * PMT * \left[\dfrac{1 - \left(1 + \dfrac{r}{m}\right)^{-1 * m * t}}{r}\right] \\[10ex]
+                        PV = 1 * 25000 * \left[\dfrac{1 - \left(1 + \dfrac{0.04}{1}\right)^{-1 * 1 * 39}}{0.04}\right] \\[10ex]
+                        = 25000 * \left[\dfrac{1 - \left(1 + 0.04\right)^{-39}}{0.04}\right] \\[7ex]
+                        = 25000 * \left[\dfrac{1 - \left(1.04\right)^{-39}}{0.04}\right] \\[7ex]
+                        = 25000 * \left[\dfrac{1 - 0.2166206064}{0.04}\right] \\[5ex]
+                        = 25000 * \left[\dfrac{0.7833793936}{0.04}\right] \\[5ex]
+                        = \dfrac{25000 * 0.7833793936}{0.04} \\[5ex]
+                        = \dfrac{19584.48484}{0.04} \\[5ex]
+                        PV = 489612.121 \\[3ex]
+                        PV \approx \$489,612.12 \\[3ex]
+                        $
+                        To guarantee payments, The Phoenician Hotels should have: <br><br>
+                        $
+                        25000 + 489612.121 \\[3ex]
+                        = 514612.121 \\[3ex] 
+                        \approx \$514,612.12
+                        $
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (16.) The Marys' Family wants to buy a house. <br>
+                    They have a sum of <span>$</span>40,000 that they intend to use as a down payment. <br>
+                    To take advantage of tax deductions, they have decided to invest a minimum of <span>$</span>2800 and a maximum of <span>$</span>3400 per 
+                    month toward the purchase of their house. <br>
+                    Assume the local mortgage rates are 4.5% per year compounded monthly for a conventional 30-year mortgage, what is 
+                    the price range of the houses that should be in their budget?  
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionPVA16')">Show/Hide Answer</button>
+                    <div class="result" id="solutionPVA16">
+                        <br>
+                        This is a case of the <b>Present Value of Ordinary Annuity</b> <br><br>
+                        $
+                        \underline{Present\:\:Value\:\:of\:\:Ordinary\:\:Annuity} \\[3ex]
+                        PMT = \$2800 \\[3ex]
+                        r = 4.5\% = \dfrac{4.5}{100} = 0.045 \\[5ex]
+                        Compounded\:\:monthly \rightarrow m = 12 \\[3ex]
+                        t = 30\:years \\[3ex]
+                        PV = ? \\[3ex]
+                        PV = m * PMT * \left[\dfrac{1 - \left(1 + \dfrac{r}{m}\right)^{-mt}}{r}\right] \\[10ex]
+                        PV = m * PMT * \left[\dfrac{1 - \left(1 + \dfrac{r}{m}\right)^{-1 * m * t}}{r}\right] \\[10ex]
+                        PV = 12 * 2800 * \left[\dfrac{1 - \left(1 + \dfrac{0.045}{12}\right)^{-1 * 12 * 30}}{0.045}\right] \\[10ex]
+                        = 33600 * \left[\dfrac{1 - \left(1 + 0.00375\right)^{-360}}{0.045}\right] \\[7ex]
+                        = 33600 * \left[\dfrac{1 - \left(1.00375\right)^{-360}}{0.045}\right] \\[7ex]
+                        = 33600 * \left[\dfrac{1 - 0.2598956537}{0.045}\right] \\[5ex]
+                        = 33600 * \left[\dfrac{0.7401043463}{0.045}\right] \\[5ex]
+                        = \dfrac{33600 * 0.7401043463}{0.045} \\[5ex]
+                        = \dfrac{24867.50604}{0.045} \\[5ex]
+                        PV = 552611.2452 \\[3ex]
+                        $
+                        In addition to the $\$40,000$ down payment, the least expensive house in their budget is: <br><br>
+                        $
+                        40000 + 552611.2452 \\[3ex]
+                        = 592611.2452 \\[3ex]
+                        \approx \$592,611.25 \\[3ex]
+                        $
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (17.) Agnes took a 30-year adjustable-rate mortgage (ARM) of <span>$</span>250,000 with a 5% interest per year compounded monthly five years ago. <br>
+                    Presently, her interest rate is 5.5% per year compounded monthly. <br>
+                    What will be her new monthly payment?
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionPVA17')">Show/Hide Answer</button>
+                    <div class="result" id="solutionPVA17">
+                        <br>
+                        This is a case of <b>Amortization</b>; the <b>Present Value of Ordinary Annuity</b>; and another <b>Amortization</b> <br><br>
+                        $
+                        \underline{Amortization} \\[3ex]
+                        PV = \$250000 \\[3ex]
+                        t = 30\:years \\[3ex]
+                        r = 5\% = \dfrac{5}{100} = 0.05 \\[5ex]
+                        Compounded\:\:monthly \rightarrow m = 12 \\[3ex]
+                        PMT = ? \\[3ex]
+                        PMT = \dfrac{PV}{m} * \left[\dfrac{r}{1 - \left(1 + \dfrac{r}{m}\right)^{-mt}}\right] \\[10ex]
+                        PMT = \dfrac{PV}{m} * \left[\dfrac{r}{1 - \left(1 + \dfrac{r}{m}\right)^{-1 * m * t}}\right] \\[10ex]
+                        PMT = \dfrac{250000}{12} * \left[\dfrac{0.05}{1 - \left(1 + \dfrac{0.05}{12}\right)^{-1 * 12 * 30}}\right] \\[10ex]
+                        = 20833.33333 * \left[\dfrac{0.05}{1 - \left(1 + 0.004166666667\right)^{-360}}\right] \\[7ex]
+                        = 20833.33333 * \left[\dfrac{0.05}{1 - \left(1.004166667\right)^{-360}}\right] \\[7ex] 
+                        = 20833.33333 * \left[\dfrac{0.05}{1 - 0.2238265956}\right] \\[5ex] 
+                        = 20833.33333 * \left[\dfrac{0.05}{0.7761734044}\right] \\[5ex] 
+                        = \dfrac{20833.33333 * 0.05}{0.7761734044} \\[5ex]
+                        = \dfrac{1041.666667}{0.7761734044} \\[5ex]
+                        = 1342.054057 \\[3ex]
+                        PMT \approx \$1,342.05 \\[3ex]
+                        $
+                        This was $5$ years ago. <br>
+                        She made this monthly payments for $5$ years. <br>
+                        She still has $25$ years remaining. <br>
+                        To find the amount still owed in the house: <br><br>
+                        $
+                        \underline{Present\:\:Value\:\:of\:\:Ordinary\:\:Annuity} \\[3ex]
+                        PMT = \$1342.054057 \\[3ex]
+                        r = 5\% = \dfrac{5}{100} = 0.05 \\[5ex]
+                        Compounded\:\:monthly \rightarrow m = 12 \\[3ex]
+                        t = 30 - 5 = 25\:years \\[3ex]
+                        PV = ? \\[3ex]
+                        PV = m * PMT * \left[\dfrac{1 - \left(1 + \dfrac{r}{m}\right)^{-mt}}{r}\right] \\[10ex]
+                        PV = m * PMT * \left[\dfrac{1 - \left(1 + \dfrac{r}{m}\right)^{-1 * m * t}}{r}\right] \\[10ex]
+                        PV = 12 * 1342.054057 * \left[\dfrac{1 - \left(1 + \dfrac{0.05}{12}\right)^{-1 * 12 * 25}}{0.05}\right] \\[10ex]
+                        = 16104.64869 * \left[\dfrac{1 - \left(1 + 0.004166666667\right)^{-300}}{0.05}\right] \\[7ex]
+                        = 16104.64869 * \left[\dfrac{1 - \left(1.004166667\right)^{-300}}{0.05}\right] \\[7ex]
+                        = 16104.64869 * \left[\dfrac{1 - 0.287249804}{0.05}\right] \\[5ex]
+                        = 16104.64869 * \left[\dfrac{0.712750196}{0.05}\right] \\[5ex]
+                        = \dfrac{16104.64869 * 0.712750196}{0.05} \\[5ex]
+                        = \dfrac{11478.59151}{0.05} \\[5ex]
+                        PV = 229571.8302 \\[3ex]
+                        PV \approx \$229,571.83 \\[3ex]
+                        $
+                        Because her mortgage is an ARM, it has a variable interest rate. <br>
+                        Her new interest rate is $5.5\%$ <br>
+                        To find her new monthly payment: <br><br>
+                        $
+                        \underline{Amortization} \\[3ex]
+                        PV = \$229571.8302 \\[3ex]
+                        t = 25\:years \\[3ex]
+                        r = 5.5\% = \dfrac{5.5}{100} = 0.055 \\[5ex]
+                        Compounded\:\:monthly \rightarrow m = 12 \\[3ex]
+                        PMT = ? \\[3ex]
+                        PMT = \dfrac{PV}{m} * \left[\dfrac{r}{1 - \left(1 + \dfrac{r}{m}\right)^{-mt}}\right] \\[10ex]
+                        PMT = \dfrac{PV}{m} * \left[\dfrac{r}{1 - \left(1 + \dfrac{r}{m}\right)^{-1 * m * t}}\right] \\[10ex]
+                        PMT = \dfrac{229571.8302}{12} * \left[\dfrac{0.055}{1 - \left(1 + \dfrac{0.055}{12}\right)^{-1 * 12 * 25}}\right] \\[10ex]
+                        = 19130.98585 * \left[\dfrac{0.055}{1 - \left(1 + 0.004583333333\right)^{-300}}\right] \\[7ex]
+                        = 19130.98585 * \left[\dfrac{0.055}{1 - \left(1.004583333\right)^{-300}}\right] \\[7ex] 
+                        = 19130.98585 * \left[\dfrac{0.055}{1 - 0.2536351268}\right] \\[5ex] 
+                        = 19130.98585 * \left[\dfrac{0.055}{0.7463648732}\right] \\[5ex] 
+                        = \dfrac{19130.98585 * 0.055}{0.7463648732} \\[5ex]
+                        = \dfrac{1052.204222}{0.7463648732} \\[5ex]
+                        = 1409.771895 \\[3ex]
+                        PMT \approx \$1,409.77 \\[3ex]
+                        $
+                        The new monthly payments are $\$1,409.77$
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (18.) Sixtus took a 15-year mortgage loan of <span>$</span>185,000 with a 3% per year interest rate compounded monthly on the unpaid balance. <br>
+                    He intends to sell the his house in ten years. <br>
+                    How much will he still owe on his house?
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionPVA18')">Show/Hide Answer</button>
+                    <div class="result" id="solutionPVA18">
+                        <br>
+                        This is a case of <b>Amortization</b> and the <b>Present Value of Ordinary Annuity</b> <br><br>
+                        $
+                        \underline{Amortization} \\[3ex]
+                        PV = \$185000 \\[3ex]
+                        t = 15\:years \\[3ex]
+                        r = 3\% = \dfrac{3}{100} = 0.03 \\[5ex]
+                        Compounded\:\:monthly \rightarrow m = 12 \\[3ex]
+                        PMT = ? \\[3ex]
+                        PMT = \dfrac{PV}{m} * \left[\dfrac{r}{1 - \left(1 + \dfrac{r}{m}\right)^{-mt}}\right] \\[10ex]
+                        PMT = \dfrac{PV}{m} * \left[\dfrac{r}{1 - \left(1 + \dfrac{r}{m}\right)^{-1 * m * t}}\right] \\[10ex]
+                        PMT = \dfrac{185000}{12} * \left[\dfrac{0.03}{1 - \left(1 + \dfrac{0.03}{12}\right)^{-1 * 12 * 15}}\right] \\[10ex]
+                        = 15416.66667 * \left[\dfrac{0.03}{1 - \left(1 + 0.0025\right)^{-180}}\right] \\[7ex]
+                        = 15416.66667 * \left[\dfrac{0.03}{1 - \left(1.0025\right)^{-180}}\right] \\[7ex] 
+                        = 15416.66667 * \left[\dfrac{0.03}{1 - 0.6379863214}\right] \\[5ex] 
+                        = 15416.66667 * \left[\dfrac{0.03}{0.3620136786}\right] \\[5ex] 
+                        = \dfrac{15416.66667 * 0.03}{0.3620136786} \\[5ex]
+                        = \dfrac{462.5000001}{0.3620136786} \\[5ex]
+                        = 1277.576035 \\[3ex]
+                        PMT \approx \$1,277.58 \\[3ex]
+                        $
+                        He plans to sell the house in $10$ years. <br>
+                        However, he has made his monthly payments for those payments. <br>
+                        So, he has $5$ years remaining. <br>
+                        To find the amount still owed in the house: <br><br>
+                        $
+                        \underline{Present\:\:Value\:\:of\:\:Ordinary\:\:Annuity} \\[3ex]
+                        PMT = \$1277.576035 \\[3ex]
+                        r = 3\% = \dfrac{3}{100} = 0.03 \\[5ex]
+                        Compounded\:\:monthly \rightarrow m = 12 \\[3ex]
+                        t = 15 - 10 = 5\:years \\[3ex]
+                        PV = ? \\[3ex]
+                        PV = m * PMT * \left[\dfrac{1 - \left(1 + \dfrac{r}{m}\right)^{-mt}}{r}\right] \\[10ex]
+                        PV = m * PMT * \left[\dfrac{1 - \left(1 + \dfrac{r}{m}\right)^{-1 * m * t}}{r}\right] \\[10ex]
+                        PV = 12 * 1277.576035 * \left[\dfrac{1 - \left(1 + \dfrac{0.03}{12}\right)^{-1 * 12 * 5}}{0.03}\right] \\[10ex]
+                        = 15330.91242 * \left[\dfrac{1 - \left(1 + 0.0025\right)^{-60}}{0.03}\right] \\[7ex]
+                        = 15330.91242 * \left[\dfrac{1 - \left(1.0025\right)^{-60}}{0.03}\right] \\[7ex]
+                        = 15330.91242 * \left[\dfrac{1 - 0.8608691058}{0.03}\right] \\[5ex]
+                        = 15330.91242 * \left[\dfrac{0.1391308942}{0.03}\right] \\[5ex]
+                        = \dfrac{15330.91242 * 0.1391308942}{0.03} \\[5ex]
+                        = \dfrac{2133.003554}{0.03} \\[5ex]
+                        PV = 71100.11847 \\[3ex]
+                        PV \approx \$71,100.12 \\[3ex]
+                        $
+                        He will still owe $\$71,100.12$ on his house.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (19.) Hannah purchased a <span>$</span>300,000 home. <br>
+                    She made an initial down payment of <span>$</span>40,000 and secured a mortgage with interest charged at the rate of 8% per year on the unpaid balance. <br>
+                    Interest computations are made at the end of each month. <br>
+                    If the loan is to be amortized over 30 years: <br>
+                    (a.) What monthly payment will Hannah be required to pay? <br>
+                    (b.) What is her equity (disregarding appreciation) after 5 years? 
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionPVA19')">Show/Hide Answer</button>
+                    <div class="result" id="solutionPVA19">
+                        <br>
+                        This is a case of <b>Amortization</b> and the <b>Present Value of Ordinary Annuity</b> <br><br>
+                        $
+                        (a.) \\[3ex]
+                        \underline{Amortization} \\[3ex]
+                        Purchase\:\:price = \$300000 \\[3ex]
+                        Down\:\:payment = \$40000 \\[3ex]
+                        PV = 300000 - 40000 = \$260000 \\[3ex]
+                        t = 30\:years \\[3ex]
+                        r = 8\% = \dfrac{8}{100} = 0.08 \\[5ex]
+                        Compounded\:\:monthly \rightarrow m = 12 \\[3ex]
+                        PMT = ? \\[3ex]
+                        PMT = \dfrac{PV}{m} * \left[\dfrac{r}{1 - \left(1 + \dfrac{r}{m}\right)^{-mt}}\right] \\[10ex]
+                        PMT = \dfrac{PV}{m} * \left[\dfrac{r}{1 - \left(1 + \dfrac{r}{m}\right)^{-1 * m * t}}\right] \\[10ex]
+                        PMT = \dfrac{260000}{12} * \left[\dfrac{0.08}{1 - \left(1 + \dfrac{0.08}{12}\right)^{-1 * 12 * 30}}\right] \\[10ex]
+                        = 21666.66667 * \left[\dfrac{0.08}{1 - \left(1 + 0.006666666667\right)^{-360}}\right] \\[7ex]
+                        = 21666.66667 * \left[\dfrac{0.08}{1 - \left(1.006666667\right)^{-360}}\right] \\[7ex] 
+                        = 21666.66667 * \left[\dfrac{0.08}{1 - 0.09144336154}\right] \\[5ex] 
+                        = 21666.66667 * \left[\dfrac{0.08}{0.9085566385}\right] \\[5ex] 
+                        = \dfrac{21666.66667 * 0.08}{0.9085566385} \\[5ex]
+                        = \dfrac{1733.333334}{0.9085566385} \\[5ex]
+                        = 1907.787869 \\[3ex]
+                        PMT \approx \$1,907.79 \\[3ex]
+                        $
+                        To find the equity after $5$ years; we need to calculate the present value of her remaining payments. <br><br>
+                        $
+                        (b.) \\[3ex]
+                        \underline{Present\:\:Value\:\:of\:\:Ordinary\:\:Annuity} \\[3ex]
+                        PMT = \$1907.787869 \\[3ex]
+                        r = 8\% = \dfrac{8}{100} = 0.08 \\[5ex]
+                        Compounded\:\:monthly \rightarrow m = 12 \\[3ex]
+                        t = 30 - 5 = 25\:years \\[3ex]
+                        PV = ? \\[3ex]
+                        PV = m * PMT * \left[\dfrac{1 - \left(1 + \dfrac{r}{m}\right)^{-mt}}{r}\right] \\[10ex]
+                        PV = m * PMT * \left[\dfrac{1 - \left(1 + \dfrac{r}{m}\right)^{-1 * m * t}}{r}\right] \\[10ex]
+                        PV = 12 * 1907.787869 * \left[\dfrac{1 - \left(1 + \dfrac{0.08}{12}\right)^{-1 * 12 * 25}}{0.08}\right] \\[10ex]
+                        = 22893.45443 * \left[\dfrac{1 - \left(1 + 0.006666666667\right)^{-300}}{0.08}\right] \\[7ex]
+                        = 22893.45443 * \left[\dfrac{1 - \left(1.006666667\right)^{-300}}{0.08}\right] \\[7ex]
+                        = 22893.45443 * \left[\dfrac{1 - 0.1362365024}{0.08}\right] \\[5ex]
+                        = 22893.45443 * \left[\dfrac{0.8637634976}{0.08}\right] \\[5ex]
+                        = \dfrac{22893.45443 * 0.8637634976}{0.08} \\[5ex]
+                        = \dfrac{19774.53027}{0.08} \\[5ex]
+                        PV = 247181.6284 \\[3ex]
+                        Equity = Purchase\:\:price + PV \\[3ex]
+                        Equity = 300000 + 247181.6284 \\[3ex]
+                        Equity = 547181.6284 \\[3ex]
+                        Equity \approx \$547,181.63
+                        $
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (20.) 
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionPVA20')">Show/Hide Answer</button>
+                    <div class="result" id="solutionPVA20">
+                        <br>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br><br><br><br>
+        <!-- Top of the Page -->
+        <div class="w3-container" style="position:relative">
+            <a href="https://finance-calculators.appspot.com/presentValueOrdinaryAnnuityApplications.html" class="w3-button w3-xlarge w3-circle w3-bisque"
+               style="position:absolute;top:-70px;right:24px">Top</a>
+        </div>
+        <br><br><br><br>
+
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (21.) 
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionPVA21')">Show/Hide Answer</button>
+                    <div class="result" id="solutionPVA21">
+                        <br>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (22.) 
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionPVA22')">Show/Hide Answer</button>
+                    <div class="result" id="solutionPVA22">
+                        <br>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (23.) 
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionPVA23')">Show/Hide Answer</button>
+                    <div class="result" id="solutionPVA23">
+                        <br>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (24.) 
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionPVA24')">Show/Hide Answer</button>
+                    <div class="result" id="solutionPVA24">
+                        <br>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (25.) 
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionPVA25')">Show/Hide Answer</button>
+                    <div class="result" id="solutionPVA25">
+                        <br>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (26.) 
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionPVA26')">Show/Hide Answer</button>
+                    <div class="result" id="solutionPVA26">
+                        <br>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-row w3-container">
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (27.) 
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionPVA27')">Show/Hide Answer</button>
+                    <div class="result" id="solutionPVA27">
+                        <br>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-padding">
+                    (28.) 
+                    <br><br>
+                    <button class="solutions" onclick="solutions('solutionPVA28')">Show/Hide Answer</button>
+                    <div class="result" id="solutionPVA28">
+                        <br>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+        <!-- END PAGE CONTENT -->
+        
+                                
+        <!-- Footer -->
+        <footer class="bisque w3-center w3-padding-24">
+            <a href="https://www.youtube.com/user/samuelchukwuemeka" title="Subscribe to my YouTube channel" target="_blank"><img src="images/youtube.png" alt="Subscribe to my YouTube channel"></a>
+            <a href="https://twitter.com/samdom4peace" title="Follow me on twitter" target="_blank"><img src="images/twitter.png" alt="Follow me on twitter"></a>
+            <a href="http://samueldominicchukwuemeka.blogspot.com/?view=flipcard" title="Subscribe and follow my blog" target="_blank"><img src="images/blogger.jpg" alt="Subscribe and follow my blog"></a>
+            <div id="google_translate_element"></div>
+            <script>
+                    function googleTranslateElementInit() {
+                    new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, gaTrack: true, gaId: 'UA-102287542-1'}, 'google_translate_element');
+                    }
+            </script>
+            <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+            <p>&copy; 2018&nbsp;<a href="https://www.samuelchukwuemeka.com/" target="_blank">SamDom4Peace</a>&nbsp;Designs.</p>
+        </footer>
+        <!-- End Footer -->
+
+        <script src="scripts/messages6.js"></script>
+        <script type="text/x-mathjax-config">
+            MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+        </script>
+        <script async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML">
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/4.0.0/math.min.js"></script>
+    </body>
+</html>

@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-102287542-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
+
+            gtag('config', 'UA-102287542-1');
+        </script>
+
+        <script data-ad-client="ca-pub-9463984700780669" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+        <meta charset="utf-8">
+        <meta name="google-site-verification" content="dWWImG59lcpKRGrhVSEW_j8U2jW1vMTG1_J2dUBrF4s">
+        <meta name="msvalidate.01" content="85DBCF5F806AB8C9BD2FC30728535125">
+        <meta name="google-site-verification" content="dq1XmHfXW0b3WlsawOYEk5yvgZDJ7CesBFu9QrSmHrs">
+        
+        <title>Annual Percentage Yield (APY) Calculators</title>
+        
+        <meta name="description" content="Samuel Dominic Chukwuemeka gives all the credit to our LORD and GOD, JESUS CHRIST. We are experts in annual percentage yield (APY) calculations.">
+        
+        <meta name="keywords" content="samuel, chukwuemeka, math, mathematics, mathematics of finance, financial mathematics, 
+                financial math, simple interest, compound interest, continuous compound interest, annual percentage yield, 
+                apy, annuity, ordinary annuity, annuity due, amortization, present value, future value, sinking fund, rule of 78, 
+                loan amortization, mortgage payments, stocks, bonds, investment decision rules, debt financing, time value of money,
+                project evaluation, refund fraction, coupon bonds, bond coupons, bond coupon amount, bond coupon number, bond price, 
+                face value, par value, bond coupon rate, yield to maturity, market value">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="styles/financialCalculators.css" rel="stylesheet" type="text/css" media="all">
+        <link rel="shortcut icon" type="image/x-icon" href="https://finance-calculators.appspot.com/images/favicon.ico">
+    </head>
+
+    <body>
+        
+        <div class="w3-padding-30 white" id="quotes"> 
+            <div class="w3-center">
+                <button class="solutions" onclick="solutions('solutionQuotes')">Quotes of the Day</button>
+            </div>
+            <div class="w3-content quote" id="solutionQuotes">
+                <p>
+                    <q>
+                        If there is one prayer that you should <b>pray/sing</b> every day and every hour, it is the 
+                        <a href="https://www.samdomforpeace.com/Theology/prayer.html" target="_blank">LORD's prayer (Our FATHER in Heaven prayer)</a> <br>
+                        It is the <b>most powerful prayer</b>.
+                        A <b>pure heart</b>, a <b>clean mind</b>, and a <b>clear conscience</b> is necessary for it.
+                    </q> - Samuel Dominic Chukwuemeka 
+                </p>
+                <p id="messages4"><q>For in GOD we live, and move, and have our being.</q> - Acts 17:28</p>
+                <p><q>The <b>Joy</b> of a <b>Teacher</b> is the <b>Success</b> of his <b>Students</b>.</q> - Samuel Dominic Chukwuemeka</p>
+            </div>
+        </div>
+                
+        <!-- Navigation Bar -->
+        <nav class="clearNav">
+            <ul>
+                <li><a href="https://finance-calculators.appspot.com" title="Simple Interest Calculations">Simple Interest</a></li>
+                <li><a href="https://finance-calculators.appspot.com/compoundInterest.html" title="Compound Interest Calculations">Compound Interest</a></li>
+                <li><a href="https://finance-calculators.appspot.com/continuousCompoundInterest.html" title="Continuous Compound Interest Calculations">Continuous Compound Interest</a></li>
+                <li class="selected"><a href="https://finance-calculators.appspot.com/apy.html" title="APY Calculations">Annual Percentage Yield (APY)</a></li>
+                <li><a href="https://finance-calculators.appspot.com/ordinaryAnnuity.html" title="Ordinary Annuity Calculations">Ordinary Annuity/Sinking Fund/Amortization</a></li>
+                <li><a href="https://finance-calculators.appspot.com/rule78.html" title="Rule of 78 Calculations">Rule of 78</a></li>
+                <li><a href="https://finance-calculators.appspot.com/annuityDue.html" title="Annuity Due Calculations">Annuity Due</a></li>
+                <li><a href="https://finance-calculators.appspot.com/bond.html" title="Bond Calculations">Bond</a></li>
+                <li><a href="https://finance-calculators.appspot.com/investmentDecision.html" title="Investment Decision Rules Calculations">Investment Decison Rules</a></li>
+                <li><a href="https://www.samdomforpeace.com/EngineeringEconomics/timeValueMoney.html" title="Time Value of Money Calculations">Time Value of Money (TVM)</a></li>
+                <li><a href="https://www.samdomforpeace.com/EngineeringEconomics/projectEvaluation.html" title="Project Evaluation Calculations">Project Evaluation</a></li>
+                <li><a href="https://finance-calculators.appspot.com/TI-calculators-finance.html" title="Project Evaluation Calculations">Texas Instruments (TI) Calculator for Finance</a></li>
+                <li><a href="https://www.youtube.com/playlist?list=PLjyyswMG9g9D4-hvqIt8PW76u0E9adRsR&disable_polymer=true" title="mathematics of finance">Videos</a></li>
+                <li><a href="https://finance-calculators.appspot.com/financialMathematics.html" title="mathematics of finance">Notes</a></li>
+                <li><a href="https://finance-calculators.appspot.com/apyApplications.html" title="annual percentage yield">Solved Examples</a></li>
+                <li><a href="https://chukwuemekasamuel.weebly.com/" title="Other Calculators">Contact</a></li>
+                <li><a href="https://www.chukwuemekasamuel.com/portfolios.html" title="Portfolio">Portfolio</a></li>
+            </ul>
+        </nav>
+
+
+        <!-- !PAGE CONTENT! -->
+        <div class="main">
+
+            <!-- Header -->
+            <div class="header">              
+                <h1>Annual Percentage Yield (APY) Calculators</h1>
+                <p>
+                    <a href="https://www.samuelchukwuemeka.com/" target="_blank">
+                        <img src="images/samdom4peace.jpg" alt="Samdom For Peace" title="Samuel Chukwuemeka aka Samdom For Peace" class="image">
+                    </a>
+                
+                    <span id="greetings"></span> <br>
+                    I greet you this day,
+                    <script>document.write(Date() + ".");</script> <br>
+                
+                    <u>First:</u> read the notes. <br>
+                    <u>Second:</u> view the videos. <br>
+                    <u>Third:</u> solve the questions/solved examples. <br>
+                    <u>Fourth:</u> check your solutions with my <b>thoroughly-explained</b> solutions. <br>
+                    <u>Fifth:</u> check your answers with the calculators. <br>
+                
+                    I wrote the codes for these calculators using JavaScript, a client-side scripting language. <br>
+                    Please use the latest Internet browsers. The calculators should work. <br>
+                    <mark>Please do not put comma in any of the values.</mark> <br>
+                    <b>You may need to refresh your browser after each calculation to clear all results.</b>
+                
+                    Comments, ideas, areas of improvement, questions, and constructive criticisms are welcome. You may contact me. <br>
+                    If you are my student, please do not contact me here. Contact me via the school's system. Thank you for visiting.
+                </p>
+                <p><strong>Samuel Dominic Chukwuemeka</strong> (Samdom For Peace) <span style="font-size: medium">B.Eng., A.A.T, M.Ed., M.S</span></p>
+            </div>
+
+            <br><br>
+
+            <!-- Calculations -->
+            <!-- RM-APY means Rate, Number of Compounding Periods Per Year, Time, and Annual Percentage Yield -->
+
+            <div class="mfc-row-padding">
+
+                <!-- 1st: Given RM; Calculate APY -->
+                <div class="mfc-third">
+                    <div class="container">
+                        <h3><u>Given:</u> Rate, Number of Compounding Periods Per Year</h3>
+                        <h3><u>To Find:</u> Annual Percentage Yield</h3>
+                        <form id="annualPercentageYield">
+                            <p><label for="rate">Rate is </label><input type="text" name="rate" id="rate" autocomplete="off" required> in 
+                                <select id="rateUnit" required>
+                                    <option disabled selected value> Please choose an option </option>
+                                    <option value="percent">Percent</option>
+                                    <option value="decimal">Decimal</option>
+                                </select>
+                            </p>
+                            <p><label for="compoundingPeriodUnit">Compounded </label> 
+                                <select id="compoundingPeriodUnit" required>
+                                    <option disabled selected value> Please choose an option </option>
+                                    <option value="annually">Annually</option>
+                                    <option value="semiannually">Semiannually</option>
+                                    <option value="quarterly">Quarterly</option>
+                                    <option value="monthly">Monthly</option>
+                                    <option value="weekly">Weekly</option>
+                                    <option value="daily-ordinary">Daily: Ordinary</option>
+                                    <option value="daily-exact">Daily: Exact</option>
+                                </select>
+                            </p>
+
+                            <p class="w3-center">
+                                <button onclick="annualPercentageYield()">Calculate</button>
+                                <input type="reset" value="Reset">
+                            </p>
+
+                            <div id="apy"></div>
+
+                        </form>
+                    </div>
+                </div>
+
+                <!-- 2nd: Given M-APY; Calculate R -->
+                <div class="mfc-third">
+                    <div class="container">
+                        <h3><u>Given:</u> Number of Compounding Periods Per Year, APY</h3>
+                        <h3><u>To Find:</u> Rate</h3>
+                        <form id="apyRate">
+                            <p><label for="rcompoundingPeriodUnit">Compounded </label> 
+                                <select id="rcompoundingPeriodUnit" required>
+                                    <option disabled selected value> Please choose an option </option>
+                                    <option value="annually">Annually</option>
+                                    <option value="semiannually">Semiannually</option>
+                                    <option value="quarterly">Quarterly</option>
+                                    <option value="monthly">Monthly</option>
+                                    <option value="weekly">Weekly</option>
+                                    <option value="daily-ordinary">Daily: Ordinary</option>
+                                    <option value="daily-exact">Daily: Exact</option>
+                                </select>
+                            </p>
+                            <p><label for="rAPY">APY is </label><input type="text" name="rAPY" id="rAPY" autocomplete="off" required> in 
+                                <select id="rAPYUnit" required>
+                                    <option disabled selected value> Please choose an option </option>
+                                    <option value="percent">Percent</option>
+                                    <option value="decimal">Decimal</option>
+                                </select>
+                            </p>
+
+
+                            <p class="w3-center">
+                                <button onclick="apyRate()">Calculate</button>
+                                <input type="reset" value="Reset">
+                            </p>
+                            <div id="rrate"></div>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- 3rd: Given R; Calculate APY -->
+                <div class="mfc-third">
+                    <div class="container">
+                        <h3><u>Given:</u> Rate</h3>
+                        <h3><u>To Find:</u> APY</h3>
+                        <form id="continuousAPYunit">
+                            <p><label for="continuousAPYrate">Rate is </label><input type="text" name="continuousAPYrate" id="continuousAPYrate" autocomplete="off" required> in 
+                                <select id="continuousAPYrateUnit" required>
+                                    <option disabled selected value> Please choose an option </option>
+                                    <option value="percent">Percent</option>
+                                    <option value="decimal">Decimal</option>
+                                </select>
+                            </p>
+                            <p><label for="continuousAPYcompoundingPeriodUnit">Compounded </label> 
+                                <select id="continuousAPYcompoundingPeriodUnit" required>
+                                    <option disabled selected value> Please choose an option </option>
+                                    <option value="continuously" id="continuously">Continuously</option>
+                                </select>
+                            </p>
+
+                            <p class="w3-center">
+                                <button onclick="continuousAPYunit()">Calculate</button>
+                                <input type="reset" value="Reset">
+                            </p>
+                            <div id="continuousAPY"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            
+            
+            <div class="mfc-row-padding">
+                <!-- 4th: Given APY; Calculate R -->
+                <div class="mfc-third">
+                    <div class="container">
+                        <h3><u>Given:</u> APY</h3>
+                        <h3><u>To Find:</u> Rate</h3>
+                        <form id="continuousRate">
+                            <p><label for="rateCompoundingPeriodUnit">Compounded </label> 
+                                <select id="rateCompoundingPeriodUnit" required>
+                                    <option disabled selected value> Please choose an option </option>
+                                    <option value="continuously" id="continuously">Continuously</option>
+                                </select>
+                            </p>
+                            <p><label for="rateAPY">APY is </label><input type="text" name="rateAPY" id="rateAPY" autocomplete="off" required> in 
+                                <select id="rateAPYUnit" required>
+                                    <option disabled selected value> Please choose an option </option>
+                                    <option value="percent">Percent</option>
+                                    <option value="decimal">Decimal</option>
+                                </select>
+                            </p>
+
+
+                            <p class="w3-center">
+                                <button onclick="continuousRate()">Calculate</button>
+                                <input type="reset" value="Reset">
+                            </p>
+                            <div id="continuousRateAPY"></div>
+                        </form>
+                    </div>
+                </div>                                             
+            </div>
+
+
+            <br><br>
+
+            <!-- Footer -->
+            <footer class="white w3-center w3-padding-24">
+                <a href="https://www.youtube.com/user/samuelchukwuemeka" title="Subscribe to my YouTube channel" target="_blank"><img src="images/youtube.png" alt="Subscribe to my YouTube channel"></a>
+                <a href="https://twitter.com/samdom4peace" title="Follow me on twitter" target="_blank"><img src="images/twitter.png" alt="Follow me on twitter"></a>
+                <a href="http://samueldominicchukwuemeka.blogspot.com/?view=flipcard" title="Subscribe and follow my blog" target="_blank"><img src="images/blogger.jpg" alt="Subscribe and follow my blog"></a>
+                <div id="google_translate_element"></div>
+                <script>
+                        function googleTranslateElementInit() {
+                        new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, gaTrack: true, gaId: 'UA-102287542-1'}, 'google_translate_element');
+                        }
+                </script>
+                <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+                <p>&copy; 2018&nbsp;<a href="https://www.samuelchukwuemeka.com/" target="_blank">Samdom4Peace</a>&nbsp;Designs.</p>
+            </footer>
+            <!-- End Footer -->
+
+            <!-- End page content -->
+        </div>
+
+        <script src="scripts/messages4.js"></script>
+        <script src="scripts/apy.js"></script>
+
+    </body> 
+</html>
