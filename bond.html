@@ -1,527 +1,582 @@
-
 <!DOCTYPE html>
 <html lang="en">
-    
-    <head>
 
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-102287542-1"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag() {
-                dataLayer.push(arguments);
-            }
-            gtag('js', new Date());
+<head>
 
-            gtag('config', 'UA-102287542-1');
-        </script>
-        
-        <script data-ad-client="ca-pub-9463984700780669" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
-        <meta charset="utf-8">
-        <meta name="google-site-verification" content="dWWImG59lcpKRGrhVSEW_j8U2jW1vMTG1_J2dUBrF4s">
-        <meta name="msvalidate.01" content="85DBCF5F806AB8C9BD2FC30728535125">
-        <meta name="google-site-verification" content="dq1XmHfXW0b3WlsawOYEk5yvgZDJ7CesBFu9QrSmHrs">
-        
-        <title>Bonds Calculators</title>
-        
-        <meta name="description" content="Samuel Chukwuemeka (SamDom For Peace) gives all the credit to our LORD and GOD, JESUS CHRIST. We are experts in bond calculations and applications.">
-        
-        <meta name="keywords" content="samuel, chukwuemeka, math, mathematics, mathematics of finance, financial mathematics, 
+
+    <meta charset="utf-8">
+
+
+    <title>Bonds Calculators</title>
+
+    <meta name="description"
+        content="Samuel Chukwuemeka (SamDom For Peace) gives all the credit to our LORD and GOD, JESUS CHRIST. We are experts in bond calculations and applications.">
+
+    <meta name="keywords"
+        content="samuel, chukwuemeka, math, mathematics, mathematics of finance, financial mathematics, 
                 financial math, simple interest, compound interest, continuous compound interest, annual percentage yield, 
                 apy, annuity, ordinary annuity, annuity due, amortization, present value, future value, sinking fund, rule of 78, 
                 loan amortization, mortgage payments, stocks, bonds, investment decision rules, debt financing, time value of money,
                 project evaluation, refund fraction, coupon bonds, bond coupons, bond coupon amount, bond coupon number, bond price, 
                 face value, par value, bond coupon rate, yield to maturity, annualized yield to maturity, market value">
 
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="styles/financialCalculators.css" rel="stylesheet" type="text/css" media="all">
-        <link rel="shortcut icon" type="image/x-icon" href="https://finance-calculators.appspot.com/images/favicon.ico">
-    </head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles/financialCalculators.css" rel="stylesheet" type="text/css" media="all">
+    <link rel="shortcut icon" type="image/x-icon"
+        href="https://samuelchukwuemeka.github.io/financial-mathematics/images/favicon.ico">
+</head>
 
-    <body>
-        <div class="w3-padding-30 white" id="quotes"> 
-            <div class="w3-content">
-                <p>
-                    <q>
-                        If there is one prayer that you should <b>pray/sing</b> every day and every hour, it is the 
-                        <a href="https://www.samdomforpeace.com/Theology/prayer.html" target="_blank">LORD's prayer (Our FATHER in Heaven prayer)</a> <br>
-                        It is the <b>most powerful prayer</b>.
-                        A <b>pure heart</b>, a <b>clean mind</b>, and a <b>clear conscience</b> is necessary for it.
-                    </q> - Samuel Dominic Chukwuemeka 
-                </p>
-                <p id="messages10"><q>For in GOD we live, and move, and have our being.</q> - Acts 17:28</p>
-                <p><q>The <b>Joy</b> of a <b>Teacher</b> is the <b>Success</b> of his <b>Students</b>.</q> - Samuel Dominic Chukwuemeka</p>
+<body>
+    <div class="w3-padding-30 white" id="quotes">
+        <div class="w3-content">
+            <p>
+                <q>
+                    If there is one prayer that you should <b>pray/sing</b> every day and every hour, it is the
+                    <a href="https://www.samdomforpeace.com/Theology/prayer.html" target="_blank">LORD's prayer (Our
+                        FATHER in Heaven prayer)</a> <br>
+                    It is the <b>most powerful prayer</b>.
+                    A <b>pure heart</b>, a <b>clean mind</b>, and a <b>clear conscience</b> is necessary for it.
+                </q> - Samuel Dominic Chukwuemeka
+            </p>
+            <p id="messages10"><q>For in GOD we live, and move, and have our being.</q> - Acts 17:28</p>
+            <p><q>The <b>Joy</b> of the <b>Teacher</b> is the <b>Success</b> of the <b>Students</b>.</q> - Samuel
+                Dominic Chukwuemeka</p>
+        </div>
+    </div>
+
+    <!-- Navigation Bar -->
+    <nav class="clearNav">
+        <ul>
+            <li><a href="https://samuelchukwuemeka.github.io/financial-mathematics/"
+                    title="Simple Interest Calculations">Simple
+                    Interest</a></li>
+            <li><a href="https://samuelchukwuemeka.github.io/financial-mathematics/compoundInterest.html"
+                    title="Compound Interest Calculations">Compound Interest</a></li>
+            <li><a href="https://samuelchukwuemeka.github.io/financial-mathematics/continuousCompoundInterest.html"
+                    title="Continuous Compound Interest Calculations">Continuous Compound Interest</a></li>
+            <li><a href="https://samuelchukwuemeka.github.io/financial-mathematics/apy.html"
+                    title="APY Calculations">Annual Percentage
+                    Yield (APY)</a></li>
+            <li><a href="https://samuelchukwuemeka.github.io/financial-mathematics/ordinaryAnnuity.html"
+                    title="Ordinary Annuity Calculations">Ordinary Annuity/Sinking Fund/Amortization</a></li>
+            <li><a href="https://samuelchukwuemeka.github.io/financial-mathematics/rule78.html"
+                    title="Rule of 78 Calculations">Rule of
+                    78</a></li>
+            <li><a href="https://samuelchukwuemeka.github.io/financial-mathematics/annuityDue.html"
+                    title="Annuity Due Calculations">Annuity Due</a></li>
+            <li class="selected"><a href="https://samuelchukwuemeka.github.io/financial-mathematics/bond.html"
+                    title="Bond Calculations">Bond</a></li>
+            <li><a href="https://samuelchukwuemeka.github.io/financial-mathematics/investmentDecision.html"
+                    title="Investment Decision Rules Calculations">Investment Decison Rules</a></li>
+            <li><a href="https://www.samdomforpeace.com/EngineeringEconomics/timeValueMoney.html"
+                    title="Time Value of Money Calculations">Time Value of Money (TVM)</a></li>
+            <li><a href="https://www.samdomforpeace.com/EngineeringEconomics/projectEvaluation.html"
+                    title="Project Evaluation Calculations">Project Evaluation</a></li>
+            <li><a href="https://samuelchukwuemeka.github.io/financial-mathematics/TI-calculators-finance.html"
+                    title="Project Evaluation Calculations">Texas Instruments (TI) Calculator for Finance</a></li>
+            <li><a href="https://www.youtube.com/playlist?list=PLjyyswMG9g9D4-hvqIt8PW76u0E9adRsR&disable_polymer=true"
+                    title="mathematics of finance">Videos</a></li>
+            <li><a href="https://samuelchukwuemeka.github.io/financial-mathematics/financialMathematics.html"
+                    title="mathematics of finance">Notes</a></li>
+            <li><a href="https://samuelchukwuemeka.github.io/financial-mathematics/bondApplications.html"
+                    title="Rule of 78">Solved
+                    Examples</a></li>
+            <li><a href="https://chukwuemekasamuel.weebly.com/" title="Other Calculators">Contact</a></li>
+            <li><a href="https://chukwuemekasamuel.com/portfolio.html" title="Portfolio">Portfolio</a></li>
+        </ul>
+    </nav>
+
+
+    <!-- !PAGE CONTENT! -->
+    <div class="main">
+
+        <!-- Header -->
+        <header class="header">
+            <div class="image">
+                <a href="https://www.samdomforpeace.com/" target="_blank" title="Samuel Chukwuemeka"><img
+                        src="images/samdom4peace.jpg" alt="Samdom For Peace"
+                        title="Samuel Chukwuemeka aka Samdom For Peace"></a>
+            </div>
+
+            <h1>Bond Calculators</h1>
+            <p>
+                <span id="greetings"></span> I greet you this day,
+                <script>document.write(Date() + ".");</script>
+            </p>
+            <p>
+                <u>First:</u> read the notes. <u>Second:</u> view the videos. <u>Third:</u> solve the questions/solved
+                examples.
+                <u>Fourth:</u> check your solutions with my <b>thoroughly-explained</b> solutions. <u>Fifth:</u> check
+                your answers with my calculators.
+            </p>
+            <p>
+                I wrote the codes for some calculations using JavaScript, a client-side scripting language. <br>
+                I used the Formula.js Javascript library for some calculations. <br>
+                Please use the latest Internet browsers. The calculators should work. <br>
+                <mark>Please do not put comma in any of the values.</mark> <br>
+                <b>You may need to refresh your browser after each calculation to clear all results.</b>
+            </p>
+            <p>
+                Comments, ideas, areas of improvement, questions, and constructive criticisms are welcome. You may
+                contact me. <br>
+                If you are my student, please do not contact me here. Contact me via the school's system. Thank you for
+                visiting!!!
+            </p>
+            <p><strong>Samuel Dominic Chukwuemeka</strong> (Samdom For Peace) <span style="font-size: medium">B.Eng.,
+                    A.A.T, M.Ed., M.S</span></p>
+        </header>
+        <!-- End Header -->
+
+        <br><br>
+
+        <!-- Calculations -->
+        <!-- Coupon Payment, Coupon Rate, Face Value, Yield to Maturity, Bond Price -->
+        <h4>Zero-Coupon Bonds</h4>
+        <div class="mfc-row-padding">
+            <!-- 1st: Given FV, BP, YTM; Calculate t -->
+            <div class="w3-half">
+                <div class="container">
+                    <h3><u>Given:</u> Face Value, Bond Price, Yield to Maturity</h3>
+                    <h3><u>To Find:</u> Time</h3>
+                    <form id="fifthBond">
+                        <p><label for="fifthFV">Face Value is $ </label><input type="text" class="bonds" name="fifthFV"
+                                id="fifthFV" autocomplete="off" required></p>
+                        <p><label for="fifthBP">Bond Price is $ </label><input type="text" class="bonds" name="fifthBP"
+                                id="fifthBP" autocomplete="off" required></p>
+                        <p>
+                            <label for="fifthYieldMaturity">Yield to Maturity is </label><input type="text"
+                                class="bonds" name="fifthYieldMaturity" id="fifthYieldMaturity" autocomplete="off"
+                                required> in
+                            <select id="fifthYieldMaturityUnit" class="bonds" required>
+                                <option disabled selected value> Please choose an option </option>
+                                <option value="percent">Percent</option>
+                                <option value="decimal">Decimal</option>
+                            </select>
+                        </p>
+
+                        <p class="w3-center">
+                            <button onclick="fifthBond()">Calculate</button>
+                            <input type="reset" value="Reset">
+                        </p>
+
+                        <div id="fifthTime"></div>
+                    </form>
+                </div>
+            </div>
+
+            <!-- 2nd: Given FV, BP, t; Calculate YTM -->
+            <div class="w3-half">
+                <div class="container">
+                    <h3><u>Given:</u> Face Value, Bond Price, Time</h3>
+                    <h3><u>To Find:</u> Yield to Maturity</h3>
+                    <form id="secondBond">
+                        <p><label for="secondFV">Face Value is $ </label><input type="text" class="bonds"
+                                name="secondFV" id="secondFV" autocomplete="off" required></p>
+                        <p><label for="secondBP">Bond Price is $ </label><input type="text" class="bonds"
+                                name="secondBP" id="secondBP" autocomplete="off" required></p>
+                        <p>
+                            <label for="secondTime">Time is </label><input type="text" class="bonds" name="secondTime"
+                                id="secondTime" autocomplete="off" required> in
+                            <select id="secondTimeUnit" class="bonds" required>
+                                <option disabled selected value> Please choose an option </option>
+                                <option value="years">Years</option>
+                                <option value="months">Months</option>
+                                <option value="weeks">Weeks</option>
+                                <option value="days_O">Days: Ordinary</option>
+                                <option value="days_E">Days: Exact</option>
+                            </select>
+                        </p>
+
+                        <p class="w3-center">
+                            <button onclick="secondBond()">Calculate</button>
+                            <input type="reset" value="Reset">
+                        </p>
+
+                        <div id="secondYieldMaturity"></div>
+                    </form>
+                </div>
             </div>
         </div>
-                
-        <!-- Navigation Bar -->
-        <nav class="clearNav">
-            <ul>
-                <li><a href="https://finance-calculators.appspot.com" title="Simple Interest Calculations">Simple Interest</a></li>
-                <li><a href="https://finance-calculators.appspot.com/compoundInterest.html" title="Compound Interest Calculations">Compound Interest</a></li>
-                <li><a href="https://finance-calculators.appspot.com/continuousCompoundInterest.html" title="Continuous Compound Interest Calculations">Continuous Compound Interest</a></li>
-                <li><a href="https://finance-calculators.appspot.com/apy.html" title="APY Calculations">Annual Percentage Yield (APY)</a></li>
-                <li><a href="https://finance-calculators.appspot.com/ordinaryAnnuity.html" title="Ordinary Annuity Calculations">Ordinary Annuity/Sinking Fund/Amortization</a></li>
-                <li><a href="https://finance-calculators.appspot.com/rule78.html" title="Rule of 78 Calculations">Rule of 78</a></li>
-                <li><a href="https://finance-calculators.appspot.com/annuityDue.html" title="Annuity Due Calculations">Annuity Due</a></li>
-                <li class="selected"><a href="https://finance-calculators.appspot.com/bond.html" title="Bond Calculations">Bond</a></li>
-                <li><a href="https://finance-calculators.appspot.com/investmentDecision.html" title="Investment Decision Rules Calculations">Investment Decison Rules</a></li>
-                <li><a href="https://www.samdomforpeace.com/EngineeringEconomics/timeValueMoney.html" title="Time Value of Money Calculations">Time Value of Money (TVM)</a></li>
-                <li><a href="https://www.samdomforpeace.com/EngineeringEconomics/projectEvaluation.html" title="Project Evaluation Calculations">Project Evaluation</a></li>
-                <li><a href="https://finance-calculators.appspot.com/TI-calculators-finance.html" title="Project Evaluation Calculations">Texas Instruments (TI) Calculator for Finance</a></li>
-                <li><a href="https://www.youtube.com/playlist?list=PLjyyswMG9g9D4-hvqIt8PW76u0E9adRsR&disable_polymer=true" title="mathematics of finance">Videos</a></li>
-                <li><a href="https://finance-calculators.appspot.com/financialMathematics.html" title="mathematics of finance">Notes</a></li>
-                <li><a href="https://finance-calculators.appspot.com/bondApplications.html" title="Rule of 78">Solved Examples</a></li>
-                <li><a href="https://chukwuemekasamuel.weebly.com/" title="Other Calculators">Contact</a></li>
-                <li><a href="https://www.chukwuemekasamuel.com/portfolios.html" title="Portfolio">Portfolio</a></li>
-            </ul>
-        </nav>
 
+        <br><br>
 
-        <!-- !PAGE CONTENT! -->
-        <div class="main">
+        <div class="mfc-row-padding">
+            <!-- 3rd: Given FV, YTM, t; Calculate BP -->
+            <div class="w3-half">
+                <div class="container">
+                    <h3><u>Given:</u> Face Value, Yield to Maturity, Time</h3>
+                    <h3><u>To Find:</u> Bond Price</h3>
+                    <form id="thirdBond">
+                        <p><label for="thirdFV">Face Value is $ </label><input type="text" class="bonds" name="thirdFV"
+                                id="thirdFV" autocomplete="off" required></p>
+                        <p>
+                            <label for="thirdYieldMaturity">Yield to Maturity is </label><input type="text"
+                                class="bonds" name="thirdYieldMaturity" id="thirdYieldMaturity" autocomplete="off"
+                                required> in
+                            <select id="thirdYieldMaturityUnit" class="bonds" required>
+                                <option disabled selected value> Please choose an option </option>
+                                <option value="percent">Percent</option>
+                                <option value="decimal">Decimal</option>
+                            </select>
+                        </p>
+                        <p>
+                            <label for="thirdTime">Time is </label><input type="text" class="bonds" name="thirdTime"
+                                id="thirdTime" autocomplete="off" required> in
+                            <select id="thirdTimeUnit" class="bonds" required>
+                                <option disabled selected value> Please choose an option </option>
+                                <option value="years">Years</option>
+                                <option value="months">Months</option>
+                                <option value="weeks">Weeks</option>
+                                <option value="days_O">Days: Ordinary</option>
+                                <option value="days_E">Days: Exact</option>
+                            </select>
+                        </p>
+                        <p class="w3-center">
+                            <button onclick="thirdBond()">Calculate</button>
+                            <input type="reset" value="Reset">
+                        </p>
 
-            <!-- Header -->
-            <header class="header">
-                <div class="image">
-                    <a href="https://www.samdomforpeace.com/" target="_blank" title="Samuel Chukwuemeka"><img src="images/samdom4peace.jpg" alt="Samdom For Peace" title="Samuel Chukwuemeka aka Samdom For Peace"></a>
-                </div>
-
-                <h1>Bond Calculators</h1>
-                <p>
-                    <span id="greetings"></span> I greet you this day, <script>document.write(Date()+".");</script>
-                </p>
-                <p>
-                    <u>First:</u> read the notes. <u>Second:</u> view the videos. <u>Third:</u> solve the questions/solved examples. 
-                    <u>Fourth:</u> check your solutions with my <b>thoroughly-explained</b> solutions. <u>Fifth:</u> check your answers with my calculators.
-                </p>
-                <p>
-                    I wrote the codes for some calculations using JavaScript, a client-side scripting language. <br>
-                    I used the Formula.js Javascript library for some calculations. <br>
-                    Please use the latest Internet browsers. The calculators should work. <br>
-                    <mark>Please do not put comma in any of the values.</mark> <br>
-                    <b>You may need to refresh your browser after each calculation to clear all results.</b> 
-                </p>
-                <p>
-                    Comments, ideas, areas of improvement, questions, and constructive criticisms are welcome. You may contact me. <br>
-                    If you are my student, please do not contact me here. Contact me via the school's system. Thank you for visiting!!!
-                </p>
-                <p><strong>Samuel Dominic Chukwuemeka</strong> (Samdom For Peace) <span style="font-size: medium">B.Eng., A.A.T, M.Ed., M.S</span></p>
-            </header>
-            <!-- End Header -->
-
-            <br><br>
-
-            <!-- Calculations -->
-            <!-- Coupon Payment, Coupon Rate, Face Value, Yield to Maturity, Bond Price -->
-            <h4>Zero-Coupon Bonds</h4>
-            <div class="mfc-row-padding">                
-                <!-- 1st: Given FV, BP, YTM; Calculate t -->
-                <div class="w3-half">
-                    <div class="container">
-                        <h3><u>Given:</u> Face Value, Bond Price, Yield to Maturity</h3>
-                        <h3><u>To Find:</u> Time</h3>
-                        <form id="fifthBond">
-                            <p><label for="fifthFV">Face Value is $ </label><input type="text" class="bonds" name="fifthFV" id="fifthFV" autocomplete="off" required></p>
-                            <p><label for="fifthBP">Bond Price is $ </label><input type="text" class="bonds" name="fifthBP" id="fifthBP" autocomplete="off" required></p>
-                            <p>
-                                <label for="fifthYieldMaturity">Yield to Maturity is </label><input type="text" class="bonds" name="fifthYieldMaturity" id="fifthYieldMaturity" autocomplete="off" required> in 
-                                <select id="fifthYieldMaturityUnit" class="bonds" required>
-                                    <option disabled selected value> Please choose an option </option>
-                                    <option value="percent">Percent</option>
-                                    <option value="decimal">Decimal</option>
-                                </select>
-                            </p>
-                            
-                            <p class="w3-center">
-                                <button onclick="fifthBond()">Calculate</button>
-                                <input type="reset" value="Reset">
-                            </p>
-                            
-                            <div id="fifthTime"></div>
-                        </form>
-                    </div>
-                </div>
-
-                <!-- 2nd: Given FV, BP, t; Calculate YTM -->
-                <div class="w3-half">
-                    <div class="container">
-                        <h3><u>Given:</u> Face Value, Bond Price, Time</h3>
-                        <h3><u>To Find:</u> Yield to Maturity</h3>
-                        <form id="secondBond">
-                            <p><label for="secondFV">Face Value is $ </label><input type="text" class="bonds" name="secondFV" id="secondFV" autocomplete="off" required></p>
-                            <p><label for="secondBP">Bond Price is $ </label><input type="text" class="bonds" name="secondBP" id="secondBP" autocomplete="off" required></p>
-                            <p>
-                                <label for="secondTime">Time is </label><input type="text" class="bonds" name="secondTime" id="secondTime" autocomplete="off" required> in 
-                                <select id="secondTimeUnit" class="bonds" required>
-                                    <option disabled selected value> Please choose an option </option>
-                                    <option value="years">Years</option>
-                                    <option value="months">Months</option>
-                                    <option value="weeks">Weeks</option>
-                                    <option value="days_O">Days: Ordinary</option>
-                                    <option value="days_E">Days: Exact</option>
-                                </select>
-                            </p>
-                            
-                            <p class="w3-center">
-                                <button onclick="secondBond()">Calculate</button>
-                                <input type="reset" value="Reset">
-                            </p>
-                            
-                            <div id="secondYieldMaturity"></div>
-                        </form>
-                    </div>
+                        <div id="thirdBondPrice"></div>
+                    </form>
                 </div>
             </div>
 
-            <br><br>
-            
-            <div class="mfc-row-padding">                
-                <!-- 3rd: Given FV, YTM, t; Calculate BP -->
-                <div class="w3-half">
-                    <div class="container">
-                        <h3><u>Given:</u> Face Value, Yield to Maturity, Time</h3>
-                        <h3><u>To Find:</u> Bond Price</h3>
-                        <form id="thirdBond">
-                            <p><label for="thirdFV">Face Value is $ </label><input type="text" class="bonds" name="thirdFV" id="thirdFV" autocomplete="off" required></p>
-                            <p>
-                                <label for="thirdYieldMaturity">Yield to Maturity is </label><input type="text" class="bonds" name="thirdYieldMaturity" id="thirdYieldMaturity" autocomplete="off" required> in 
-                                <select id="thirdYieldMaturityUnit" class="bonds" required>
-                                    <option disabled selected value> Please choose an option </option>
-                                    <option value="percent">Percent</option>
-                                    <option value="decimal">Decimal</option>
-                                </select>
-                            </p>
-                            <p>
-                                <label for="thirdTime">Time is </label><input type="text" class="bonds" name="thirdTime" id="thirdTime" autocomplete="off" required> in 
-                                <select id="thirdTimeUnit" class="bonds" required>
-                                    <option disabled selected value> Please choose an option </option>
-                                    <option value="years">Years</option>
-                                    <option value="months">Months</option>
-                                    <option value="weeks">Weeks</option>
-                                    <option value="days_O">Days: Ordinary</option>
-                                    <option value="days_E">Days: Exact</option>
-                                </select>
-                            </p>
-                            <p class="w3-center">
-                                <button onclick="thirdBond()">Calculate</button>
-                                <input type="reset" value="Reset">
-                            </p>
-                            
-                            <div id="thirdBondPrice"></div>
-                        </form>
-                    </div>
-                </div>
+            <!-- 4th: Given BP, YTM, t; Calculate FV -->
+            <div class="w3-half">
+                <div class="container">
+                    <h3><u>Given:</u> Bond Price, Yield to Maturity, Time</h3>
+                    <h3><u>To Find:</u> Face Value</h3>
+                    <form id="fourthBond">
+                        <p><label for="fourthBP">Bond Price is $ </label><input type="text" class="bonds"
+                                name="fourthBP" id="fourthBP" autocomplete="off" required></p>
+                        <p>
+                            <label for="fourthYieldMaturity">Yield to Maturity is </label><input type="text"
+                                class="bonds" name="fourthYieldMaturity" id="fourthYieldMaturity" autocomplete="off"
+                                required> in
+                            <select id="fourthYieldMaturityUnit" class="bonds" required>
+                                <option disabled selected value> Please choose an option </option>
+                                <option value="percent">Percent</option>
+                                <option value="decimal">Decimal</option>
+                            </select>
+                        </p>
+                        <p>
+                            <label for="fourthTime">Time is </label><input type="text" class="bonds" name="fourthTime"
+                                id="fourthTime" autocomplete="off" required> in
+                            <select id="fourthTimeUnit" class="bonds" required>
+                                <option disabled selected value> Please choose an option </option>
+                                <option value="years">Years</option>
+                                <option value="months">Months</option>
+                                <option value="weeks">Weeks</option>
+                                <option value="days_O">Days: Ordinary</option>
+                                <option value="days_E">Days: Exact</option>
+                            </select>
+                        </p>
+                        <p class="w3-center">
+                            <button onclick="fourthBond()">Calculate</button>
+                            <input type="reset" value="Reset">
+                        </p>
 
-                <!-- 4th: Given BP, YTM, t; Calculate FV -->
-                <div class="w3-half">
-                    <div class="container">
-                        <h3><u>Given:</u> Bond Price, Yield to Maturity, Time</h3>
-                        <h3><u>To Find:</u> Face Value</h3>
-                        <form id="fourthBond">
-                            <p><label for="fourthBP">Bond Price is $ </label><input type="text" class="bonds" name="fourthBP" id="fourthBP" autocomplete="off" required></p>
-                            <p>
-                                <label for="fourthYieldMaturity">Yield to Maturity is </label><input type="text" class="bonds" name="fourthYieldMaturity" id="fourthYieldMaturity" autocomplete="off" required> in 
-                                <select id="fourthYieldMaturityUnit" class="bonds" required>
-                                    <option disabled selected value> Please choose an option </option>
-                                    <option value="percent">Percent</option>
-                                    <option value="decimal">Decimal</option>
-                                </select>
-                            </p>
-                            <p>
-                                <label for="fourthTime">Time is </label><input type="text" class="bonds" name="fourthTime" id="fourthTime" autocomplete="off" required> in 
-                                <select id="fourthTimeUnit" class="bonds" required>
-                                    <option disabled selected value> Please choose an option </option>
-                                    <option value="years">Years</option>
-                                    <option value="months">Months</option>
-                                    <option value="weeks">Weeks</option>
-                                    <option value="days_O">Days: Ordinary</option>
-                                    <option value="days_E">Days: Exact</option>
-                                </select>
-                            </p>
-                            <p class="w3-center">
-                                <button onclick="fourthBond()">Calculate</button>
-                                <input type="reset" value="Reset">
-                            </p>
-                            
-                            <div id="fourthFaceValue"></div>
-                        </form>
-                    </div>
+                        <div id="fourthFaceValue"></div>
+                    </form>
                 </div>
             </div>
-            
-            <br><br>
-            
-            <h4>Zero-Coupon Bonds and Coupon Bonds</h4>
-            <div class="mfc-row-padding">                
-                <!-- 1st: Given FV, CR, m; Calculate CP -->
-                <div class="w3-half">
-                    <div class="container">
-                        <h3><u>Given:</u> Face Value, Coupon Rate, Number of Coupon Payments per Year</h3>
-                        <h3><u>To Find:</u> Coupon Payment</h3>
-                        <form id="firstBond">
-                            <p><label for="firstFV">Face Value is $ </label><input type="text" class="bonds" name="firstFV" id="firstFV" autocomplete="off" required></p>
-                            <p>
-                                <label for="firstCouponRate">Coupon Rate is </label><input type="text" class="bonds" name="firstCouponRate" id="firstCouponRate" autocomplete="off" required> in 
-                                <select id="firstCouponRateUnit" class="bonds" required>
-                                    <option disabled selected value> Please choose an option </option>
-                                    <option value="percent">Percent</option>
-                                    <option value="decimal">Decimal</option>
-                                </select>
-                            </p>
-                            
-                            <p>
-                                <label for="firstCouponPaymentYearUnit">Coupon Payments per Year </label> 
-                                <select id="firstCouponPaymentYearUnit" class="bonds" required>
-                                    <option disabled selected value> Please choose an option </option>
-                                    <option value="annually">Annually</option>
-                                    <option value="semiannually">Semiannually</option>
-                                    <option value="quarterly">Quarterly</option>
-                                    <option value="monthly">Monthly</option>
-                                    <option value="weekly">Weekly</option>
-                                    <option value="daily-ordinary">Daily: Ordinary</option>
-                                    <option value="daily-exact">Daily: Exact</option>
-                                </select>
-                            </p>
-                            
-                            <p class="w3-center">
-                                <button onclick="firstBond()">Calculate</button>
-                                <input type="reset" value="Reset">
-                            </p>
-                            
-                            <div id="firstCouponPayment"></div>
-                        </form>
-                    </div>
-                </div>
+        </div>
 
-                <!-- 6th: ??? -->
-                
-            </div>
-            
-            <br><br>
-            
-            <h4>Coupon Bonds</h4>
-            <div class="mfc-row-padding">                
-                <!-- 6th: Given FV, CR, m; Calculate CP -->
-                <div class="w3-half">
-                    <div class="container">
-                        <h3><u>Given:</u> Face Value, Coupon Rate, Yield to Maturity, Number of Coupon Payments per Year, Time</h3>
-                        <h3><u>To Find:</u> Bond Price</h3>
-                        <form id="sixthBond">
-                            <p><label for="sixthFV">Face Value is $ </label><input type="text" class="bonds" name="sixthFV" id="sixthFV" autocomplete="off" required></p>
-                            <p><label for="sixthCP">Coupon Payment is $ </label><input type="text" class="bonds" name="sixthCP" id="sixthCP" autocomplete="off" required></p>
-                            <p>
-                                <label for="sixthCouponPaymentYearUnit">Coupon Payments per Year </label> 
-                                <select id="sixthCouponPaymentYearUnit" class="bonds" required>
-                                    <option disabled selected value> Please choose an option </option>
-                                    <option value="annually">Annually</option>
-                                    <option value="semiannually">Semiannually</option>
-                                    <option value="quarterly">Quarterly</option>
-                                    <option value="monthly">Monthly</option>
-                                    <option value="weekly">Weekly</option>
-                                    <option value="daily-ordinary">Daily: Ordinary</option>
-                                    <option value="daily-exact">Daily: Exact</option>
-                                </select>
-                            </p>
-                            <p>
-                                <label for="sixthYieldMaturity">Yield to Maturity is </label><input type="text" class="bonds" name="sixthYieldMaturity" id="sixthYieldMaturity" autocomplete="off" required> in 
-                                <select id="sixthYieldMaturityUnit" class="bonds" required>
-                                    <option disabled selected value> Please choose an option </option>
-                                    <option value="percent">Percent</option>
-                                    <option value="decimal">Decimal</option>
-                                </select>
-                            </p>
-                            <p>
-                                <label for="sixthTime">Time is </label><input type="text" class="bonds" name="sixthTime" id="sixthTime" autocomplete="off" required> in 
-                                <select id="sixthTimeUnit" class="bonds" required>
-                                    <option disabled selected value> Please choose an option </option>
-                                    <option value="years">Years</option>
-                                    <option value="months">Months</option>
-                                    <option value="weeks">Weeks</option>
-                                    <option value="days_O">Days: Ordinary</option>
-                                    <option value="days_E">Days: Exact</option>
-                                </select>
-                            </p>
-                            
-                            <p class="w3-center">
-                                <button onclick="sixthBond()">Calculate</button>
-                                <input type="reset" value="Reset">
-                            </p>
-                            
-                            <div id="sixthBondPrice"></div>
-                        </form>
-                    </div>
-                </div>
+        <br><br>
 
-                <!-- 7th: Given: FV, CP, YTM, m, t; find BP -->
-                <div class="w3-half">
-                    <div class="container">
-                        <h3><u>Given:</u> Face Value, Coupon Rate, Yield to Maturity, Number of Coupon Payments per Year, Time</h3>
-                        <h3><u>To Find:</u> Bond Price</h3>
-                        <form id="seventhBond">
-                            <p><label for="seventhFV">Face Value is $ </label><input type="text" class="bonds" name="seventhFV" id="seventhFV" autocomplete="off" required></p>
-                            <p>
-                                <label for="seventhCouponRate">Coupon Rate is </label><input type="text" class="bonds" name="seventhCouponRate" id="seventhCouponRate" autocomplete="off" required> in 
-                                <select id="seventhCouponRateUnit" class="bonds" required>
-                                    <option disabled selected value> Please choose an option </option>
-                                    <option value="percent">Percent</option>
-                                    <option value="decimal">Decimal</option>
-                                </select>
-                            </p>
-                            <p>
-                                <label for="seventhCouponPaymentYearUnit">Coupon Payments per Year </label> 
-                                <select id="seventhCouponPaymentYearUnit" class="bonds" required>
-                                    <option disabled selected value> Please choose an option </option>
-                                    <option value="annually">Annually</option>
-                                    <option value="semiannually">Semiannually</option>
-                                    <option value="quarterly">Quarterly</option>
-                                    <option value="monthly">Monthly</option>
-                                    <option value="weekly">Weekly</option>
-                                    <option value="daily-ordinary">Daily: Ordinary</option>
-                                    <option value="daily-exact">Daily: Exact</option>
-                                </select>
-                            </p>
-                            <p>
-                                <label for="seventhYieldMaturity">Yield to Maturity is </label><input type="text" class="bonds" name="seventhYieldMaturity" id="seventhYieldMaturity" autocomplete="off" required> in 
-                                <select id="seventhYieldMaturityUnit" class="bonds" required>
-                                    <option disabled selected value> Please choose an option </option>
-                                    <option value="percent">Percent</option>
-                                    <option value="decimal">Decimal</option>
-                                </select>
-                            </p>
-                            <p>
-                                <label for="seventhTime">Time is </label><input type="text" class="bonds" name="seventhTime" id="seventhTime" autocomplete="off" required> in 
-                                <select id="seventhTimeUnit" class="bonds" required>
-                                    <option disabled selected value> Please choose an option </option>
-                                    <option value="years">Years</option>
-                                    <option value="months">Months</option>
-                                    <option value="weeks">Weeks</option>
-                                    <option value="days_O">Days: Ordinary</option>
-                                    <option value="days_E">Days: Exact</option>
-                                </select>
-                            </p>
-                            
-                            <p class="w3-center">
-                                <button onclick="seventhBond()">Calculate</button>
-                                <input type="reset" value="Reset">
-                            </p>
-                            
-                            <div id="seventhBondPrice"></div>
-                        </form>
-                    </div>
+        <h4>Zero-Coupon Bonds and Coupon Bonds</h4>
+        <div class="mfc-row-padding">
+            <!-- 1st: Given FV, CR, m; Calculate CP -->
+            <div class="w3-half">
+                <div class="container">
+                    <h3><u>Given:</u> Face Value, Coupon Rate, Number of Coupon Payments per Year</h3>
+                    <h3><u>To Find:</u> Coupon Payment</h3>
+                    <form id="firstBond">
+                        <p><label for="firstFV">Face Value is $ </label><input type="text" class="bonds" name="firstFV"
+                                id="firstFV" autocomplete="off" required></p>
+                        <p>
+                            <label for="firstCouponRate">Coupon Rate is </label><input type="text" class="bonds"
+                                name="firstCouponRate" id="firstCouponRate" autocomplete="off" required> in
+                            <select id="firstCouponRateUnit" class="bonds" required>
+                                <option disabled selected value> Please choose an option </option>
+                                <option value="percent">Percent</option>
+                                <option value="decimal">Decimal</option>
+                            </select>
+                        </p>
+
+                        <p>
+                            <label for="firstCouponPaymentYearUnit">Coupon Payments per Year </label>
+                            <select id="firstCouponPaymentYearUnit" class="bonds" required>
+                                <option disabled selected value> Please choose an option </option>
+                                <option value="annually">Annually</option>
+                                <option value="semiannually">Semiannually</option>
+                                <option value="quarterly">Quarterly</option>
+                                <option value="monthly">Monthly</option>
+                                <option value="weekly">Weekly</option>
+                                <option value="daily-ordinary">Daily: Ordinary</option>
+                                <option value="daily-exact">Daily: Exact</option>
+                            </select>
+                        </p>
+
+                        <p class="w3-center">
+                            <button onclick="firstBond()">Calculate</button>
+                            <input type="reset" value="Reset">
+                        </p>
+
+                        <div id="firstCouponPayment"></div>
+                    </form>
                 </div>
             </div>
-            
-            <br><br>
-            
-            <div class="mfc-row-padding">                
-                <!-- 10th: Given: FV, CR, BP, m, t; find BP -->
-                <div class="w3-half">
-                    <div class="container">
-                        <h3><u>Given:</u> Face Value, Coupon Rate, Bond Price, Number of Coupon Payments per Year, Time</h3>
-                        <h3>
-                            <u>To Find:</u> Yield to Maturity, Annualized Yield to Maturity<br>
-                        </h3>
-                        <form id="tenthBond">
-                            <p><label for="tenthFV">Face Value is $ </label><input type="text" class="bonds" name="tenthFV" id="tenthFV" autocomplete="off" required></p>
-                            <p>
-                                <label for="tenthCouponRate">Coupon Rate is </label><input type="text" class="bonds" name="tenthCouponRate" id="tenthCouponRate" autocomplete="off" required> in 
-                                <select id="tenthCouponRateUnit" class="bonds" required>
-                                    <option disabled selected value> Please choose an option </option>
-                                    <option value="percent">Percent</option>
-                                    <option value="decimal">Decimal</option>
-                                </select>
-                            </p>
-                            <p>
-                                <label for="tenthCouponPaymentYearUnit">Coupon Payments per Year </label> 
-                                <select id="tenthCouponPaymentYearUnit" class="bonds" required>
-                                    <option disabled selected value> Please choose an option </option>
-                                    <option value="annually">Annually</option>
-                                    <option value="semiannually">Semiannually</option>
-                                    <option value="quarterly">Quarterly</option>
-                                    <option value="monthly">Monthly</option>
-                                    <option value="weekly">Weekly</option>
-                                    <option value="daily-ordinary">Daily: Ordinary</option>
-                                    <option value="daily-exact">Daily: Exact</option>
-                                </select>
-                            </p>
-                            <p><label for="tenthBP">Bond Price is $ </label><input type="text" class="bonds" name="tenthBP" id="tenthBP" autocomplete="off" required></p>
-                            <p>
-                                <label for="tenthTime">Time is </label><input type="text" class="bonds" name="tenthTime" id="tenthTime" autocomplete="off" required> in 
-                                <select id="tenthTimeUnit" class="bonds" required>
-                                    <option disabled selected value> Please choose an option </option>
-                                    <option value="years">Years</option>
-                                    <option value="months">Months</option>
-                                    <option value="weeks">Weeks</option>
-                                    <option value="days_O">Days: Ordinary</option>
-                                    <option value="days_E">Days: Exact</option>
-                                </select>
-                            </p>
-                            
-                            <p class="w3-center">
-                                <button onclick="tenthBond()">Calculate</button>
-                                <input type="reset" value="Reset">
-                            </p>
-                            
-                            <div id="tenthYieldMaturity"></div>
-                            <div id="tenthAnnualizedYieldMaturity"></div>
-                        </form>
-                    </div>
-                </div>
-                                
-                <!-- 11th: Given: FV, CP, BP, t; find YTM -->
-                <div class="w3-half">
-                    <div class="container">
-                        <h3><u>Given:</u> Face Value, Coupon Payment, Bond Price, Number of Coupon Payments per Year, Time</h3>
-                        <h3>
-                            <u>To Find:</u> Yield to Maturity, Annualized Yield to Maturity<br>
-                        </h3>
-                        <form id="eleventhBond">
-                            <p><label for="eleventhFV">Face Value is $ </label><input type="text" class="bonds" name="eleventhFV" id="eleventhFV" autocomplete="off" required></p>
-                            <p><label for="eleventhCP">Coupon Payment is $ </label><input type="text" class="bonds" name="eleventhCP" id="eleventhCP" autocomplete="off" required></p>
-                            <p>
-                                <label for="eleventhCouponPaymentYearUnit">Coupon Payments per Year </label> 
-                                <select id="eleventhCouponPaymentYearUnit" class="bonds" required>
-                                    <option disabled selected value> Please choose an option </option>
-                                    <option value="annually">Annually</option>
-                                    <option value="semiannually">Semiannually</option>
-                                    <option value="quarterly">Quarterly</option>
-                                    <option value="monthly">Monthly</option>
-                                    <option value="weekly">Weekly</option>
-                                    <option value="daily-ordinary">Daily: Ordinary</option>
-                                    <option value="daily-exact">Daily: Exact</option>
-                                </select>
-                            </p>
-                            <p><label for="eleventhBP">Bond Price is $ </label><input type="text" class="bonds" name="eleventhBP" id="eleventhBP" autocomplete="off" required></p>
-                                                        
-                            <p>
-                                <label for="eleventhTime">Time is </label><input type="text" class="bonds" name="eleventhTime" id="eleventhTime" autocomplete="off" required> in 
-                                <select id="eleventhTimeUnit" class="bonds" required>
-                                    <option disabled selected value> Please choose an option </option>
-                                    <option value="years">Years</option>
-                                    <option value="months">Months</option>
-                                    <option value="weeks">Weeks</option>
-                                    <option value="days_O">Days: Ordinary</option>
-                                    <option value="days_E">Days: Exact</option>
-                                </select>
-                            </p>
-                            
-                            <p class="w3-center">
-                                <button onclick="eleventhBond()">Calculate</button>
-                                <input type="reset" value="Reset">
-                            </p>
-                            
-                            <div id="eleventhYieldMaturity"></div>
-                            <div id="eleventhAnnualizedYieldMaturity"></div>
-                        </form>
-                    </div>
+
+            <!-- 6th: ??? -->
+
+        </div>
+
+        <br><br>
+
+        <h4>Coupon Bonds</h4>
+        <div class="mfc-row-padding">
+            <!-- 6th: Given FV, CR, m; Calculate CP -->
+            <div class="w3-half">
+                <div class="container">
+                    <h3><u>Given:</u> Face Value, Coupon Rate, Yield to Maturity, Number of Coupon Payments per Year,
+                        Time</h3>
+                    <h3><u>To Find:</u> Bond Price</h3>
+                    <form id="sixthBond">
+                        <p><label for="sixthFV">Face Value is $ </label><input type="text" class="bonds" name="sixthFV"
+                                id="sixthFV" autocomplete="off" required></p>
+                        <p><label for="sixthCP">Coupon Payment is $ </label><input type="text" class="bonds"
+                                name="sixthCP" id="sixthCP" autocomplete="off" required></p>
+                        <p>
+                            <label for="sixthCouponPaymentYearUnit">Coupon Payments per Year </label>
+                            <select id="sixthCouponPaymentYearUnit" class="bonds" required>
+                                <option disabled selected value> Please choose an option </option>
+                                <option value="annually">Annually</option>
+                                <option value="semiannually">Semiannually</option>
+                                <option value="quarterly">Quarterly</option>
+                                <option value="monthly">Monthly</option>
+                                <option value="weekly">Weekly</option>
+                                <option value="daily-ordinary">Daily: Ordinary</option>
+                                <option value="daily-exact">Daily: Exact</option>
+                            </select>
+                        </p>
+                        <p>
+                            <label for="sixthYieldMaturity">Yield to Maturity is </label><input type="text"
+                                class="bonds" name="sixthYieldMaturity" id="sixthYieldMaturity" autocomplete="off"
+                                required> in
+                            <select id="sixthYieldMaturityUnit" class="bonds" required>
+                                <option disabled selected value> Please choose an option </option>
+                                <option value="percent">Percent</option>
+                                <option value="decimal">Decimal</option>
+                            </select>
+                        </p>
+                        <p>
+                            <label for="sixthTime">Time is </label><input type="text" class="bonds" name="sixthTime"
+                                id="sixthTime" autocomplete="off" required> in
+                            <select id="sixthTimeUnit" class="bonds" required>
+                                <option disabled selected value> Please choose an option </option>
+                                <option value="years">Years</option>
+                                <option value="months">Months</option>
+                                <option value="weeks">Weeks</option>
+                                <option value="days_O">Days: Ordinary</option>
+                                <option value="days_E">Days: Exact</option>
+                            </select>
+                        </p>
+
+                        <p class="w3-center">
+                            <button onclick="sixthBond()">Calculate</button>
+                            <input type="reset" value="Reset">
+                        </p>
+
+                        <div id="sixthBondPrice"></div>
+                    </form>
                 </div>
             </div>
-            
-            <br><br>
-            
-            <!--
+
+            <!-- 7th: Given: FV, CP, YTM, m, t; find BP -->
+            <div class="w3-half">
+                <div class="container">
+                    <h3><u>Given:</u> Face Value, Coupon Rate, Yield to Maturity, Number of Coupon Payments per Year,
+                        Time</h3>
+                    <h3><u>To Find:</u> Bond Price</h3>
+                    <form id="seventhBond">
+                        <p><label for="seventhFV">Face Value is $ </label><input type="text" class="bonds"
+                                name="seventhFV" id="seventhFV" autocomplete="off" required></p>
+                        <p>
+                            <label for="seventhCouponRate">Coupon Rate is </label><input type="text" class="bonds"
+                                name="seventhCouponRate" id="seventhCouponRate" autocomplete="off" required> in
+                            <select id="seventhCouponRateUnit" class="bonds" required>
+                                <option disabled selected value> Please choose an option </option>
+                                <option value="percent">Percent</option>
+                                <option value="decimal">Decimal</option>
+                            </select>
+                        </p>
+                        <p>
+                            <label for="seventhCouponPaymentYearUnit">Coupon Payments per Year </label>
+                            <select id="seventhCouponPaymentYearUnit" class="bonds" required>
+                                <option disabled selected value> Please choose an option </option>
+                                <option value="annually">Annually</option>
+                                <option value="semiannually">Semiannually</option>
+                                <option value="quarterly">Quarterly</option>
+                                <option value="monthly">Monthly</option>
+                                <option value="weekly">Weekly</option>
+                                <option value="daily-ordinary">Daily: Ordinary</option>
+                                <option value="daily-exact">Daily: Exact</option>
+                            </select>
+                        </p>
+                        <p>
+                            <label for="seventhYieldMaturity">Yield to Maturity is </label><input type="text"
+                                class="bonds" name="seventhYieldMaturity" id="seventhYieldMaturity" autocomplete="off"
+                                required> in
+                            <select id="seventhYieldMaturityUnit" class="bonds" required>
+                                <option disabled selected value> Please choose an option </option>
+                                <option value="percent">Percent</option>
+                                <option value="decimal">Decimal</option>
+                            </select>
+                        </p>
+                        <p>
+                            <label for="seventhTime">Time is </label><input type="text" class="bonds" name="seventhTime"
+                                id="seventhTime" autocomplete="off" required> in
+                            <select id="seventhTimeUnit" class="bonds" required>
+                                <option disabled selected value> Please choose an option </option>
+                                <option value="years">Years</option>
+                                <option value="months">Months</option>
+                                <option value="weeks">Weeks</option>
+                                <option value="days_O">Days: Ordinary</option>
+                                <option value="days_E">Days: Exact</option>
+                            </select>
+                        </p>
+
+                        <p class="w3-center">
+                            <button onclick="seventhBond()">Calculate</button>
+                            <input type="reset" value="Reset">
+                        </p>
+
+                        <div id="seventhBondPrice"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <br><br>
+
+        <div class="mfc-row-padding">
+            <!-- 10th: Given: FV, CR, BP, m, t; find BP -->
+            <div class="w3-half">
+                <div class="container">
+                    <h3><u>Given:</u> Face Value, Coupon Rate, Bond Price, Number of Coupon Payments per Year, Time</h3>
+                    <h3>
+                        <u>To Find:</u> Yield to Maturity, Annualized Yield to Maturity<br>
+                    </h3>
+                    <form id="tenthBond">
+                        <p><label for="tenthFV">Face Value is $ </label><input type="text" class="bonds" name="tenthFV"
+                                id="tenthFV" autocomplete="off" required></p>
+                        <p>
+                            <label for="tenthCouponRate">Coupon Rate is </label><input type="text" class="bonds"
+                                name="tenthCouponRate" id="tenthCouponRate" autocomplete="off" required> in
+                            <select id="tenthCouponRateUnit" class="bonds" required>
+                                <option disabled selected value> Please choose an option </option>
+                                <option value="percent">Percent</option>
+                                <option value="decimal">Decimal</option>
+                            </select>
+                        </p>
+                        <p>
+                            <label for="tenthCouponPaymentYearUnit">Coupon Payments per Year </label>
+                            <select id="tenthCouponPaymentYearUnit" class="bonds" required>
+                                <option disabled selected value> Please choose an option </option>
+                                <option value="annually">Annually</option>
+                                <option value="semiannually">Semiannually</option>
+                                <option value="quarterly">Quarterly</option>
+                                <option value="monthly">Monthly</option>
+                                <option value="weekly">Weekly</option>
+                                <option value="daily-ordinary">Daily: Ordinary</option>
+                                <option value="daily-exact">Daily: Exact</option>
+                            </select>
+                        </p>
+                        <p><label for="tenthBP">Bond Price is $ </label><input type="text" class="bonds" name="tenthBP"
+                                id="tenthBP" autocomplete="off" required></p>
+                        <p>
+                            <label for="tenthTime">Time is </label><input type="text" class="bonds" name="tenthTime"
+                                id="tenthTime" autocomplete="off" required> in
+                            <select id="tenthTimeUnit" class="bonds" required>
+                                <option disabled selected value> Please choose an option </option>
+                                <option value="years">Years</option>
+                                <option value="months">Months</option>
+                                <option value="weeks">Weeks</option>
+                                <option value="days_O">Days: Ordinary</option>
+                                <option value="days_E">Days: Exact</option>
+                            </select>
+                        </p>
+
+                        <p class="w3-center">
+                            <button onclick="tenthBond()">Calculate</button>
+                            <input type="reset" value="Reset">
+                        </p>
+
+                        <div id="tenthYieldMaturity"></div>
+                        <div id="tenthAnnualizedYieldMaturity"></div>
+                    </form>
+                </div>
+            </div>
+
+            <!-- 11th: Given: FV, CP, BP, t; find YTM -->
+            <div class="w3-half">
+                <div class="container">
+                    <h3><u>Given:</u> Face Value, Coupon Payment, Bond Price, Number of Coupon Payments per Year, Time
+                    </h3>
+                    <h3>
+                        <u>To Find:</u> Yield to Maturity, Annualized Yield to Maturity<br>
+                    </h3>
+                    <form id="eleventhBond">
+                        <p><label for="eleventhFV">Face Value is $ </label><input type="text" class="bonds"
+                                name="eleventhFV" id="eleventhFV" autocomplete="off" required></p>
+                        <p><label for="eleventhCP">Coupon Payment is $ </label><input type="text" class="bonds"
+                                name="eleventhCP" id="eleventhCP" autocomplete="off" required></p>
+                        <p>
+                            <label for="eleventhCouponPaymentYearUnit">Coupon Payments per Year </label>
+                            <select id="eleventhCouponPaymentYearUnit" class="bonds" required>
+                                <option disabled selected value> Please choose an option </option>
+                                <option value="annually">Annually</option>
+                                <option value="semiannually">Semiannually</option>
+                                <option value="quarterly">Quarterly</option>
+                                <option value="monthly">Monthly</option>
+                                <option value="weekly">Weekly</option>
+                                <option value="daily-ordinary">Daily: Ordinary</option>
+                                <option value="daily-exact">Daily: Exact</option>
+                            </select>
+                        </p>
+                        <p><label for="eleventhBP">Bond Price is $ </label><input type="text" class="bonds"
+                                name="eleventhBP" id="eleventhBP" autocomplete="off" required></p>
+
+                        <p>
+                            <label for="eleventhTime">Time is </label><input type="text" class="bonds"
+                                name="eleventhTime" id="eleventhTime" autocomplete="off" required> in
+                            <select id="eleventhTimeUnit" class="bonds" required>
+                                <option disabled selected value> Please choose an option </option>
+                                <option value="years">Years</option>
+                                <option value="months">Months</option>
+                                <option value="weeks">Weeks</option>
+                                <option value="days_O">Days: Ordinary</option>
+                                <option value="days_E">Days: Exact</option>
+                            </select>
+                        </p>
+
+                        <p class="w3-center">
+                            <button onclick="eleventhBond()">Calculate</button>
+                            <input type="reset" value="Reset">
+                        </p>
+
+                        <div id="eleventhYieldMaturity"></div>
+                        <div id="eleventhAnnualizedYieldMaturity"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <br><br>
+
+        <!--
             <div class="mfc-row-padding">                
                  9th: Given: FV, CR, BP, m, t; find BP 
                 <div class="w3-half">
@@ -629,31 +684,36 @@
             </div>
             End 8th: Given: FV, CP, BP, t; find YTM -->
 
-            <br><br>
-            
-            <!-- Footer -->
-            <footer class="white w3-center w3-padding-24">
-                <a href="https://www.youtube.com/user/samuelchukwuemeka" title="Subscribe to my YouTube channel" target="_blank"><img src="images/youtube.png" alt="Subscribe to my YouTube channel"></a>
-                <a href="https://twitter.com/samdom4peace" title="Follow me on twitter" target="_blank"><img src="images/twitter.png" alt="Follow me on twitter"></a>
-                <a href="http://samueldominicchukwuemeka.blogspot.com/?view=flipcard" title="Subscribe and follow my blog" target="_blank"><img src="images/blogger.jpg" alt="Subscribe and follow my blog"></a>
-                <div id="google_translate_element"></div>
-                <script>
-                        function googleTranslateElementInit() {
-                        new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, gaTrack: true, gaId: 'UA-102287542-1'}, 'google_translate_element');
-                        }
-                </script>
-                <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-                <p>&copy; 2018&nbsp;<a href="https://www.samuelchukwuemeka.com/" target="_blank">Samdom4Peace</a>&nbsp;Designs.</p>
-            </footer>
-            <!-- End Footer -->
+        <br><br>
 
-            <!-- End page content -->
-        </div>
+        <!-- Footer -->
+        <footer class="white w3-center w3-padding-24">
+            <a href="https://www.youtube.com/user/samuelchukwuemeka" title="Subscribe to my YouTube channel"
+                target="_blank"><img src="images/youtube.png" alt="Subscribe to my YouTube channel"></a>
+            <a href="https://twitter.com/samdom4peace" title="Follow me on twitter" target="_blank"><img
+                    src="images/twitter.png" alt="Follow me on twitter"></a>
+            <a href="http://samueldominicchukwuemeka.blogspot.com/?view=flipcard" title="Subscribe and follow my blog"
+                target="_blank"><img src="images/blogger.jpg" alt="Subscribe and follow my blog"></a>
+            <div id="google_translate_element"></div>
+            <script>
+                function googleTranslateElementInit() {
+                    new google.translate.TranslateElement({ pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, gaTrack: true, gaId: 'UA-102287542-1' }, 'google_translate_element');
+                }
+            </script>
+            <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+            <p>&copy; 2018&nbsp;<a href="https://www.samuelchukwuemeka.com/"
+                    target="_blank">Samdom4Peace</a>&nbsp;Designs.</p>
+        </footer>
+        <!-- End Footer -->
 
-        <script src="https://cdn.jsdelivr.net/npm/jstat@1.9.2/dist/jstat.min.js"></script> 
-        <script src="https://cdn.jsdelivr.net/gh/formulajs/formulajs@2.3.3/dist/formula.min.js"></script>
-        <script src="scripts/messages10.js"></script>
-        <script src="scripts/bond.js"></script>
-        
-    </body> 
+        <!-- End page content -->
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/jstat@1.9.2/dist/jstat.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/formulajs/formulajs@2.3.3/dist/formula.min.js"></script>
+    <script src="scripts/messages10.js"></script>
+    <script src="scripts/bond.js"></script>
+
+</body>
+
 </html>

@@ -1,11 +1,11 @@
 // Copyright 2018 - Samuel Dominic Chukwuemeka (Samdom For Peace)
 // www.samuelchukwuemeka.com
 // www.chukwuemekasamuel.com
-// www.chukwuemeka-samuel.appspot.com
+// 
 // www.samdomforpeace.com
-// www.samdomforpeace.appspot.com
-// www.finance-calculators.appspot.com/continuousCompoundInterest.html
-// www.finance-calculators.appspot.com/continuousCompoundInterestApplications.html
+// 
+// https://samuelchukwuemeka.github.io/financial-mathematics/continuousCompoundInterest.html
+// https://samuelchukwuemeka.github.io/financial-mathematics/continuousCompoundInterestApplications.html
 // message 3
 
 

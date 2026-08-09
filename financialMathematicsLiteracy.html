@@ -1,1183 +1,1221 @@
 <!DOCTYPE html>
 <html lang="en">
-    
-    <head>
 
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-102287542-1"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag() {
-                dataLayer.push(arguments);
-            }
-            gtag('js', new Date());
+<head>
 
-            gtag('config', 'UA-102287542-1');
-        </script>
 
-        <script data-ad-client="ca-pub-9463984700780669" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
-        <meta charset="utf-8">
-        <meta name="google-site-verification" content="dWWImG59lcpKRGrhVSEW_j8U2jW1vMTG1_J2dUBrF4s">
-        <meta name="msvalidate.01" content="85DBCF5F806AB8C9BD2FC30728535125">
-        <meta name="google-site-verification" content="dq1XmHfXW0b3WlsawOYEk5yvgZDJ7CesBFu9QrSmHrs">
+    <meta charset="utf-8">
 
-        <title>Financial Math Literacy</title>
-        
-        <meta name="description" content="Samuel Chukwuemeka (SamDom4Peace) gives all the credit to our LORD and GOD, JESUS CHRIST. We are experts in financial mathematics literacy.">
-        
-        <meta name="keywords" content="samuel, chukwuemeka, math, mathematics, mathematics of finance, financial mathematics, 
+
+    <title>Financial Math Literacy</title>
+
+    <meta name="description"
+        content="Samuel Chukwuemeka (SamDom4Peace) gives all the credit to our LORD and GOD, JESUS CHRIST. We are experts in financial mathematics literacy.">
+
+    <meta name="keywords" content="samuel, chukwuemeka, math, mathematics, mathematics of finance, financial mathematics, 
                 financial math, simple interest, compound interest, continuous compound interest, annual percentage yield, 
                 apy, annuity, ordinary annuity, annuity due, amortization, present value, future value, sinking fund, rule of 78, 
                 loan amortization, mortgage payments, stocks, bonds, investment decision rules, debt financing, time value of money,
                 project evaluation, refund fraction, coupon bonds, bond coupons, bond coupon amount, bond coupon number, bond price, 
                 face value, par value, bond coupon rate, yield to maturity, market value">
-                
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="styles/mathematicsFinance.css" rel="stylesheet" type="text/css" media="all">
-        <link rel="shortcut icon" type="image/x-icon" href="https://finance-calculators.appspot.com/images/favicon.ico">
-    </head>
 
-    <body>
-        <!-- Header -->
-        <header class="w3-padding-64 bisque" id="quotes">
-            <div class="w3-center">
-                <button class="quotations" onclick="solutions('solutionQuotes')">Quotes of the Day</button>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles/mathematicsFinance.css" rel="stylesheet" type="text/css" media="all">
+    <link rel="shortcut icon" type="image/x-icon"
+        href="https://samuelchukwuemeka.github.io/financial-mathematics/images/favicon.ico">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="w3-padding-64 bisque" id="quotes">
+        <div class="w3-center">
+            <button class="quotations" onclick="solutions('solutionQuotes')">Quotes of the Day</button>
+        </div>
+
+        <div class="quote w3-content" id="solutionQuotes">
+            <p>
+                <q>
+                    If there is one prayer that you should <b>pray/sing</b> every day and every hour, it is the
+                    <a href="https://www.samdomforpeace.com/Theology/prayer.html" target="_blank">LORD's prayer (Our
+                        FATHER in Heaven prayer)</a> <br>
+                    It is the <b>most powerful prayer</b>.
+                    A <b>pure heart</b>, a <b>clean mind</b>, and a <b>clear conscience</b> is necessary for it.
+                </q> - Samuel Dominic Chukwuemeka
+            </p>
+            <p id="messages12"><q>For in GOD we live, and move, and have our being.</q> - Acts 17:28</p>
+            <p><q>The <b>Joy</b> of the <b>Teacher</b> is the <b>Success</b> of the <b>Students</b>.</q> - Samuel
+                Dominic Chukwuemeka</p>
+        </div>
+    </header>
+    <!-- End Header -->
+
+    <br><br>
+
+    <!-- Page Content -->
+    <h1>Solved Examples: Mathematics of Finance Literacy</h1>
+
+    <p class="w3-container">
+        <!-- Image in top left corner -->
+        <a href="https://samuelchukwuemeka.github.io/financial-mathematics/" title="Samuel Dominic Chukwuemeka">
+            <img src="images/samueldominic4peace.jpg" alt="Samuel Dominic Chukwuemeka (SamDom For Peace)"
+                class="images">
+        </a>
+        Pre-requisites: <a href="https://samuelchukwuemeka.github.io/measurements-units/" target="_blank">Measurements
+            and Units</a>
+        <br>
+        Formulas Used: <a
+            href="https://samuelchukwuemeka.github.io/financial-mathematics/financialMathematics.html#formulas"
+            target="_blank">Mathematics of Finance</a> <br>
+
+        <mark>
+            <u>NOTE:</u> Unless instructed otherwise; <br>
+            For all financial calculations, do not round until the final answer. <br>
+            Do not round intermediate calculations. If it is too long, write it to "at least" $5$ decimal places. <br>
+            Round your final answer to $2$ decimal places. <br>
+            Make sure you include your unit.
+        </mark> <br><br>
+
+        Solve all questions. <br>
+        Show all work. <br>
+        Interpret your solutions. <br><br>
+
+        <mark>For ACT Students</mark> <br>
+        The ACT is a timed exam...60 questions for 60 minutes <br>
+        This implies that you have to solve each question in one minute. <br>
+        Some questions will typically take less than a minute a solve. <br>
+        Some questions will typically take more than a minute to solve. <br>
+        The goal is to maximize your time. You use the time saved on those questions you
+        solved in less than a minute, to solve the questions that will take more than a minute. <br>
+        So, you should try to solve each question <u>correctly</u> and <u>timely</u>. <br>
+        So, it is not just solving a question correctly, but solving it <u>correctly on time</u>. <br>
+        Please ensure you attempt <u>all ACT questions</u>. <br>
+        There is no <i>negative</i> penalty for any wrong answer. <br><br>
+        <mark>For JAMB and CMAT Students</mark> <br>
+        Calculators are not allowed. So, the questions are solved in a way that does not require a calculator. <br><br>
+        <mark>For NSC Students</mark> <br>
+        <u>For the Questions:</u> <br>
+        Any space included in a number indicates a comma used to separate digits...separating multiples of three digits
+        from
+        behind. <br>
+        Any comma included in a number indicates a decimal point. <br>
+        <u>For the Solutions:</u> <br>
+        Decimals are used appropriately rather than commas <br>
+        Commas are used to separate digits appropriately.
+    </p>
+
+    <div class="w3-row w3-container">
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (1.) Carlo bought a new plasma TV for <span>$</span>1900. <br>
+                He made a down payment of <span>$</span>400 and then financed the balance through the store. <br>
+                Unfortunately, he was unable to make the first monthly payment and now pays 7% interest per month on the
+                balance while he watches his TV. <br>
+                What is Carlo's monthly interest payment?
+                <br><br>
+                <button class="solutions" onclick="solutions('solutionFML1')">Show/Hide Answer</button>
+                <div class="result" id="solutionFML1">
+                    <br>
+                    $
+                    Balance = 1900 - 400 = 1500 \\[3ex]
+                    Monthly\;\;interest\;\;rate = 7\% = \dfrac{7}{100} = 0.07 \\[5ex]
+                    $
+                    Monthly interest payment = Monthly interest rate * Average balance <br>
+                    = 0.07 * 1500 <br>
+                    = 105 <br>
+                    Carlo's monthly interest payment is <span>$</span>105.00
+                </div>
             </div>
-            
-            <div class="quote w3-content" id="solutionQuotes">
-                <p>
-                    <q>
-                        If there is one prayer that you should <b>pray/sing</b> every day and every hour, it is the 
-                        <a href="https://www.samdomforpeace.com/Theology/prayer.html" target="_blank">LORD's prayer (Our FATHER in Heaven prayer)</a> <br>
-                        It is the <b>most powerful prayer</b>.
-                        A <b>pure heart</b>, a <b>clean mind</b>, and a <b>clear conscience</b> is necessary for it.
-                    </q> - Samuel Dominic Chukwuemeka 
-                </p>
-                <p id="messages12"><q>For in GOD we live, and move, and have our being.</q> - Acts 17:28</p>
-                <p><q>The <b>Joy</b> of a <b>Teacher</b> is the <b>Success</b> of his <b>Students</b>.</q> - Samuel Dominic Chukwuemeka</p>
+        </div>
+
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (2.) Suppose Boaz has a health insurance policy with an annual premium of <span>$</span>4800, an annual
+                deductible of <span>$</span>1000, and copayments of <span>$</span>25
+                for visits to the doctor's offices. <br>
+                He goes through the year with no medical bills at all. <br>
+                What is his total cost for the year?
+                <br><br>
+                <button class="solutions" onclick="solutions('solutionFML2')">Show/Hide Answer</button>
+                <div class="result" id="solutionFML2">
+                    <br>
+                    The total cost for the year is <span>$</span>4800 because he went through the year with no medical
+                    bills.
+                </div>
             </div>
-        </header>
-        <!-- End Header -->
+        </div>
+    </div>
 
-        <br><br>
-                        
-        <!-- Page Content -->
-        <h1>Solved Examples: Mathematics of Finance Literacy</h1>
-        
-        <p class="w3-container">
-            <!-- Image in top left corner -->
-            <a href="https://finance-calculators.appspot.com" title="Samuel Dominic Chukwuemeka">
-                <img src="images/samueldominic4peace.jpg" alt="Samuel Dominic Chukwuemeka (SamDom For Peace)" class="images">
-            </a>
-            Pre-requisites: <a href="https://measurementsandunits.appspot.com/" target="_blank">Measurements and Units</a> <br>
-            Formulas Used: <a href="https://finance-calculators.appspot.com/financialMathematics.html#formulas" target="_blank">Mathematics of Finance</a> <br>
-                       
-            <mark>
-                <u>NOTE:</u> Unless instructed otherwise; <br>
-                For all financial calculations, do not round until the final answer. <br>
-                Do not round intermediate calculations. If it is too long, write it to "at least" $5$ decimal places. <br>
-                Round your final answer to $2$ decimal places. <br>
-                Make sure you include your unit.
-            </mark> <br><br>
+    <div class="w3-row w3-container">
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (3.) <b>ACT</b> Marietta purchased a car that had a purchase price of <span>$</span>10,400, which
+                included all other
+                costs and tax. <br>
+                She paid <span>$</span>2,000 as a down payment and got a loan for the rest of the purchase price. <br>
+                Marietta paid off the loan by making 48 payments of <span>$</span>225 each. <br>
+                The total of all her payments, including the down payment, was how much more than the car's purchase
+                price?
+                <br><br>
+                $
+                A.\:\: \$400 \\[3ex]
+                B.\:\: \$2,400 \\[3ex]
+                C.\:\: \$8,400 \\[3ex]
+                D.\:\: \$10,800 \\[3ex]
+                E.\:\: \$12,800 \\[3ex]
+                $
+                <button class="solutions" onclick="solutions('solutionFML3')">Show/Hide Answer</button>
+                <div class="result" id="solutionFML3">
+                    <br>
+                    $
+                    Purchase price of car = $\$10,400$ <br><br>
+                    Down payment = $\$2000$ <br><br>
+                    $48$ payments @ $\$225$ per payment = $48 * 225 = \$10,800$ <br><br>
+                    Total of all payments she made = $\$2000 + \$10,800 = \$12,800$ <br><br>
+                    This is the question: <br><br>
+                    $\$12,800$ is how much more than $\$10,400$ <br><br>
+                    $12,800 - 10,400 = 2,400$ <br><br>
+                    The total payments made by Marietta is $\$2,400$ more than the car's purchase price.
+                    $
+                </div>
+            </div>
+        </div>
 
-            Solve all questions. <br>
-            Show all work. <br>
-            Interpret your solutions. <br><br>
-        
-            <mark>For ACT Students</mark> <br>
-            The ACT is a timed exam...60 questions for 60 minutes <br>
-            This implies that you have to solve each question in one minute. <br>
-            Some questions will typically take less than a minute a solve. <br>
-            Some questions will typically take more than a minute to solve. <br>
-            The goal is to maximize your time. You use the time saved on those questions you
-            solved in less than a minute, to solve the questions that will take more than a minute. <br>
-            So, you should try to solve each question <u>correctly</u> and <u>timely</u>. <br>
-            So, it is not just solving a question correctly, but solving it <u>correctly on time</u>. <br>
-            Please ensure you attempt <u>all ACT questions</u>. <br>
-            There is no <i>negative</i> penalty for any wrong answer. <br><br>
-            <mark>For JAMB and CMAT Students</mark> <br>
-            Calculators are not allowed. So, the questions are solved in a way that does not require a calculator. <br><br>
-            <mark>For NSC Students</mark> <br>
-            <u>For the Questions:</u> <br>
-            Any space included in a number indicates a comma used to separate digits...separating multiples of three digits from
-            behind. <br>
-            Any comma included in a number indicates a decimal point. <br>
-            <u>For the Solutions:</u> <br>
-            Decimals are used appropriately rather than commas <br>
-            Commas are used to separate digits appropriately.
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (4.) Find the monthly interest payment in the situations described below. <br>
+                Assume that the monthly interest rate is one-twelfth of the annual interest rate. <br><br>
+                (a.) Veronica owes a clothing store <span>$</span>1700, but until she makes a payment, she pays 2%
+                interest per month. <br>
+                What is Veronica's monthly interest payment? <br><br>
+                (b.) Jacob maintains an average balance of <span>$</span>1050 on his credit card, which carries a 12%
+                annual interest rate. <br>
+                How much is his monthly interest payment?
+                <br><br>
+                <button class="solutions" onclick="solutions('solutionFML4')">Show/Hide Answer</button>
+                <div class="result" id="solutionFML4">
+                    <br>
+                    $
+                    (a.) \\[3ex]
+                    Balance = \$1700 \\[3ex]
+                    Monthly\;\;interest\;\;rate = 2\% = \dfrac{2}{100} = 0.02 \\[5ex]
+                    $
+                    Monthly interest payment = Monthly interest rate * Average balance <br>
+                    = 0.02 * 1700 <br>
+                    = 34 <br>
+                    Veronica's monthly interest payment is <span>$</span>34.00
+                    <br><br>
+                    $
+                    (b.) \\[3ex]
+                    Annual\;\;interest\;\;rate = 12\% = \dfrac{12}{100} \\[5ex]
+                    Monthly\;\;interest\;\;rate = \dfrac{1}{12} * \dfrac{12}{100} = \dfrac{1}{100} \\[5ex]
+                    Average\;\;balance = \$1050 \\[3ex]
+                    Monthly\;\;interest\;\;payment = Monthly\;\;interest\;\;rate * Average\;\;balance \\[3ex]
+                    = \dfrac{1}{100} * 1050 \\[5ex]
+                    = 10.50 \\[3ex]
+                    $
+                    Jacob's monthly interest payment is <span>$</span>10.50
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="w3-row w3-container">
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (5.) Prorate the following expenses and find the corresponding <i>monthly</i> expense. <br>
+                (Round to the nearest cent as needed) <br><br>
+                (a.) Sarah pays <span>$</span>4100 for tuition and fees for each of the two semesters, plus an
+                additional <span>$</span>210 for textbooks each semester. <br><br>
+                (b.) During one year, Paul takes 15 credit hours for each of three quarters. <br>
+                Tuition and fees amount to <span>$</span>615 per credit-hour. <br>
+                Textbooks average <span>$</span>310 per quarter. <br><br>
+                (c.) Jonathan pays a semiannual premium of <span>$</span>600 for automobile insurance, a monthly premium
+                of <span>$</span>125 for health insurance, and an annual premium of
+                <span>$</span>300 for life insurance. <br><br>
+                (d.) Judith pays <span>$</span>595 per month in rent, a semiannual car insurance premium of
+                <span>$</span>450, and an annual health club membership fee of <span>$</span>450. <br><br>
+                (e.) In filing his income tax, Lot reported annual contributions of <span>$</span>550 to a public radio
+                station, <span>$</span>245 to a public TV station, <span>$</span>150
+                to a local food bank, and <span>$</span>283 to other charitable organizations. <br><br>
+                (f.) Benedicta spends an average of <span>$</span>34 per week on gasoline and <span>$</span>39 every
+                three months on a daily newspaper.
+                <br><br>
+                <button class="solutions" onclick="solutions('solutionFML5')">Show/Hide Answer</button>
+                <div class="result" id="solutionFML5">
+                    <br>
+                    (a.) <u>1st semester</u> <br>
+                    Tuition: <span>$</span>4100 <br>
+                    Textbooks: <span>$</span>210 <br><br>
+                    <u>2nd semester</u> <br>
+                    Tuition: <span>$</span>4100 <br>
+                    Textbooks: <span>$</span>210 <br><br>
+                    Total = 4100(2) + 210(2) <br>
+                    = 8200 + 420 <br>
+                    = 8620 per year <br><br>
+                    $
+                    Monthly\;\;expense = \dfrac{8620}{12} \\[5ex]
+                    = 718.3333333 \\[3ex]
+                    \approx \$718.33 \\[3ex]
+                    $
+                    (b.) <u>Three quarters</u> <br>
+                    Tuition and Fees: 615(15)(3) = 27675 <br>
+                    Textbooks costs: 310(3) = 930 <br>
+                    Total = 27675 + 930 = <i>$</i>28605 per year <br><br>
+                    $
+                    Monthly\;\;expense = \dfrac{28605}{12} \\[5ex]
+                    = \$2383.75 \\[3ex]
+                    $
+                    (c.) Semiannual premium of <span>$</span>600 for automobile insurance = 2(600) per year = 1200 per
+                    year = $\dfrac{1200}{12} = \$100$ per month <br>
+                    Annual premium of <span>$</span>300 for life insurance = 300 per year = $\dfrac{300}{12} = \$25$ per
+                    month <br>
+                    Monthly premium of <span>$</span>125 for health insurance <br>
+                    Monthly expense = 100 + 25 + 125 = <span>$</span>250 <br><br>
+                    (d.) Monthly rent = <span>$</span>595 <br>
+                    Semiannual car insurance premium of <span>$</span>450 = 2(450) per year = 900 per year =
+                    $\dfrac{900}{12} = \$75$ per month <br>
+                    Annual health club membership fee of <span>$</span>450 = $\dfrac{450}{12} = \$37.5$ per month <br>
+                    Monthly expense = 595 + 75 + 37.5 = <span>$</span>707.50 <br><br>
+                    (e.) <u>Annual contributions</u>: <br>
+                    <span>$</span>550 = $\dfrac{550}{12} = \$45.83333333$ per month <br><br>
+                    <span>$</span>245 = $\dfrac{245}{12} = \$20.41666667$ per month <br><br>
+                    <span>$</span>150 = $\dfrac{150}{12} = \$12.5$ per month <br><br>
+                    <span>$</span>245 = $\dfrac{283}{12} = \$23.58333333$ per month <br><br>
+                    Monthly expense = 45.83333333 + 20.41666667 + 12.5 + 23.58333333 = 102.3333333 &approx;
+                    <span>$</span>102.33 <br><br>
+                    (f.) <span>$</span>34 per week on gasoline = 52(34) per year = <span>$</span>1768 per year =
+                    $\dfrac{1768}{12} = \$147.3333333$ per month <br>
+                    <span>$</span>39 every three months on a daily newspaper = $\dfrac{39}{3} = \$13$ per month <br>
+                    Monthly expense = 147.3333333 + 13 = <span>$</span>160.3333333
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (6.) <b>ACT</b> Karen invested <span>$2,000</span> in a special savings account. <br>
+                The balance of this special savings account will double every 5 years. <br>
+                Assuming that Karen makes no other deposits and no withdrawals, what will be the balance of Karen's
+                investment at the end
+                of 40 years? <br><br>
+                $
+                A.\;\; \$80,000 \\[3ex]
+                B.\;\; \$256,000 \\[3ex]
+                C.\;\; \$400,000 \\[3ex]
+                D.\;\; \$512,000 \\[3ex]
+                E.\;\; \$1,024,000 \\[3ex]
+                $
+                <button class="solutions" onclick="solutions('solutionFML6')">Show/Hide Answer</button>
+                <div class="result" id="solutionFML6">
+                    <br>
+                    double <u>means</u> multiplication by 2 <br><br>
+                    $
+                    initial\;\;amount = 2000 \\[5ex]
+                    At\;\;the\;\;end\;\;of\;\;5\;\;years: \\[3ex]
+                    updated\;\;amount = 2000(2) = 4000 \\[5ex]
+                    At\;\;the\;\;end\;\;of\;\;another\;\;5\;\;years\;(10\;\;years): \\[3ex]
+                    updated\;\;amount = 4000(2) = 8000 \\[5ex]
+                    At\;\;the\;\;end\;\;of\;\;another\;\;5\;\;years\;(15\;\;years): \\[3ex]
+                    updated\;\;amount = 8000(2) = 16000 \\[5ex]
+                    At\;\;the\;\;end\;\;of\;\;another\;\;5\;\;years\;(20\;\;years): \\[3ex]
+                    updated\;\;amount = 16000(2) = 32000 \\[5ex]
+                    At\;\;the\;\;end\;\;of\;\;another\;\;5\;\;years\;(25\;\;years): \\[3ex]
+                    updated\;\;amount = 32000(2) = 64000 \\[5ex]
+                    At\;\;the\;\;end\;\;of\;\;another\;\;5\;\;years\;(30\;\;years): \\[3ex]
+                    updated\;\;amount = 64000(2) = 128000 \\[5ex]
+                    At\;\;the\;\;end\;\;of\;\;another\;\;5\;\;years\;(35\;\;years): \\[3ex]
+                    updated\;\;amount = 128000(2) = 256000 \\[5ex]
+                    At\;\;the\;\;end\;\;of\;\;another\;\;5\;\;years\;(40\;\;years): \\[3ex]
+                    updated\;\;amount = 256000(2) = 512000 \\[3ex]
+                    $
+                    The balance of Karen's investment at the end of 40 years is <span>$512,000</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="w3-row w3-container">
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (7.) Determine the net monthly cash flow for the income-expense sheet. <br>
+                Assume salaries and wages are after taxes. <br>
+                Assume 4 weeks = 1 month.
+                <br><br>
+                <table>
+                    <tr>
+                        <th style="width: 50%; text-align: left;" class="w3-padding">Income</th>
+                        <th style="width: 50%; text-align: left;" class="w3-padding">Expenses</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            Part-time job: <span>$</span>500/month <br>
+                            College fund from grandparents: <span>$</span>350/month <br>
+                            Scholarship: <span>$</span>6000/year
+                        </td>
+                        <td>
+                            Rent: <span>$</span>550/month <br>
+                            Groceries: <span>$</span>70/week <br>
+                            Tuition and fees: <span>$</span>3600 twice a year <br>
+                            Incidentals: <span>$</span>110/week
+                        </td>
+                    </tr>
+                </table>
+                <br>
+                <button class="solutions" onclick="solutions('solutionFML7')">Show/Hide Answer</button>
+                <div class="result" id="solutionFML7">
+                    <br>
+                    <u>Income</u> <br>
+                    Part-time job: <span>$</span>500/month <br>
+                    College fund from grandparents: <span>$</span>350/month <br>
+                    Scholarship: <span>$</span>6000/year = $\dfrac{6000}{12}$ per month = <span>$</span>500/month <br>
+                    Total monthly income = 500 + 350 + 500 = <span>$</span>1350
+                    <br><br>
+                    <u>Expenses</u> <br>
+                    Rent: <span>$</span>550/month <br>
+                    Groceries: <span>$</span>70/week = 70(4) = <span>$</span>280/month <br>
+                    Tuition and fees: <span>$</span>3600 twice a year = <span>$</span>3600 every six months =
+                    $\dfrac{3600}{6}$ per month = <span>$</span>600/month <br>
+                    Incidentals: <span>$</span>110/week = 110(4) = <span>$</span>440/month <br>
+                    Total monthly expenses = 550 + 280 + 600 + 440 = <span>$</span>1870
+                    <br><br>
+                    Net monthly cash flow = Monthly income &minus; Monthly expenses <br>
+                    = 1350 &minus; 1870 <br>
+                    = &minus;<span>$</span>520.00
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (8.)
+                <br><br>
+                <button class="solutions" onclick="solutions('solutionFML8')">Show/Hide Answer</button>
+                <div class="result" id="solutionFML8">
+                    <br>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="w3-row w3-container">
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (9.)
+
+                <br><br>
+                <button class="solutions" onclick="solutions('solutionFML9')">Show/Hide Answer</button>
+                <div class="result" id="solutionFML9">
+                    <br>
+
+
+
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (10.)
+                <br><br>
+                <button class="solutions" onclick="solutions('solutionFML10')">Show/Hide Answer</button>
+                <div class="result" id="solutionFML10">
+                    <br>
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="w3-row w3-container">
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (11.)
+
+                <br><br>
+                <button class="solutions" onclick="solutions('solutionFML11')">Show/Hide Answer</button>
+                <div class="result" id="solutionFML11">
+                    <br>
+
+
+
+
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (12.)
+
+
+                <br><br>
+                <button class="solutions" onclick="solutions('solutionFML12')">Show/Hide Answer</button>
+                <div class="result" id="solutionFML12">
+                    <br>
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="w3-row w3-container">
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (13.) <b>ACT</b> Diego purchased a car that had a purchase price of <span>$</span>13,400 which included
+                all other
+                costs and tax. <br>
+                He paid <span>$</span>400 as a down payment and got a loan for the rest of the purchase price. <br>
+                Diego paid off the loan by making 48 payments of <span>$</span>300 each. <br>
+                The total of all his payments, including the down payment, was how much more than the car's purchase
+                price?
+                <br><br>
+                $
+                F.\:\: \$1,000 \\[3ex]
+                G.\:\: \$1,400 \\[3ex]
+                H.\:\: \$13,000 \\[3ex]
+                J.\:\: \$14,400 \\[3ex]
+                K.\:\: \$14,800 \\[3ex]
+                $
+                <button class="solutions" onclick="solutions('solutionFML13')">Show/Hide Answer</button>
+                <div class="result" id="solutionFML13">
+                    <br>
+                    Purchase price of car = $\$13,400$ <br><br>
+                    Down payment = $\$400$ <br><br>
+                    $48$ payments @ $\$300$ per payment = $48 * 300 = \$14,400$ <br><br>
+                    Total of all payments he made = $\$400 + \$14,400 = \$14,800$ <br><br>
+                    This is the question: <br><br>
+                    $\$14,800$ is how much more than $\$13,400$ <br><br>
+                    $14,800 - 13,400 = 1,400$ <br><br>
+                    The total payments made by Diego is $\$1,400$ more than the car's purchase price.
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (14.)
+                <button class="solutions" onclick="solutions('solutionFML14')">Show/Hide Answer</button>
+                <div class="result" id="solutionFML14">
+                    <br>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="w3-row w3-container">
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (15.) Determine the net monthly cash flow for the income-expense sheet. <br>
+                Assume salaries and wages are after taxes. <br>
+                Assume 4 weeks = 1 month.
+                <br><br>
+                <table>
+                    <tr>
+                        <th style="width: 50%; text-align: left;" class="w3-padding">Income</th>
+                        <th style="width: 50%; text-align: left;" class="w3-padding">Expenses</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            Part-time job: <span>$</span>1300/month <br>
+                            Student loans: <span>$</span>8400/year <br>
+                            Scholarship: <span>$</span>5500/year
+                        </td>
+                        <td>
+                            Rent: <span>$</span>450/month <br>
+                            Groceries: <span>$</span>50/week <br>
+                            Tuition and fees: <span>$</span>8500/year <br>
+                            Health insurance: <span>$</span>50/month <br>
+                            Entertainment: <span>$</span>200/month <br>
+                            Phone: <span>$</span>40/month
+                        </td>
+                    </tr>
+                </table>
+                <br>
+                <button class="solutions" onclick="solutions('solutionFML15')">Show/Hide Answer</button>
+                <div class="result" id="solutionFML15">
+                    <br>
+                    <u>Income</u> <br>
+                    Part-time job: <span>$</span>1300/month <br>
+                    Student loans: <span>$</span>8400/year = $\dfrac{8400}{12}$ per month = <span>$</span>700/month
+                    <br><br>
+                    Scholarship: <span>$</span>5500/year = $\dfrac{5500}{12}$ per month =
+                    <span>$</span>458.3333333/month <br>
+                    Total monthly income = 1300 + 700 + 458.3333333 = <span>$</span>2458.333333
+                    <br><br>
+                    <u>Expenses</u> <br>
+                    Rent: <span>$</span>450/month <br>
+                    Groceries: <span>$</span>50/week = 50(4) = <span>$</span>200/month <br>
+                    Tuition and fees: <span>$</span>8500/year = $\dfrac{8500}{12}$ per month =
+                    <span>$</span>708.3333333/month <br>
+                    Health insurance: <span>$</span>50/month <br>
+                    Entertainment: <span>$</span>200/month <br>
+                    Phone: <span>$</span>40/month <br>
+                    Total monthly expenses = 450 + 200 + 708.3333333 + 50 + 200 + 40 = <span>$</span>1648.333333
+                    <br><br>
+                    Net monthly cash flow = Monthly income &minus; Monthly expenses <br>
+                    = 2458.333333 &minus; 1648.333333 <br>
+                    = <span>$</span>810.00
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (16.)
+
+                <br><br>
+                <button class="solutions" onclick="solutions('solutionFML16')">Show/Hide Answer</button>
+                <div class="result" id="solutionFML16">
+                    <br>
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="w3-row w3-container">
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (17.)
+
+
+                <br><br>
+                <button class="solutions" onclick="solutions('solutionFML17')">Show/Hide Answer</button>
+                <div class="result" id="solutionFML17">
+                    <br>
+
+
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (18.)
+
+
+                <br><br>
+                <button class="solutions" onclick="solutions('solutionFML18')">Show/Hide Answer</button>
+                <div class="result" id="solutionFML18">
+                    <br>
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="w3-row w3-container">
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (19.)
+
+                <button class="solutions" onclick="solutions('solutionFML19')">Show/Hide Answer</button>
+                <div class="result" id="solutionFML19">
+                    <br>
+
+
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (20.) <b>ACT</b> Ricardo started a savings account for his daughter Ruth by depositing <span>$500</span>
+                into the
+                account for her 1st birthday. <br>
+                For each successive birthday, Ricardo deposits <span>$200</span> more than the amount deposited for the
+                previous
+                birthday. <br>
+                This is the only money deposited into the account. <br>
+                What is the total amount of money Ricardo will have deposited into the account for Ruth up to and
+                including her
+                6th birthday? <br><br>
+                $
+                F.\;\; \$4,000 \\[3ex]
+                G.\;\; \$4,200 \\[3ex]
+                H.\;\; \$4,700 \\[3ex]
+                J.\;\; \$4,900 \\[3ex]
+                K.\;\; \$6,000 \\[3ex]
+                $
+                <button class="solutions" onclick="solutions('solutionFML20')">Show/Hide Answer</button>
+                <div class="result" id="solutionFML20">
+                    <br>
+                    $
+                    \underline{1st\;\;birthday} \\[3ex]
+                    Deposit = 500 \\[5ex]
+                    \underline{2nd\;\;birthday} \\[3ex]
+                    Deposit = 200 + 500 = 700 \\[5ex]
+                    \underline{3rd\;\;birthday} \\[3ex]
+                    Deposit = 200 + 700 = 900 \\[5ex]
+                    \underline{4th\;\;birthday} \\[3ex]
+                    Deposit = 200 + 900 = 1100 \\[5ex]
+                    \underline{5th\;\;birthday} \\[3ex]
+                    Deposit = 200 + 1100 = 1300 \\[5ex]
+                    \underline{6th\;\;birthday} \\[3ex]
+                    Deposit = 200 + 1300 = 1500 \\[5ex]
+                    \underline{Total\;\;Deposited} \\[3ex]
+                    Total\;\;deposit \\[3ex]
+                    = 500 + 700 + 900 + 1100 + 1300 + 1500 \\[3ex]
+                    = 6000 \\[3ex]
+                    $
+                    The total amount of money Ricardo will have deposited into the account for Ruth up to and including
+                    her
+                    6th birthday is <span>$6,000</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br><br><br><br>
+    <!-- Top of the Page -->
+    <div class="w3-container" style="position:relative">
+        <a href="https://samuelchukwuemeka.github.io/financial-mathematics/financialMathematicsLiteracy.html"
+            class="w3-button w3-xlarge w3-circle w3-bisque" style="position:absolute;top:-70px;right:24px">Top</a>
+    </div>
+    <br><br><br><br>
+
+    <div class="w3-row w3-container">
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (21.) Determine the net monthly cash flow for the income-expense sheet. <br>
+                Assume salaries and wages are after taxes. <br>
+                Assume 4 weeks = 1 month.
+                <br><br>
+                <table>
+                    <tr>
+                        <th style="width: 50%; text-align: left;" class="w3-padding">Income</th>
+                        <th style="width: 50%; text-align: left;" class="w3-padding">Expenses</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            Salary: <span>$</span>1900/month
+                        </td>
+                        <td>
+                            Rent: <span>$</span>820/month <br>
+                            Groceries: <span>$</span>110/week <br>
+                            Utilities: <span>$</span>120/month <br>
+                            Health insurance: <span>$</span>480 semiannually <br>
+                            Car insurance: <span>$</span>440 semiannually <br>
+                            Gasoline: <span>$</span>40/week <br>
+                            Miscellaneous: <span>$</span>430/month <br>
+                            Phone: <span>$</span>90/month
+                        </td>
+                    </tr>
+                </table>
+                <br>
+                <button class="solutions" onclick="solutions('solutionFML21')">Show/Hide Answer</button>
+                <div class="result" id="solutionFML21">
+                    <br>
+                    <u>Income</u> <br>
+                    Salary: <span>$</span>1900/month <br>
+                    Total monthly income = <span>$</span>1900
+                    <br><br>
+                    <u>Expenses</u> <br>
+                    Rent: <span>$</span>820/month <br>
+                    Groceries: <span>$</span>110/week = 110(4) = <span>$</span>440/month <br>
+                    Utilities: <span>$</span>120/month <br>
+                    Health insurance: <span>$</span>480 semiannually = <span>$</span>480 every six months =
+                    $\dfrac{480}{6}$ per month = <span>$</span>80/month <br><br>
+                    Car insurance: <span>$</span>440 semiannually = <span>$</span>440 every six months =
+                    $\dfrac{440}{6}$ per month = <span>$</span>73.33333333/month <br><br>
+                    Gasoline: <span>$</span>40/week = 40(4) = <span>$</span>160/month <br>
+                    Miscellaneous: <span>$</span>430/month <br>
+                    Phone: <span>$</span>90/month <br>
+                    Total monthly expenses = 820 + 440 + 120 + 80 + 73.33333333 + 160 + 430 + 90 =
+                    <span>$</span>2213.333333
+                    <br><br>
+                    Net monthly cash flow = Monthly income &minus; Monthly expenses <br>
+                    = 1900 &minus; 2213.333333 <br>
+                    = &minus;313.3333333 <br>
+                    &approx; &minus;<span>$</span>313.33
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (22.)
+
+                <br><br>
+                <button class="solutions" onclick="solutions('solutionFML22')">Show/Hide Answer</button>
+                <div class="result" id="solutionFML22">
+                    <br>
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="w3-row w3-container">
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (23.)
+
+                <br><br>
+                <button class="solutions" onclick="solutions('solutionFML23')">Show/Hide Answer</button>
+                <div class="result" id="solutionFML23">
+                    <br>
+
+
+
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (24.) <b>ACT</b> Ming purchased a car that had a purchase price of <span>$</span>5,400, which included
+                all other
+                costs and tax. <br>
+                She paid <span>$</span>1,000 as a down payment and got a loan for the rest of the purchase price. <br>
+                Ming paid off the loan by making 28 payments of <span>$</span>200 each. <br>
+                The total of all her payments, including the down payment, was how much more than the car's purchase
+                price?
+                <br><br>
+                <button class="solutions" onclick="solutions('solutionFML24')">Show/Hide Answer</button>
+                <div class="result" id="solutionFML24">
+                    <br>
+                    Purchase price of car = $\$5,400$ <br><br>
+                    Down payment = $\$1000$ <br><br>
+                    $28$ payments @ $\$200$ per payment = $28 * 200 = \$5,600$ <br><br>
+                    Total of all payments she made = $\$1000 + \$5,600 = \$6,600$ <br><br>
+                    This is the question: <br><br>
+                    $\$6,600$ is how much more than $\$5,400$ <br><br>
+                    $6,600 - 5,400 = 1,200$ <br><br>
+                    The total payments made by Ming is $\$1,200$ more than the car's purchase price.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="w3-row w3-container">
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (25.)
+
+
+                <button class="solutions" onclick="solutions('solutionFML25')">Show/Hide Answer</button>
+                <div class="result" id="solutionFML25">
+                    <br>
+
+
+
+
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (26.)
+
+
+
+                <button class="solutions" onclick="solutions('solutionFML26')">Show/Hide Answer</button>
+                <div class="result" id="solutionFML26">
+                    <br>
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="w3-row w3-container">
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (27.)
+
+
+                <button class="solutions" onclick="solutions('solutionFML27')">Show/Hide Answer</button>
+                <div class="result" id="solutionFML27">
+                    <br>
+
+
+
+
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (28.)
+
+
+                <button class="solutions" onclick="solutions('solutionFML28')">Show/Hide Answer</button>
+                <div class="result" id="solutionFML28">
+                    <br>
+
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="w3-row w3-container">
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (29.) Determine the net monthly cash flow for the income-expense sheet. <br>
+                Assume salaries and wages are after taxes. <br>
+                Assume 4 weeks = 1 month.
+                <br><br>
+                <table>
+                    <tr>
+                        <th style="width: 50%; text-align: left;" class="w3-padding">Income</th>
+                        <th style="width: 50%; text-align: left;" class="w3-padding">Expenses</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            Salary: <span>$</span>26,500/year <br>
+                            Pottery Sales: <span>$</span>150/month
+                        </td>
+                        <td>
+                            House payments: <span>$</span>1070/month <br>
+                            Groceries: <span>$</span>100/week <br>
+                            Household expenses: <span>$</span>120/month <br>
+                            Health payments: <span>$</span>440/month <br>
+                            Car insurance: <span>$</span>540 twice a year <br>
+                            Savings plan: <span>$</span>35/month <br>
+                            Donations: <span>$</span>640/year <br>
+                            Miscellaneous: <span>$</span>470/month
+                        </td>
+                    </tr>
+                </table>
+                <br>
+                <button class="solutions" onclick="solutions('solutionFML29')">Show/Hide Answer</button>
+                <div class="result" id="solutionFML29">
+                    <br>
+                    <u>Income</u> <br>
+                    Salary: <span>$</span>26500/year = $\dfrac{26500}{12}$ per month = <span>$</span>2208.333333/month
+                    <br>
+                    Pottery Sales: <span>$</span>150/month <br>
+                    Total monthly income = 2208.333333 + 150 = <span>$</span>2358.333333
+                    <br><br>
+                    <u>Expenses</u> <br>
+                    House payments: <span>$</span>1070/month <br>
+                    Groceries: <span>$</span>100/week = 100(4) = <span>$</span>400/month <br>
+                    Household expenses: <span>$</span>120/month <br>
+                    Health payments: <span>$</span>440/month <br>
+                    Car insurance: <span>$</span>540 twice a year = <span>$</span>540 every six months =
+                    $\dfrac{540}{6}$ per month = <span>$</span>90/month <br>
+                    Savings plan: <span>$</span>35/month <br>
+                    Donations: <span>$</span>640/year = $\dfrac{640}{12}$ per month = <span>$</span>53.33333333/month
+                    <br>
+                    Miscellaneous: <span>$</span>470/month <br>
+                    Total monthly expenses = 1070 + 400 + 120 + 440 + 90 + 35 + 53.33333333 + 470 =
+                    <span>$</span>2678.333333
+                    <br><br>
+                    Net monthly cash flow = Monthly income &minus; Monthly expenses <br>
+                    = 2358.333333 &minus; 2678.333333 <br>
+                    = &minus;320.0000003 <br>
+                    &approx; &minus;<span>$</span>320.00
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (30.)
+
+
+                <button class="solutions" onclick="solutions('solutionFML30')">Show/Hide Answer</button>
+                <div class="result" id="solutionFML30">
+                    <br>
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="w3-row w3-container">
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (31.)
+
+
+                <br><br>
+                <button class="solutions" onclick="solutions('solutionFML31')">Show/Hide Answer</button>
+                <div class="result" id="solutionFML31">
+                    <br>
+
+
+
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (32.)
+
+
+                <button class="solutions" onclick="solutions('solutionFML32')">Show/Hide Answer</button>
+                <div class="result" id="solutionFML32">
+                    <br>
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="w3-row w3-container">
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (33.)
+
+
+                <br><br>
+                <button class="solutions" onclick="solutions('solutionFML33')">Show/Hide Answer</button>
+                <div class="result" id="solutionFML33">
+                    <br>
+
+
+
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (34.)
+
+
+                <br><br>
+                <button class="solutions" onclick="solutions('solutionFML34')">Show/Hide Answer</button>
+                <div class="result" id="solutionFML34">
+                    <br>
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="w3-row w3-container">
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (35.)
+
+
+                <br><br>
+                <button class="solutions" onclick="solutions('solutionFML35')">Show/Hide Answer</button>
+                <div class="result" id="solutionFML35">
+                    <br>
+
+
+
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (36.)
+
+
+                <br><br>
+                <button class="solutions" onclick="solutions('solutionFML36')">Show/Hide Answer</button>
+                <div class="result" id="solutionFML36">
+                    <br>
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="w3-row w3-container">
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (37.)
+
+
+                <br><br>
+                <button class="solutions" onclick="solutions('solutionFML37')">Show/Hide Answer</button>
+                <div class="result" id="solutionFML37">
+                    <br>
+
+
+
+
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (38.)
+
+
+                <button class="solutions" onclick="solutions('solutionFML38')">Show/Hide Answer</button>
+                <div class="result" id="solutionFML38">
+                    <br>
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="w3-row w3-container">
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (39.)
+                <br><br>
+                <button class="solutions" onclick="solutions('solutionFML39')">Show/Hide Answer</button>
+                <div class="result" id="solutionFML39">
+                    <br>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (40.)
+
+
+                <br><br>
+                <button class="solutions" onclick="solutions('solutionFML40')">Show/Hide Answer</button>
+                <div class="result" id="solutionFML40">
+                    <br>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br><br><br><br>
+    <!-- Top of the Page -->
+    <div class="w3-container" style="position:relative">
+        <a href="https://samuelchukwuemeka.github.io/financial-mathematics/financialMathematicsLiteracy.html"
+            class="w3-button w3-xlarge w3-circle w3-bisque" style="position:absolute;top:-70px;right:24px">Top</a>
+    </div>
+    <br><br><br><br>
+
+    <div class="w3-row w3-container">
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (41.)
+                <br><br>
+                <button class="solutions" onclick="solutions('solutionFML41')">Show/Hide Answer</button>
+                <div class="result" id="solutionFML41">
+                    <br>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (42.)
+
+
+                <br><br>
+                <button class="solutions" onclick="solutions('solutionFML42')">Show/Hide Answer</button>
+                <div class="result" id="solutionFML42">
+                    <br>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="w3-row w3-container">
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (43.)
+                <br><br>
+                <button class="solutions" onclick="solutions('solutionFML43')">Show/Hide Answer</button>
+                <div class="result" id="solutionFML43">
+                    <br>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (44.)
+
+
+                <br><br>
+                <button class="solutions" onclick="solutions('solutionFML44')">Show/Hide Answer</button>
+                <div class="result" id="solutionFML44">
+                    <br>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- END PAGE CONTENT -->
+
+    <!-- Footer -->
+    <footer class="bisque w3-center w3-padding-24">
+        <a href="https://plus.google.com/100168437493108865870/posts?partnerid=gplp0" title="Add to circles"
+            target="_blank"><img src="images/googleplus.png" alt="Add to circles"></a>
+        <a href="https://www.youtube.com/user/samuelchukwuemeka" title="Subscribe to my YouTube channel"
+            target="_blank"><img src="images/youtube.png" alt="Subscribe to my YouTube channel"></a>
+        <a href="https://twitter.com/samdom4peace" title="Follow me on twitter" target="_blank"><img
+                src="images/twitter.png" alt="Follow me on twitter"></a>
+        <a href="http://samueldominicchukwuemeka.blogspot.com/?view=flipcard" title="Subscribe and follow my blog"
+            target="_blank"><img src="images/blogger.jpg" alt="Subscribe and follow my blog"></a>
+        <div id="google_translate_element"></div>
+        <script>
+            function googleTranslateElementInit() {
+                new google.translate.TranslateElement({ pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, gaTrack: true, gaId: 'UA-102287542-1' }, 'google_translate_element');
+            }
+        </script>
+        <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+        <p>&copy; 2018&nbsp;<a href="https://www.chukwuemekasamuel.com/" target="_blank">SamDom4Peace</a>&nbsp;Designs.
         </p>
-        
-        <div class="w3-row w3-container">          
-            <div class="w3-half w3-container">
-                <div class="w3-topbar w3-padding">
-                    (1.) Carlo bought a new plasma TV for <span>$</span>1900. <br>
-                    He made a down payment of <span>$</span>400 and then financed the balance through the store. <br>
-                    Unfortunately, he was unable to make the first monthly payment and now pays 7% interest per month on the balance while he watches his TV. <br>
-                    What is Carlo's monthly interest payment?
-                    <br><br>
-                    <button class="solutions" onclick="solutions('solutionFML1')">Show/Hide Answer</button>
-                    <div class="result" id="solutionFML1">
-                        <br>
-                        $
-                        Balance = 1900 - 400 = 1500 \\[3ex]
-                        Monthly\;\;interest\;\;rate = 7\% = \dfrac{7}{100} = 0.07 \\[5ex]
-                        $
-                        Monthly interest payment = Monthly interest rate * Average balance <br>
-                        = 0.07 * 1500 <br>
-                        = 105 <br>
-                        Carlo's monthly interest payment is <span>$</span>105.00
-                    </div>
-                </div>
-            </div>
-
-            <div class="w3-half w3-container">
-                <div class="w3-topbar w3-padding">
-                    (2.) Suppose Boaz has a health insurance policy with an annual premium of <span>$</span>4800, an annual deductible of <span>$</span>1000, and copayments of <span>$</span>25 
-                    for visits to the doctor's offices. <br>
-                    He goes through the year with no medical bills at all. <br>
-                    What is his total cost for the year?
-                    <br><br>
-                    <button class="solutions" onclick="solutions('solutionFML2')">Show/Hide Answer</button>
-                    <div class="result" id="solutionFML2">
-                        <br>
-                        The total cost for the year is <span>$</span>4800 because he went through the year with no medical bills.
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="w3-row w3-container">
-            <div class="w3-half w3-container">
-                <div class="w3-topbar w3-padding">
-                    (3.) <b>ACT</b> Marietta purchased a car that had a purchase price of <span>$</span>10,400, which included all other
-                    costs and tax. <br>
-                    She paid <span>$</span>2,000 as a down payment and got a loan for the rest of the purchase price. <br>
-                    Marietta paid off the loan by making 48 payments of <span>$</span>225 each. <br>
-                    The total of all her payments, including the down payment, was how much more than the car's purchase price? 
-                    <br><br>
-                    $ 
-                    A.\:\: \$400 \\[3ex]
-                    B.\:\: \$2,400 \\[3ex]
-                    C.\:\: \$8,400 \\[3ex]
-                    D.\:\: \$10,800 \\[3ex]
-                    E.\:\: \$12,800 \\[3ex]
-                    $
-                    <button class="solutions" onclick="solutions('solutionFML3')">Show/Hide Answer</button>
-                    <div class="result" id="solutionFML3">
-                        <br>
-                        $
-                        Purchase price of car = $\$10,400$ <br><br>
-                        Down payment = $\$2000$ <br><br>
-                        $48$ payments @ $\$225$ per payment = $48 * 225 = \$10,800$ <br><br>
-                        Total of all payments she made = $\$2000 + \$10,800 = \$12,800$ <br><br>
-                        This is the question: <br><br>
-                        $\$12,800$ is how much more than $\$10,400$ <br><br>
-                        $12,800 - 10,400 = 2,400$ <br><br>
-                        The total payments made by Marietta is $\$2,400$ more than the car's purchase price.
-                        $
-                    </div>
-                </div>
-            </div>
-
-            <div class="w3-half w3-container">
-                <div class="w3-topbar w3-padding">
-                    (4.) Find the monthly interest payment in the situations described below. <br>
-                    Assume that the monthly interest rate is one-twelfth of the annual interest rate. <br><br>
-                    (a.) Veronica owes a clothing store <span>$</span>1700, but until she makes a payment, she pays 2% interest per month. <br>
-                    What is Veronica's monthly interest payment? <br><br>
-                    (b.) Jacob maintains an average balance of <span>$</span>1050 on his credit card, which carries a 12% annual interest rate. <br>
-                    How much is his monthly interest payment?
-                    <br><br>
-                    <button class="solutions" onclick="solutions('solutionFML4')">Show/Hide Answer</button>
-                    <div class="result" id="solutionFML4">
-                        <br>
-                        $
-                        (a.) \\[3ex]
-                        Balance = \$1700 \\[3ex]
-                        Monthly\;\;interest\;\;rate = 2\% = \dfrac{2}{100} = 0.02 \\[5ex]
-                        $
-                        Monthly interest payment = Monthly interest rate * Average balance <br>
-                        = 0.02 * 1700 <br>
-                        = 34 <br>
-                        Veronica's monthly interest payment is <span>$</span>34.00
-                        <br><br>
-                        $
-                        (b.) \\[3ex]
-                        Annual\;\;interest\;\;rate = 12\% = \dfrac{12}{100} \\[5ex]
-                        Monthly\;\;interest\;\;rate = \dfrac{1}{12} * \dfrac{12}{100} = \dfrac{1}{100} \\[5ex]
-                        Average\;\;balance = \$1050 \\[3ex]
-                        Monthly\;\;interest\;\;payment = Monthly\;\;interest\;\;rate * Average\;\;balance \\[3ex] 
-                        = \dfrac{1}{100} * 1050 \\[5ex] 
-                        = 10.50 \\[3ex]
-                        $
-                        Jacob's monthly interest payment is <span>$</span>10.50
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-        <div class="w3-row w3-container">
-            <div class="w3-half w3-container">
-                <div class="w3-topbar w3-padding">
-                    (5.) Prorate the following expenses and find the corresponding <i>monthly</i> expense. <br>
-                    (Round to the nearest cent as needed) <br><br>
-                    (a.) Sarah pays <span>$</span>4100 for tuition and fees for each of the two semesters, plus an additional <span>$</span>210 for textbooks each semester. <br><br>
-                    (b.) During one year, Paul takes 15 credit hours for each of three quarters. <br>
-                    Tuition and fees amount to <span>$</span>615 per credit-hour. <br>
-                    Textbooks average <span>$</span>310 per quarter. <br><br>
-                    (c.) Jonathan pays a semiannual premium of <span>$</span>600 for automobile insurance, a monthly premium of <span>$</span>125 for health insurance, and an annual premium of
-                     <span>$</span>300 for life insurance. <br><br>
-                    (d.) Judith pays <span>$</span>595 per month in rent, a semiannual car insurance premium of <span>$</span>450, and an annual health club membership fee of <span>$</span>450. <br><br>
-                    (e.) In filing his income tax, Lot reported annual contributions of <span>$</span>550 to a public radio station, <span>$</span>245 to a public TV station, <span>$</span>150 
-                    to a local food bank, and <span>$</span>283 to other charitable organizations. <br><br>
-                    (f.) Benedicta spends an average of <span>$</span>34 per week on gasoline and <span>$</span>39 every three months on a daily newspaper.
-                    <br><br>
-                    <button class="solutions" onclick="solutions('solutionFML5')">Show/Hide Answer</button>
-                    <div class="result" id="solutionFML5">
-                        <br>
-                        (a.) <u>1st semester</u> <br>
-                        Tuition: <span>$</span>4100 <br>
-                        Textbooks: <span>$</span>210 <br><br>
-                        <u>2nd semester</u> <br>
-                        Tuition: <span>$</span>4100 <br>
-                        Textbooks: <span>$</span>210 <br><br>
-                        Total = 4100(2) + 210(2) <br>
-                        = 8200 + 420 <br>
-                        = 8620 per year <br><br>
-                        $
-                        Monthly\;\;expense = \dfrac{8620}{12} \\[5ex]
-                        = 718.3333333 \\[3ex]
-                        \approx \$718.33 \\[3ex]
-                        $
-                        (b.) <u>Three quarters</u> <br>
-                        Tuition and Fees: 615(15)(3) = 27675 <br>
-                        Textbooks costs: 310(3) = 930 <br>
-                        Total = 27675 + 930 = <i>$</i>28605 per year <br><br>
-                        $
-                        Monthly\;\;expense = \dfrac{28605}{12} \\[5ex]
-                        = \$2383.75 \\[3ex]
-                        $
-                        (c.) Semiannual premium of <span>$</span>600 for automobile insurance = 2(600) per year = 1200 per year = $\dfrac{1200}{12} = \$100$ per month <br>
-                        Annual premium of <span>$</span>300 for life insurance = 300 per year = $\dfrac{300}{12} = \$25$ per month <br>
-                        Monthly premium of <span>$</span>125 for health insurance <br>
-                        Monthly expense = 100 + 25 + 125 = <span>$</span>250 <br><br>
-                        (d.) Monthly rent = <span>$</span>595 <br>
-                        Semiannual car insurance premium of <span>$</span>450 = 2(450) per year = 900 per year = $\dfrac{900}{12} = \$75$ per month <br>
-                        Annual health club membership fee of <span>$</span>450 = $\dfrac{450}{12} = \$37.5$ per month <br>
-                        Monthly expense = 595 + 75 + 37.5 = <span>$</span>707.50 <br><br>
-                        (e.) <u>Annual contributions</u>: <br>
-                        <span>$</span>550 = $\dfrac{550}{12} = \$45.83333333$ per month <br><br>
-                        <span>$</span>245 = $\dfrac{245}{12} = \$20.41666667$ per month <br><br>
-                        <span>$</span>150 = $\dfrac{150}{12} = \$12.5$ per month <br><br>
-                        <span>$</span>245 = $\dfrac{283}{12} = \$23.58333333$ per month <br><br>
-                        Monthly expense = 45.83333333 + 20.41666667 + 12.5 + 23.58333333 = 102.3333333 &approx; <span>$</span>102.33 <br><br>
-                        (f.) <span>$</span>34 per week on gasoline = 52(34) per year = <span>$</span>1768 per year = $\dfrac{1768}{12} = \$147.3333333$ per month <br>
-                        <span>$</span>39 every three months on a daily newspaper = $\dfrac{39}{3} = \$13$ per month <br>
-                        Monthly expense = 147.3333333 + 13 = <span>$</span>160.3333333 
-                    </div>
-                </div>
-            </div>
-
-            <div class="w3-half w3-container">
-                <div class="w3-topbar w3-padding">
-                    (6.) <b>ACT</b> Karen invested <span>$2,000</span> in a special savings account. <br>
-                    The balance of this special savings account will double every 5 years. <br>
-                    Assuming that Karen makes no other deposits and no withdrawals, what will be the balance of Karen's investment at the end 
-                    of 40 years? <br><br>
-                    $
-                    A.\;\; \$80,000 \\[3ex]
-                    B.\;\; \$256,000 \\[3ex]
-                    C.\;\; \$400,000 \\[3ex]
-                    D.\;\; \$512,000 \\[3ex]
-                    E.\;\; \$1,024,000 \\[3ex]
-                    $
-                    <button class="solutions" onclick="solutions('solutionFML6')">Show/Hide Answer</button>
-                    <div class="result" id="solutionFML6">
-                        <br>
-                        double <u>means</u> multiplication by 2 <br><br>
-                        $
-                        initial\;\;amount = 2000 \\[5ex]
-                        At\;\;the\;\;end\;\;of\;\;5\;\;years: \\[3ex]
-                        updated\;\;amount = 2000(2) = 4000 \\[5ex] 
-                        At\;\;the\;\;end\;\;of\;\;another\;\;5\;\;years\;(10\;\;years): \\[3ex]
-                        updated\;\;amount = 4000(2) = 8000 \\[5ex]
-                        At\;\;the\;\;end\;\;of\;\;another\;\;5\;\;years\;(15\;\;years): \\[3ex]
-                        updated\;\;amount = 8000(2) = 16000 \\[5ex]
-                        At\;\;the\;\;end\;\;of\;\;another\;\;5\;\;years\;(20\;\;years): \\[3ex]
-                        updated\;\;amount = 16000(2) = 32000 \\[5ex]
-                        At\;\;the\;\;end\;\;of\;\;another\;\;5\;\;years\;(25\;\;years): \\[3ex]
-                        updated\;\;amount = 32000(2) = 64000 \\[5ex]
-                        At\;\;the\;\;end\;\;of\;\;another\;\;5\;\;years\;(30\;\;years): \\[3ex]
-                        updated\;\;amount = 64000(2) = 128000 \\[5ex]
-                        At\;\;the\;\;end\;\;of\;\;another\;\;5\;\;years\;(35\;\;years): \\[3ex]
-                        updated\;\;amount = 128000(2) = 256000 \\[5ex]
-                        At\;\;the\;\;end\;\;of\;\;another\;\;5\;\;years\;(40\;\;years): \\[3ex]
-                        updated\;\;amount = 256000(2) = 512000 \\[3ex]
-                        $
-                        The balance of Karen's investment at the end of 40 years is <span>$512,000</span> 
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-        <div class="w3-row w3-container">          
-            <div class="w3-half w3-container">
-                <div class="w3-topbar w3-padding">
-                    (7.) Determine the net monthly cash flow for the income-expense sheet. <br>
-                    Assume salaries and wages are after taxes. <br>
-                    Assume 4 weeks = 1 month.
-                    <br><br>
-                    <table>
-                        <tr>
-                            <th style="width: 50%; text-align: left;" class="w3-padding">Income</th>
-                            <th style="width: 50%; text-align: left;" class="w3-padding">Expenses</th>
-                        </tr>
-                        <tr>
-                            <td>
-                                Part-time job: <span>$</span>500/month <br>
-                                College fund from grandparents: <span>$</span>350/month <br>
-                                Scholarship: <span>$</span>6000/year
-                            </td>
-                            <td>
-                                Rent: <span>$</span>550/month <br>
-                                Groceries: <span>$</span>70/week <br>
-                                Tuition and fees: <span>$</span>3600 twice a year <br>
-                                Incidentals: <span>$</span>110/week
-                            </td>
-                        </tr>
-                    </table>
-                    <br>
-                    <button class="solutions" onclick="solutions('solutionFML7')">Show/Hide Answer</button>
-                    <div class="result" id="solutionFML7">
-                        <br>
-                        <u>Income</u> <br>
-                        Part-time job: <span>$</span>500/month <br>
-                        College fund from grandparents: <span>$</span>350/month <br>
-                        Scholarship: <span>$</span>6000/year = $\dfrac{6000}{12}$ per month = <span>$</span>500/month <br>
-                        Total monthly income = 500 + 350 + 500 = <span>$</span>1350 
-                        <br><br>
-                        <u>Expenses</u> <br>
-                        Rent: <span>$</span>550/month <br>
-                        Groceries: <span>$</span>70/week = 70(4) = <span>$</span>280/month <br>
-                        Tuition and fees: <span>$</span>3600 twice a year = <span>$</span>3600 every six months = $\dfrac{3600}{6}$ per month = <span>$</span>600/month <br>
-                        Incidentals: <span>$</span>110/week = 110(4) = <span>$</span>440/month <br>
-                        Total monthly expenses = 550 + 280 + 600 + 440 = <span>$</span>1870 
-                        <br><br>
-                        Net monthly cash flow = Monthly income &minus; Monthly expenses <br>
-                        = 1350 &minus; 1870 <br>
-                        = &minus;<span>$</span>520.00
-                    </div>
-                </div>
-            </div>
-
-            <div class="w3-half w3-container">
-                <div class="w3-topbar w3-padding">
-                    (8.) 
-                    <br><br>
-                    <button class="solutions" onclick="solutions('solutionFML8')">Show/Hide Answer</button>
-                    <div class="result" id="solutionFML8">
-                        <br>
-                        
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-        
-        <div class="w3-row w3-container">
-            <div class="w3-half w3-container">
-                <div class="w3-topbar w3-padding">
-                    (9.) 
-
-                    <br><br>
-                    <button class="solutions" onclick="solutions('solutionFML9')">Show/Hide Answer</button>
-                    <div class="result" id="solutionFML9">
-                        <br>
-                        
-
-
-                    </div>
-                </div>
-            </div>
-
-            <div class="w3-half w3-container">
-                <div class="w3-topbar w3-padding">
-                    (10.) 
-                    <br><br>
-                    <button class="solutions" onclick="solutions('solutionFML10')">Show/Hide Answer</button>
-                    <div class="result" id="solutionFML10">
-                        <br>
-                        
-                        
-
-
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-        <div class="w3-row w3-container">
-            <div class="w3-half w3-container">
-                <div class="w3-topbar w3-padding">
-                    (11.) 
-                    
-                    <br><br>
-                    <button class="solutions" onclick="solutions('solutionFML11')">Show/Hide Answer</button>
-                    <div class="result" id="solutionFML11">
-                        <br>
-                        
-                        
-
-
-                    </div>
-                </div>
-            </div>
-
-            <div class="w3-half w3-container">
-                <div class="w3-topbar w3-padding">
-                    (12.) 
-                    
-
-                    <br><br>
-                    <button class="solutions" onclick="solutions('solutionFML12')">Show/Hide Answer</button>
-                    <div class="result" id="solutionFML12">
-                        <br>
-                        
-                        
-
-
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-        <div class="w3-row w3-container">
-            <div class="w3-half w3-container">
-                <div class="w3-topbar w3-padding">
-                    (13.) <b>ACT</b> Diego purchased a car that had a purchase price of <span>$</span>13,400 which included all other
-                    costs and tax. <br>
-                    He paid <span>$</span>400 as a down payment and got a loan for the rest of the purchase price. <br>
-                    Diego paid off the loan by making 48 payments of <span>$</span>300 each. <br>
-                    The total of all his payments, including the down payment, was how much more than the car's purchase price?
-                    <br><br>
-                    $
-                    F.\:\: \$1,000 \\[3ex]
-                    G.\:\: \$1,400 \\[3ex]
-                    H.\:\: \$13,000 \\[3ex]
-                    J.\:\: \$14,400 \\[3ex]
-                    K.\:\: \$14,800 \\[3ex]
-                    $
-                    <button class="solutions" onclick="solutions('solutionFML13')">Show/Hide Answer</button>
-                    <div class="result" id="solutionFML13">
-                        <br>
-                        Purchase price of car = $\$13,400$ <br><br>
-                        Down payment = $\$400$ <br><br>
-                        $48$ payments @ $\$300$ per payment = $48 * 300 = \$14,400$ <br><br>
-                        Total of all payments he made = $\$400 + \$14,400 = \$14,800$ <br><br>
-                        This is the question: <br><br>
-                        $\$14,800$ is how much more than $\$13,400$ <br><br>
-                        $14,800 - 13,400 = 1,400$ <br><br>
-                        The total payments made by Diego is $\$1,400$ more than the car's purchase price.
-                    </div>
-                </div>
-            </div>
-
-            <div class="w3-half w3-container">
-                <div class="w3-topbar w3-padding">
-                    (14.) 
-                    <button class="solutions" onclick="solutions('solutionFML14')">Show/Hide Answer</button>
-                    <div class="result" id="solutionFML14">
-                        <br>
-                        
-                        
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-        <div class="w3-row w3-container">
-            <div class="w3-half w3-container">
-                <div class="w3-topbar w3-padding">
-                    (15.) Determine the net monthly cash flow for the income-expense sheet. <br>
-                    Assume salaries and wages are after taxes. <br>
-                    Assume 4 weeks = 1 month.
-                    <br><br>
-                    <table>
-                        <tr>
-                            <th style="width: 50%; text-align: left;" class="w3-padding">Income</th>
-                            <th style="width: 50%; text-align: left;" class="w3-padding">Expenses</th>
-                        </tr>
-                        <tr>
-                            <td>
-                                Part-time job: <span>$</span>1300/month <br>
-                                Student loans: <span>$</span>8400/year <br>
-                                Scholarship: <span>$</span>5500/year
-                            </td>
-                            <td>
-                                Rent: <span>$</span>450/month <br>
-                                Groceries: <span>$</span>50/week <br>
-                                Tuition and fees: <span>$</span>8500/year <br>
-                                Health insurance: <span>$</span>50/month <br>
-                                Entertainment: <span>$</span>200/month <br>
-                                Phone: <span>$</span>40/month
-                            </td>
-                        </tr>
-                    </table>
-                    <br>
-                    <button class="solutions" onclick="solutions('solutionFML15')">Show/Hide Answer</button>
-                    <div class="result" id="solutionFML15">
-                        <br>
-                        <u>Income</u> <br>
-                        Part-time job: <span>$</span>1300/month <br>
-                        Student loans: <span>$</span>8400/year = $\dfrac{8400}{12}$ per month = <span>$</span>700/month <br><br>
-                        Scholarship: <span>$</span>5500/year = $\dfrac{5500}{12}$ per month = <span>$</span>458.3333333/month <br>
-                        Total monthly income = 1300 + 700 + 458.3333333 = <span>$</span>2458.333333 
-                        <br><br>
-                        <u>Expenses</u> <br>
-                        Rent: <span>$</span>450/month <br>
-                        Groceries: <span>$</span>50/week = 50(4) = <span>$</span>200/month <br>
-                        Tuition and fees: <span>$</span>8500/year = $\dfrac{8500}{12}$ per month = <span>$</span>708.3333333/month <br>
-                        Health insurance: <span>$</span>50/month <br>
-                        Entertainment: <span>$</span>200/month <br>
-                        Phone: <span>$</span>40/month <br>
-                        Total monthly expenses = 450 + 200 + 708.3333333 + 50 + 200 + 40 = <span>$</span>1648.333333 
-                        <br><br>
-                        Net monthly cash flow = Monthly income &minus; Monthly expenses <br>
-                        = 2458.333333 &minus; 1648.333333 <br>
-                        = <span>$</span>810.00                      
-                    </div>
-                </div>
-            </div>
-
-            <div class="w3-half w3-container">
-                <div class="w3-topbar w3-padding">
-                    (16.) 
-                    
-                    <br><br>
-                    <button class="solutions" onclick="solutions('solutionFML16')">Show/Hide Answer</button>
-                    <div class="result" id="solutionFML16">
-                        <br>
-                        
-                        
-
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-        <div class="w3-row w3-container">
-            <div class="w3-half w3-container">
-                <div class="w3-topbar w3-padding">
-                    (17.) 
-                    
-
-                    <br><br>
-                    <button class="solutions" onclick="solutions('solutionFML17')">Show/Hide Answer</button>
-                    <div class="result" id="solutionFML17">
-                        <br>
-                        
-                        
-                    </div>
-                </div>
-            </div>
-
-            <div class="w3-half w3-container">
-                <div class="w3-topbar w3-padding">
-                    (18.) 
-                    
-
-                    <br><br>
-                    <button class="solutions" onclick="solutions('solutionFML18')">Show/Hide Answer</button>
-                    <div class="result" id="solutionFML18">
-                        <br>
-                        
-                        
-
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-        <div class="w3-row w3-container">
-            <div class="w3-half w3-container">
-                <div class="w3-topbar w3-padding">
-                    (19.) 
-                    
-                    <button class="solutions" onclick="solutions('solutionFML19')">Show/Hide Answer</button>
-                    <div class="result" id="solutionFML19">
-                        <br>
-                        
-                        
-                    </div>
-                </div>
-            </div>
-
-            <div class="w3-half w3-container">
-                <div class="w3-topbar w3-padding">
-                    (20.) <b>ACT</b> Ricardo started a savings account for his daughter Ruth by depositing <span>$500</span> into the 
-                    account for her 1st birthday. <br>
-                    For each successive birthday, Ricardo deposits <span>$200</span> more than the amount deposited for the previous 
-                    birthday. <br>
-                    This is the only money deposited into the account. <br>
-                    What is the total amount of money Ricardo will have deposited into the account for Ruth up to and including her 
-                    6th birthday? <br><br>
-                    $
-                    F.\;\; \$4,000 \\[3ex]
-                    G.\;\; \$4,200 \\[3ex]
-                    H.\;\; \$4,700 \\[3ex]
-                    J.\;\; \$4,900 \\[3ex]
-                    K.\;\; \$6,000 \\[3ex]
-                    $
-                    <button class="solutions" onclick="solutions('solutionFML20')">Show/Hide Answer</button>
-                    <div class="result" id="solutionFML20">
-                        <br>
-                        $
-                        \underline{1st\;\;birthday} \\[3ex]
-                        Deposit = 500 \\[5ex]
-                        \underline{2nd\;\;birthday} \\[3ex]
-                        Deposit = 200 + 500 = 700 \\[5ex]
-                        \underline{3rd\;\;birthday} \\[3ex]
-                        Deposit = 200 + 700 = 900 \\[5ex]
-                        \underline{4th\;\;birthday} \\[3ex]
-                        Deposit = 200 + 900 = 1100 \\[5ex]
-                        \underline{5th\;\;birthday} \\[3ex]
-                        Deposit = 200 + 1100 = 1300 \\[5ex]
-                        \underline{6th\;\;birthday} \\[3ex]
-                        Deposit = 200 + 1300 = 1500 \\[5ex]
-                        \underline{Total\;\;Deposited} \\[3ex]
-                        Total\;\;deposit \\[3ex] 
-                        = 500 + 700 + 900 + 1100 + 1300 + 1500 \\[3ex] 
-                        = 6000 \\[3ex]
-                        $
-                        The total amount of money Ricardo will have deposited into the account for Ruth up to and including her 
-                        6th birthday is <span>$6,000</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-        <br><br><br><br>
-        <!-- Top of the Page -->
-        <div class="w3-container" style="position:relative">
-            <a href="https://finance-calculators.appspot.com/financialMathematicsLiteracy.html" class="w3-button w3-xlarge w3-circle w3-bisque"
-               style="position:absolute;top:-70px;right:24px">Top</a>
-        </div>
-        <br><br><br><br>
-        
-        <div class="w3-row w3-container">
-            <div class="w3-half w3-container">
-                <div class="w3-topbar w3-padding">
-                    (21.) Determine the net monthly cash flow for the income-expense sheet. <br>
-                    Assume salaries and wages are after taxes. <br>
-                    Assume 4 weeks = 1 month.
-                    <br><br>
-                    <table>
-                        <tr>
-                            <th style="width: 50%; text-align: left;" class="w3-padding">Income</th>
-                            <th style="width: 50%; text-align: left;" class="w3-padding">Expenses</th>
-                        </tr>
-                        <tr>
-                            <td>
-                                Salary: <span>$</span>1900/month
-                            </td>
-                            <td>
-                                Rent: <span>$</span>820/month <br>
-                                Groceries: <span>$</span>110/week <br>
-                                Utilities: <span>$</span>120/month <br>
-                                Health insurance: <span>$</span>480 semiannually <br>
-                                Car insurance: <span>$</span>440 semiannually <br>
-                                Gasoline: <span>$</span>40/week <br>
-                                Miscellaneous: <span>$</span>430/month <br>
-                                Phone: <span>$</span>90/month
-                            </td>
-                        </tr>
-                    </table>
-                    <br>
-                    <button class="solutions" onclick="solutions('solutionFML21')">Show/Hide Answer</button>
-                    <div class="result" id="solutionFML21">
-                        <br>
-                        <u>Income</u> <br>
-                        Salary: <span>$</span>1900/month <br>
-                        Total monthly income = <span>$</span>1900 
-                        <br><br>
-                        <u>Expenses</u> <br>
-                        Rent: <span>$</span>820/month <br>
-                        Groceries: <span>$</span>110/week = 110(4) = <span>$</span>440/month <br>
-                        Utilities: <span>$</span>120/month <br>
-                        Health insurance: <span>$</span>480 semiannually = <span>$</span>480 every six months = $\dfrac{480}{6}$ per month = <span>$</span>80/month <br><br>
-                        Car insurance: <span>$</span>440 semiannually = <span>$</span>440 every six months = $\dfrac{440}{6}$ per month = <span>$</span>73.33333333/month <br><br>
-                        Gasoline: <span>$</span>40/week = 40(4) = <span>$</span>160/month <br>
-                        Miscellaneous: <span>$</span>430/month <br>
-                        Phone: <span>$</span>90/month <br>
-                        Total monthly expenses = 820 + 440 + 120 + 80 + 73.33333333 + 160 + 430 + 90 = <span>$</span>2213.333333 
-                        <br><br>
-                        Net monthly cash flow = Monthly income &minus; Monthly expenses <br>
-                        = 1900 &minus; 2213.333333 <br>
-                        = &minus;313.3333333 <br>
-                        &approx; &minus;<span>$</span>313.33  
-                    </div>
-                </div>
-            </div>
-
-            <div class="w3-half w3-container">
-                <div class="w3-topbar w3-padding">
-                    (22.) 
-
-                    <br><br>
-                    <button class="solutions" onclick="solutions('solutionFML22')">Show/Hide Answer</button>
-                    <div class="result" id="solutionFML22">
-                        <br>
-                        
-                        
-
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-        <div class="w3-row w3-container">
-            <div class="w3-half w3-container">
-                <div class="w3-topbar w3-padding">
-                    (23.) 
-                    
-                    <br><br>
-                    <button class="solutions" onclick="solutions('solutionFML23')">Show/Hide Answer</button>
-                    <div class="result" id="solutionFML23">
-                        <br>
-                       
-                        
-
-                    </div>
-                </div>
-            </div>
-
-            <div class="w3-half w3-container">
-                <div class="w3-topbar w3-padding">
-                    (24.) <b>ACT</b> Ming purchased a car that had a purchase price of <span>$</span>5,400, which included all other
-                    costs and tax. <br>
-                    She paid <span>$</span>1,000 as a down payment and got a loan for the rest of the purchase price. <br>
-                    Ming paid off the loan by making 28 payments of <span>$</span>200 each. <br>
-                    The total of all her payments, including the down payment, was how much more than the car's purchase price?
-                    <br><br>
-                    <button class="solutions" onclick="solutions('solutionFML24')">Show/Hide Answer</button>
-                    <div class="result" id="solutionFML24">
-                        <br>
-                        Purchase price of car = $\$5,400$ <br><br>
-                        Down payment = $\$1000$ <br><br>
-                        $28$ payments @ $\$200$ per payment = $28 * 200 = \$5,600$ <br><br>
-                        Total of all payments she made = $\$1000 + \$5,600 = \$6,600$ <br><br>
-                        This is the question: <br><br>
-                        $\$6,600$ is how much more than $\$5,400$ <br><br>
-                        $6,600 - 5,400 = 1,200$ <br><br>
-                        The total payments made by Ming is $\$1,200$ more than the car's purchase price.
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-        <div class="w3-row w3-container">
-            <div class="w3-half w3-container">
-                <div class="w3-topbar w3-padding">
-                    (25.) 
-                    
-
-                    <button class="solutions" onclick="solutions('solutionFML25')">Show/Hide Answer</button>
-                    <div class="result" id="solutionFML25">
-                        <br>
-                        
-                        
-
-
-                    </div>
-                </div>
-            </div>
-
-            <div class="w3-half w3-container">
-                <div class="w3-topbar w3-padding">
-                    (26.) 
-                    
-
-
-                    <button class="solutions" onclick="solutions('solutionFML26')">Show/Hide Answer</button>
-                    <div class="result" id="solutionFML26">
-                        <br>
-                        
-                        
-
-
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-        <div class="w3-row w3-container">
-            <div class="w3-half w3-container">
-                <div class="w3-topbar w3-padding">
-                    (27.) 
-                    
-
-                    <button class="solutions" onclick="solutions('solutionFML27')">Show/Hide Answer</button>
-                    <div class="result" id="solutionFML27">
-                        <br>
-                        
-                        
-
-
-                    </div>
-                </div>
-            </div>
-
-            <div class="w3-half w3-container">
-                <div class="w3-topbar w3-padding">
-                    (28.) 
-                    
-
-                    <button class="solutions" onclick="solutions('solutionFML28')">Show/Hide Answer</button>
-                    <div class="result" id="solutionFML28">
-                        <br>
-                        
-                        
-
-
-
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-        <div class="w3-row w3-container">
-            <div class="w3-half w3-container">
-                <div class="w3-topbar w3-padding">
-                    (29.) Determine the net monthly cash flow for the income-expense sheet. <br>
-                    Assume salaries and wages are after taxes. <br>
-                    Assume 4 weeks = 1 month.
-                    <br><br>
-                    <table>
-                        <tr>
-                            <th style="width: 50%; text-align: left;" class="w3-padding">Income</th>
-                            <th style="width: 50%; text-align: left;" class="w3-padding">Expenses</th>
-                        </tr>
-                        <tr>
-                            <td>
-                                Salary: <span>$</span>26,500/year <br>
-                                Pottery Sales: <span>$</span>150/month
-                            </td>
-                            <td>
-                                House payments: <span>$</span>1070/month <br>
-                                Groceries: <span>$</span>100/week <br>
-                                Household expenses: <span>$</span>120/month <br>
-                                Health payments: <span>$</span>440/month <br>
-                                Car insurance: <span>$</span>540 twice a year <br>
-                                Savings plan: <span>$</span>35/month <br>
-                                Donations: <span>$</span>640/year <br>
-                                Miscellaneous: <span>$</span>470/month 
-                            </td>
-                        </tr>
-                    </table>
-                    <br>
-                    <button class="solutions" onclick="solutions('solutionFML29')">Show/Hide Answer</button>
-                    <div class="result" id="solutionFML29">
-                        <br>
-                        <u>Income</u> <br>
-                        Salary: <span>$</span>26500/year = $\dfrac{26500}{12}$ per month = <span>$</span>2208.333333/month <br>
-                        Pottery Sales: <span>$</span>150/month <br>
-                        Total monthly income = 2208.333333 + 150 = <span>$</span>2358.333333 
-                        <br><br>
-                        <u>Expenses</u> <br>
-                        House payments: <span>$</span>1070/month <br>
-                        Groceries: <span>$</span>100/week = 100(4) = <span>$</span>400/month <br>
-                        Household expenses: <span>$</span>120/month <br>
-                        Health payments: <span>$</span>440/month <br>
-                        Car insurance: <span>$</span>540 twice a year = <span>$</span>540 every six months = $\dfrac{540}{6}$ per month = <span>$</span>90/month <br>
-                        Savings plan: <span>$</span>35/month <br>
-                        Donations: <span>$</span>640/year = $\dfrac{640}{12}$ per month = <span>$</span>53.33333333/month <br>
-                        Miscellaneous: <span>$</span>470/month <br>
-                        Total monthly expenses = 1070 + 400 + 120 + 440 + 90 + 35 + 53.33333333 + 470 = <span>$</span>2678.333333 
-                        <br><br>
-                        Net monthly cash flow = Monthly income &minus; Monthly expenses <br>
-                        = 2358.333333 &minus; 2678.333333 <br>
-                        = &minus;320.0000003 <br>
-                        &approx; &minus;<span>$</span>320.00                      
-                    </div>
-                </div>
-            </div>
-
-            <div class="w3-half w3-container">
-                <div class="w3-topbar w3-padding">
-                    (30.) 
-                    
-
-                    <button class="solutions" onclick="solutions('solutionFML30')">Show/Hide Answer</button>
-                    <div class="result" id="solutionFML30">
-                        <br>
-                        
-                        
-
-
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-        <div class="w3-row w3-container">
-            <div class="w3-half w3-container">
-                <div class="w3-topbar w3-padding">
-                    (31.) 
-                    
-
-                    <br><br>
-                    <button class="solutions" onclick="solutions('solutionFML31')">Show/Hide Answer</button>
-                    <div class="result" id="solutionFML31">
-                        <br>
-                        
-                        
-
-                    </div>
-                </div>
-            </div>
-
-            <div class="w3-half w3-container">
-                <div class="w3-topbar w3-padding">
-                    (32.) 
-                    
-
-                    <button class="solutions" onclick="solutions('solutionFML32')">Show/Hide Answer</button>
-                    <div class="result" id="solutionFML32">
-                        <br>
-                        
-                        
-
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-        <div class="w3-row w3-container">
-            <div class="w3-half w3-container">
-                <div class="w3-topbar w3-padding">
-                    (33.) 
-                    
-
-                    <br><br>
-                    <button class="solutions" onclick="solutions('solutionFML33')">Show/Hide Answer</button>
-                    <div class="result" id="solutionFML33">
-                        <br>
-                        
-                        
-
-                    </div>
-                </div>
-            </div>
-
-            <div class="w3-half w3-container">
-                <div class="w3-topbar w3-padding">
-                    (34.) 
-                    
-
-                    <br><br>
-                    <button class="solutions" onclick="solutions('solutionFML34')">Show/Hide Answer</button>
-                    <div class="result" id="solutionFML34">
-                        <br>
-                        
-                        
-
-
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-        <div class="w3-row w3-container">
-            <div class="w3-half w3-container">
-                <div class="w3-topbar w3-padding">
-                    (35.) 
-                    
-
-                    <br><br>
-                    <button class="solutions" onclick="solutions('solutionFML35')">Show/Hide Answer</button>
-                    <div class="result" id="solutionFML35">
-                        <br>
-                        
-                        
-
-                    </div>
-                </div>
-            </div>
-
-            <div class="w3-half w3-container">
-                <div class="w3-topbar w3-padding">
-                    (36.) 
-                    
-
-                    <br><br>
-                    <button class="solutions" onclick="solutions('solutionFML36')">Show/Hide Answer</button>
-                    <div class="result" id="solutionFML36">
-                        <br>
-                        
-                        
-
-
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="w3-row w3-container">
-            <div class="w3-half w3-container">
-                <div class="w3-topbar w3-padding">
-                    (37.) 
-                    
-
-                    <br><br>
-                    <button class="solutions" onclick="solutions('solutionFML37')">Show/Hide Answer</button>
-                    <div class="result" id="solutionFML37">
-                        <br>
-                        
-                        
-
-
-                    </div>
-                </div>
-            </div>
-
-            <div class="w3-half w3-container">
-                <div class="w3-topbar w3-padding">
-                    (38.) 
-                    
-
-                    <button class="solutions" onclick="solutions('solutionFML38')">Show/Hide Answer</button>
-                    <div class="result" id="solutionFML38">
-                        <br>
-                        
-                        
-
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="w3-row w3-container">
-            <div class="w3-half w3-container">
-                <div class="w3-topbar w3-padding">
-                    (39.) 
-                    <br><br>
-                    <button class="solutions" onclick="solutions('solutionFML39')">Show/Hide Answer</button>
-                    <div class="result" id="solutionFML39">
-                        <br>
-                        
-                    </div>
-                </div>
-            </div>
-
-            <div class="w3-half w3-container">
-                <div class="w3-topbar w3-padding">
-                    (40.) 
-                    
-
-                    <br><br>
-                    <button class="solutions" onclick="solutions('solutionFML40')">Show/Hide Answer</button>
-                    <div class="result" id="solutionFML40">
-                        <br>
-                        
-                        
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <br><br><br><br>
-        <!-- Top of the Page -->
-        <div class="w3-container" style="position:relative">
-            <a href="https://finance-calculators.appspot.com/financialMathematicsLiteracy.html" class="w3-button w3-xlarge w3-circle w3-bisque"
-               style="position:absolute;top:-70px;right:24px">Top</a>
-        </div>
-        <br><br><br><br>
-
-        <div class="w3-row w3-container">
-            <div class="w3-half w3-container">
-                <div class="w3-topbar w3-padding">
-                    (41.) 
-                    <br><br>
-                    <button class="solutions" onclick="solutions('solutionFML41')">Show/Hide Answer</button>
-                    <div class="result" id="solutionFML41">
-                        <br>
-                        
-                    </div>
-                </div>
-            </div>
-
-            <div class="w3-half w3-container">
-                <div class="w3-topbar w3-padding">
-                    (42.) 
-                    
-
-                    <br><br>
-                    <button class="solutions" onclick="solutions('solutionFML42')">Show/Hide Answer</button>
-                    <div class="result" id="solutionFML42">
-                        <br>
-                        
-                        
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="w3-row w3-container">
-            <div class="w3-half w3-container">
-                <div class="w3-topbar w3-padding">
-                    (43.) 
-                    <br><br>
-                    <button class="solutions" onclick="solutions('solutionFML43')">Show/Hide Answer</button>
-                    <div class="result" id="solutionFML43">
-                        <br>
-                        
-                    </div>
-                </div>
-            </div>
-
-            <div class="w3-half w3-container">
-                <div class="w3-topbar w3-padding">
-                    (44.) 
-                    
-
-                    <br><br>
-                    <button class="solutions" onclick="solutions('solutionFML44')">Show/Hide Answer</button>
-                    <div class="result" id="solutionFML44">
-                        <br>
-                        
-                        
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-        <!-- END PAGE CONTENT -->
-                                        
-        <!-- Footer -->
-        <footer class="bisque w3-center w3-padding-24">
-            <a href="https://plus.google.com/100168437493108865870/posts?partnerid=gplp0" title="Add to circles" target="_blank"><img src="images/googleplus.png" alt="Add to circles"></a>
-            <a href="https://www.youtube.com/user/samuelchukwuemeka" title="Subscribe to my YouTube channel" target="_blank"><img src="images/youtube.png" alt="Subscribe to my YouTube channel"></a>
-            <a href="https://twitter.com/samdom4peace" title="Follow me on twitter" target="_blank"><img src="images/twitter.png" alt="Follow me on twitter"></a>
-            <a href="http://samueldominicchukwuemeka.blogspot.com/?view=flipcard" title="Subscribe and follow my blog" target="_blank"><img src="images/blogger.jpg" alt="Subscribe and follow my blog"></a>
-            <div id="google_translate_element"></div>
-            <script>
-                    function googleTranslateElementInit() {
-                    new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, gaTrack: true, gaId: 'UA-102287542-1'}, 'google_translate_element');
-                    }
-            </script>
-            <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-            <p>&copy; 2018&nbsp;<a href="https://www.chukwuemekasamuel.com/" target="_blank">SamDom4Peace</a>&nbsp;Designs.</p>
-        </footer>
-        <!-- End Footer -->
-
-        <script src="scripts/messages12.js"></script>
-        <script type="text/x-mathjax-config">
+    </footer>
+    <!-- End Footer -->
+
+    <script src="scripts/messages12.js"></script>
+    <script type="text/x-mathjax-config">
             MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
         </script>
-        <script async
-            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML">
-        </script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/4.0.0/math.min.js"></script>
-    </body>
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/4.0.0/math.min.js"></script>
+</body>
+
 </html>

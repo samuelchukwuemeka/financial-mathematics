@@ -1,11 +1,11 @@
 // Copyright 2018 - Samuel Dominic Chukwuemeka (Samdom For Peace)
 // www.samuelchukwuemeka.com
 // www.chukwuemekasamuel.com
-// www.chukwuemeka-samuel.appspot.com
+// 
 // www.samdomforpeace.com
-// www.samdomforpeace.appspot.com
-// www.finance-calculators.appspot.com/rule78.html
-// www.finance-calculators.appspot.com/rule78Applications.html
+// 
+// https://samuelchukwuemeka.github.io/financial-mathematics/rule78.html
+// https://samuelchukwuemeka.github.io/financial-mathematics/rule78Applications.html
 // message 7
 
 

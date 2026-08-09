@@ -2,9 +2,9 @@
 // www.samuelchukwuemeka.com
 // www.chukwuemekasamuel.com
 // www.samdomforpeace.com
-// www.samdomforpeace.appspot.com
-// www.finance-calculators.appspot.com
-// www.chukwuemeka-samuel.appspot.com
+// 
+// https://samuelchukwuemeka.github.io/financial-mathematics/
+// 
 
 "use strict";
 

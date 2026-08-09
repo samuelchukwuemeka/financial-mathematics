@@ -1,8 +1,8 @@
 // Copyright 2016 - Samuel Dominic Chukwuemeka (Samdom For Peace)
 // www.samuelchukwuemeka.com
 // www.chukwuemekasamuel.com
-// www.finance-calculators.appspot.com
-// www.chukwuemeka-samuel.appspot.com
+// https://samuelchukwuemeka.github.io/financial-mathematics/
+// 
 
 "use strict";
 

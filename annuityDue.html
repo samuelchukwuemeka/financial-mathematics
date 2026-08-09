@@ -1,359 +1,402 @@
 <!DOCTYPE html>
 <html lang="en">
-    
-    <head>
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-102287542-1"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag() {
-                dataLayer.push(arguments);
-            }
-            gtag('js', new Date());
 
-            gtag('config', 'UA-102287542-1');
-        </script>
-        
-        <script data-ad-client="ca-pub-9463984700780669" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-        
-        <meta charset="utf-8">
-        <title>Annuity Due Calculators</title>
-        
-        <meta name="description" content="Samuel Dominic Chukwuemeka gives all the credit to our LORD GOD, JESUS CHRIST. We are experts in annuity, amortization, and sinking fund calculations.">
-        
-        <meta name="keywords" content="samuel, chukwuemeka, math, mathematics, mathematics of finance, financial mathematics, 
+<head>
+
+
+    <meta charset="utf-8">
+    <title>Annuity Due Calculators</title>
+
+    <meta name="description"
+        content="Samuel Dominic Chukwuemeka gives all the credit to our LORD GOD, JESUS CHRIST. We are experts in annuity, amortization, and sinking fund calculations.">
+
+    <meta name="keywords" content="samuel, chukwuemeka, math, mathematics, mathematics of finance, financial mathematics, 
                 financial math, simple interest, compound interest, continuous compound interest, annual percentage yield, 
                 apy, annuity, ordinary annuity, annuity due, amortization, present value, future value, sinking fund, rule of 78, 
                 loan amortization, mortgage payments, stocks, bonds, investment decision rules, debt financing, time value of money,
                 project evaluation, refund fraction, coupon bonds, bond coupons, bond coupon amount, bond coupon number, bond price, 
                 face value, par value, bond coupon rate, yield to maturity, market value">
 
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="styles/financialCalculators.css" rel="stylesheet" type="text/css" media="all">
-        <link rel="shortcut icon" type="image/x-icon" href="https://finance-calculators.appspot.com/images/favicon.ico">
-    </head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles/financialCalculators.css" rel="stylesheet" type="text/css" media="all">
+    <link rel="shortcut icon" type="image/x-icon"
+        href="https://samuelchukwuemeka.github.io/financial-mathematics/images/favicon.ico">
+</head>
 
 
-    <body>        
-        <div class="w3-padding-30 white" id="quotes"> 
-            <div class="w3-content">
-                <p>
-                    <q>
-                        If there is one prayer that you should <b>pray/sing</b> every day and every hour, it is the 
-                        <a href="https://www.samdomforpeace.com/Theology/prayer.html" target="_blank">LORD's prayer (Our FATHER in Heaven prayer)</a> <br>
-                        It is the <b>most powerful prayer</b>.
-                        A <b>pure heart</b>, a <b>clean mind</b>, and a <b>clear conscience</b> is necessary for it.
-                    </q> - Samuel Dominic Chukwuemeka 
-                </p>
-                <p id="messages9"><q>For in GOD we live, and move, and have our being.</q> - Acts 17:28</p>
-                <p><q>The <b>Joy</b> of a <b>Teacher</b> is the <b>Success</b> of his <b>Students</b>.</q> - Samuel Dominic Chukwuemeka</p>
-            </div>
+<body>
+    <div class="w3-padding-30 white" id="quotes">
+        <div class="w3-content">
+            <p>
+                <q>
+                    If there is one prayer that you should <b>pray/sing</b> every day and every hour, it is the
+                    <a href="https://www.samdomforpeace.com/Theology/prayer.html" target="_blank">LORD's prayer (Our
+                        FATHER in Heaven prayer)</a> <br>
+                    It is the <b>most powerful prayer</b>.
+                    A <b>pure heart</b>, a <b>clean mind</b>, and a <b>clear conscience</b> is necessary for it.
+                </q> - Samuel Dominic Chukwuemeka
+            </p>
+            <p id="messages9"><q>For in GOD we live, and move, and have our being.</q> - Acts 17:28</p>
+            <p><q>The <b>Joy</b> of the <b>Teacher</b> is the <b>Success</b> of the <b>Students</b>.</q> - Samuel
+                Dominic Chukwuemeka</p>
         </div>
-                
-        <!-- Navigation Bar -->
-        <nav class="clearNav">
-            <ul>
-                <li><a href="https://finance-calculators.appspot.com" title="Simple Interest Calculations">Simple Interest</a></li>
-                <li><a href="https://finance-calculators.appspot.com/compoundInterest.html" title="Compound Interest Calculations">Compound Interest</a></li>
-                <li><a href="https://finance-calculators.appspot.com/continuousCompoundInterest.html" title="Continuous Compound Interest Calculations">Continuous Compound Interest</a></li>
-                <li><a href="https://finance-calculators.appspot.com/apy.html" title="APY Calculations">Annual Percentage Yield (APY)</a></li>
-                <li><a href="https://finance-calculators.appspot.com/ordinaryAnnuity.html" title="Ordinary Annuity Calculations">Ordinary Annuity/Sinking Fund/Amortization</a></li>
-                <li><a href="https://finance-calculators.appspot.com/rule78.html" title="Rule of 78 Calculations">Rule of 78</a></li>
-                <li class="selected"><a href="https://finance-calculators.appspot.com/annuityDue.html" title="Annuity Due Calculations">Annuity Due</a></li>
-                <li><a href="https://finance-calculators.appspot.com/bond.html" title="Bond Calculations">Bond</a></li>
-                <li><a href="https://finance-calculators.appspot.com/investmentDecision.html" title="Investment Decision Rules Calculations">Investment Decison Rules</a></li>
-                <li><a href="https://www.samdomforpeace.com/EngineeringEconomics/timeValueMoney.html" title="Time Value of Money Calculations">Time Value of Money (TVM)</a></li>
-                <li><a href="https://www.samdomforpeace.com/EngineeringEconomics/projectEvaluation.html" title="Project Evaluation Calculations">Project Evaluation</a></li>
-                <li><a href="https://finance-calculators.appspot.com/TI-calculators-finance.html" title="Project Evaluation Calculations">Texas Instruments (TI) Calculator for Finance</a></li>
-                <li><a href="https://www.youtube.com/playlist?list=PLjyyswMG9g9D4-hvqIt8PW76u0E9adRsR&disable_polymer=true" title="mathematics of finance">Videos</a></li>
-                <li><a href="https://finance-calculators.appspot.com/financialMathematics.html" title="mathematics of finance">Notes</a></li>
-                <li><a href="https://finance-calculations.appspot.com/ordinaryAnnuityApplications" title="annuity, amortization, sinking fund">Solved Examples</a></li>
-                <li><a href="https://chukwuemekasamuel.weebly.com/" title="Other Calculators">Contact</a></li>
-                <li><a href="https://www.chukwuemekasamuel.com/portfolios.html" title="Portfolio">Portfolio</a></li>
-            </ul>
-        </nav>
+    </div>
+
+    <!-- Navigation Bar -->
+    <nav class="clearNav">
+        <ul>
+            <li><a href="https://samuelchukwuemeka.github.io/financial-mathematics/"
+                    title="Simple Interest Calculations">Simple
+                    Interest</a></li>
+            <li><a href="https://samuelchukwuemeka.github.io/financial-mathematics/compoundInterest.html"
+                    title="Compound Interest Calculations">Compound Interest</a></li>
+            <li><a href="https://samuelchukwuemeka.github.io/financial-mathematics/continuousCompoundInterest.html"
+                    title="Continuous Compound Interest Calculations">Continuous Compound Interest</a></li>
+            <li><a href="https://samuelchukwuemeka.github.io/financial-mathematics/apy.html"
+                    title="APY Calculations">Annual Percentage
+                    Yield (APY)</a></li>
+            <li><a href="https://samuelchukwuemeka.github.io/financial-mathematics/ordinaryAnnuity.html"
+                    title="Ordinary Annuity Calculations">Ordinary Annuity/Sinking Fund/Amortization</a></li>
+            <li><a href="https://samuelchukwuemeka.github.io/financial-mathematics/rule78.html"
+                    title="Rule of 78 Calculations">Rule of
+                    78</a></li>
+            <li class="selected"><a href="https://samuelchukwuemeka.github.io/financial-mathematics/annuityDue.html"
+                    title="Annuity Due Calculations">Annuity Due</a></li>
+            <li><a href="https://samuelchukwuemeka.github.io/financial-mathematics/bond.html"
+                    title="Bond Calculations">Bond</a></li>
+            <li><a href="https://samuelchukwuemeka.github.io/financial-mathematics/investmentDecision.html"
+                    title="Investment Decision Rules Calculations">Investment Decison Rules</a></li>
+            <li><a href="https://www.samdomforpeace.com/EngineeringEconomics/timeValueMoney.html"
+                    title="Time Value of Money Calculations">Time Value of Money (TVM)</a></li>
+            <li><a href="https://www.samdomforpeace.com/EngineeringEconomics/projectEvaluation.html"
+                    title="Project Evaluation Calculations">Project Evaluation</a></li>
+            <li><a href="https://samuelchukwuemeka.github.io/financial-mathematics/TI-calculators-finance.html"
+                    title="Project Evaluation Calculations">Texas Instruments (TI) Calculator for Finance</a></li>
+            <li><a href="https://www.youtube.com/playlist?list=PLjyyswMG9g9D4-hvqIt8PW76u0E9adRsR&disable_polymer=true"
+                    title="mathematics of finance">Videos</a></li>
+            <li><a href="https://samuelchukwuemeka.github.io/financial-mathematics/financialMathematics.html"
+                    title="mathematics of finance">Notes</a></li>
+            <li><a href="https://samuelchukwuemeka.github.io/financial-mathematics/#ordinaryAnnuityApplications"
+                    title="annuity, amortization, sinking fund">Solved Examples</a></li>
+            <li><a href="https://chukwuemekasamuel.weebly.com/" title="Other Calculators">Contact</a></li>
+            <li><a href="https://chukwuemekasamuel.com/portfolio.html" title="Portfolio">Portfolio</a></li>
+        </ul>
+    </nav>
 
 
-        <!-- !PAGE CONTENT! -->
-        <div class="main">
+    <!-- !PAGE CONTENT! -->
+    <div class="main">
 
-            <!-- Header -->
-            <div class="header">              
-                <h1>Annuity Due Calculators</h1>
-                <p>
-                    <a href="https://www.samuelchukwuemeka.com/" target="_blank">
-                        <img src="images/samdom4peace.jpg" alt="Samdom For Peace" title="Samuel Chukwuemeka aka Samdom For Peace" class="image">
-                    </a>
-                
-                    <span id="greetings"></span> <br>
-                    I greet you this day,
-                    <script>document.write(Date() + ".");</script> <br>
-                
-                    <u>First:</u> read the notes. <br>
-                    <u>Second:</u> view the videos. <br>
-                    <u>Third:</u> solve the questions/solved examples. <br>
-                    <u>Fourth:</u> check your solutions with my <b>thoroughly-explained</b> solutions. <br>
-                    <u>Fifth:</u> check your answers with the calculators. <br>
-                
-                    I wrote the codes for these calculators using JavaScript, a client-side scripting language. <br>
-                    Please use the latest Internet browsers. The calculators should work. <br>
-                    <mark>Please do not put comma in any of the values.</mark> <br>
-                    <b>You may need to refresh your browser after each calculation to clear all results.</b>
-                
-                    Comments, ideas, areas of improvement, questions, and constructive criticisms are welcome. You may contact me. <br>
-                    If you are my student, please do not contact me here. Contact me via the school's system. Thank you for visiting.
-                </p>
-                <p><strong>Samuel Dominic Chukwuemeka</strong> (Samdom For Peace) <span style="font-size: medium">B.Eng., A.A.T, M.Ed., M.S</span></p>
-            </div>
-            
-            <br><br>
+        <!-- Header -->
+        <div class="header">
+            <h1>Annuity Due Calculators</h1>
+            <p>
+                <a href="https://www.samuelchukwuemeka.com/" target="_blank">
+                    <img src="images/samdom4peace.jpg" alt="Samdom For Peace"
+                        title="Samuel Chukwuemeka aka Samdom For Peace" class="image">
+                </a>
 
-            <!-- Calculations for Annuity Due -->
-            <!-- FV-PV-PMT-M-R-T-I means Future Value - Present Value - Payment - Number of Compounding Periods Per Year - Rate - Time - Interest -->
+                <span id="greetings"></span> <br>
+                I greet you this day,
+                <script>document.write(Date() + ".");</script> <br>
 
-            <div class="mfc-row-padding">
-                <!-- 1st: Given PMT-M-R-T; Calculate FV-I -->
-                <div class="mfc-third">
-                    <div class="container">
-                        <h3><u>Given:</u> Payment, Number of Compounding Periods Per Year, Rate, Time</h3>
-                        <h3><u>To Find:</u> Future Value, Interest</h3>
-                        <form id="futureValueInterest">
-                            <p>
-                                <label for="payment">Periodic Payment is $ </label><input type="text" name="payment" id="payment" autocomplete="off" required>
-                            </p>
-                            <p>
-                                <label for="compoundingPeriodUnit">Compounded</label> 
-                                <select id="compoundingPeriodUnit" required>
-                                    <option disabled selected value> Please choose an option </option>
-                                    <option value="annually">Annually</option>
-                                    <option value="semiannually">Semiannually</option>
-                                    <option value="quarterly">Quarterly</option>
-                                    <option value="monthly">Monthly</option>
-                                    <option value="weekly">Weekly</option>
-                                    <option value="daily-ordinary">Daily: Ordinary</option>
-                                    <option value="daily-exact">Daily: Exact</option>
-                                </select>
-                            </p>
-                            <p><label for="rate">Rate is </label><input type="text" name="rate" id="rate" autocomplete="off" required> in 
-                                <select id="rateUnit" required>
-                                    <option disabled selected value> Please choose an option </option>
-                                    <option value="percent">Percent</option>
-                                    <option value="decimal">Decimal</option>
-                                </select>
-                            </p>
-                            <p><label for="time">Time is </label><input type="text" name="time" id="time" autocomplete="off" required> in 
-                                <select id="timeUnit" required>
-                                    <option disabled selected value> Please choose an option </option>
-                                    <option value="years">Years</option>
-                                    <option value="months">Months</option>
-                                    <option value="weeks">Weeks</option>
-                                    <option value="days_O">Days: Ordinary</option>
-                                    <option value="days_E">Days: Exact</option>
-                                </select>
-                            </p>
+                <u>First:</u> read the notes. <br>
+                <u>Second:</u> view the videos. <br>
+                <u>Third:</u> solve the questions/solved examples. <br>
+                <u>Fourth:</u> check your solutions with my <b>thoroughly-explained</b> solutions. <br>
+                <u>Fifth:</u> check your answers with the calculators. <br>
 
-                            <p class="w3-center">
-                                <button onclick="futureValueInterest()">Calculate</button>
-                                <input type="reset" value="Reset">
-                            </p>
-                            <div id="futureValue"></div>
-                            <div id="interest"></div>
-                        </form>
-                    </div>
-                </div>
+                I wrote the codes for these calculators using JavaScript, a client-side scripting language. <br>
+                Please use the latest Internet browsers. The calculators should work. <br>
+                <mark>Please do not put comma in any of the values.</mark> <br>
+                <b>You may need to refresh your browser after each calculation to clear all results.</b>
 
-                <!-- 2nd: Given FV-R-M-T; Calculate PMT-I -->
-                <div class="mfc-third">
-                    <div class="container">
-                        <h3><u>Given:</u> Future Value, Rate, Number of Compounding Periods Per Year, Time</h3>
-                        <h3><u>To Find:</u> Payment, Interest</h3>
-                        <form id="paymentInterest">
-                            <p><label for="pmtIfutureValue">Future Value is $ </label><input type="text" name="pmtIfutureValue" id="pmtIfutureValue" autocomplete="off" required></p>
-                            <p><label for="pmtIrate">Rate is </label><input type="text" name="pmtIrate" id="pmtIrate" autocomplete="off" required> in 
-                                <select id="pmtIrateUnit" required>
-                                    <option disabled selected value> Please choose an option </option>
-                                    <option value="percent">Percent</option>
-                                    <option value="decimal">Decimal</option>
-                                </select>
-                            </p>
-                            <p><label for="pmtIcompoundingPeriodUnit">Compounded </label> 
-                                <select id="pmtIcompoundingPeriodUnit" required>
-                                    <option disabled selected value> Please choose an option </option>
-                                    <option value="annually">Annually</option>
-                                    <option value="semiannually">Semiannually</option>
-                                    <option value="quarterly">Quarterly</option>
-                                    <option value="monthly">Monthly</option>
-                                    <option value="weekly">Weekly</option>
-                                    <option value="daily-ordinary">Daily: Ordinary</option>
-                                    <option value="daily-exact">Daily: Exact</option>
-                                </select>
-                            </p>
-                            <p><label for="pmtItime">Time is </label><input type="text" name="pmtItime" id="pmtItime" autocomplete="off" required> in 
-                                <select id="pmtItimeUnit" required>
-                                    <option disabled selected value> Please choose an option </option>
-                                    <option value="years">Years</option>
-                                    <option value="months">Months</option>
-                                    <option value="weeks">Weeks</option>
-                                    <option value="days_O">Days: Ordinary</option>
-                                    <option value="days_E">Days: Exact</option>
-                                </select>
-                            </p>
-
-                            <p class="w3-center">
-                                <button onclick="paymentInterest()">Calculate</button>
-                                <input type="reset" value="Reset">
-                            </p>
-                            <div id="pmtIpayment"></div>
-                            <div id="pmtIinterest"></div>
-                        </form>
-                    </div>
-                </div>
-
-                <!-- 3rd: Given FV-PMT-R-M; Calculate TI -->
-                <div class="mfc-third">
-                    <div class="container">
-                        <h3><u>Given:</u> Future Value, Payment, Rate, Number of Compounding Periods Per Year</h3>
-                        <h3><u>To Find:</u> Time, Interest</h3>
-                        <form id="timeInterest">
-                            <p><label for="tIfutureValue">Future Value is $ </label><input type="text" name="tIfutureValue" id="tIfutureValue" autocomplete="off" required></p>
-                            <p><label for="tIpayment">Periodic Payment is $ </label><input type="text" name="tIpayment" id="tIpayment" autocomplete="off" required></p>
-                            <p><label for="tIrate">Rate is </label><input type="text" name="tIrate" id="tIrate" autocomplete="off" required> in 
-                                <select id="tIrateUnit" required>
-                                    <option disabled selected value> Please choose an option </option>
-                                    <option value="percent">Percent</option>
-                                    <option value="decimal">Decimal</option>
-                                </select>
-                            </p>
-                            <p><label for="tIcompoundingPeriodUnit">Compounded </label> 
-                                <select id="tIcompoundingPeriodUnit" required>
-                                    <option disabled selected value> Please choose an option </option>
-                                    <option value="annually">Annually</option>
-                                    <option value="semiannually">Semiannually</option>
-                                    <option value="quarterly">Quarterly</option>
-                                    <option value="monthly">Monthly</option>
-                                    <option value="weekly">Weekly</option>
-                                    <option value="daily-ordinary">Daily: Ordinary</option>
-                                    <option value="daily-exact">Daily: Exact</option>
-                                </select>
-                            </p>
-
-                            <p class="w3-center">
-                                <button onclick="timeInterest()">Calculate</button>
-                                <input type="reset" value="Reset">
-                            </p>
-                            <div id="tItime"></div>
-                            <div id="tIinterest"></div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-            
-            <br><br><br><br>
-            
-
-            <div class="mfc-row-padding">
-                <!-- 7th: Given PMT-i-n; Calculate FV -->
-                <div class="mfc-third">
-                    <div class="container">
-                        <h3><u>Given:</u> Payment, Annual Interest Rate per Period, Total Number of Compounding Periods</h3>
-                        <h3><u>To Find:</u> Future Value</h3>
-                        <form id="futureValuePMTIN">
-                            <p><label for="paymentPMTIN">Periodic Payment is $ </label><input type="text" name="paymentPMTIN" id="paymentPMTIN" autocomplete="off" required></p>
-                            <p>
-                                <label for="interestPeriodPMTIN">Annual Interest Rate per Period is </label><input type="text" name="interestPeriodPMTIN" id="interestPeriodPMTIN" autocomplete="off" required> in 
-                                <select id="interestPeriodUnitPMTIN" required>
-                                    <option disabled selected value> Please choose an option </option>
-                                    <option value="percent">Percent</option>
-                                    <option value="decimal">Decimal</option>
-                                </select>
-                            </p>
-                            <p><label for="totalPeriodsPMTIN">Total Number of Compounding Periods is </label><input type="text" name="totalPeriodsPMTIN" id="totalPeriodsPMTIN" autocomplete="off" required></p>
-
-                            <p class="w3-center">
-                                <button onclick="futureValuePMTIN()">Calculate</button>
-                                <input type="reset" value="Reset">
-                            </p>
-                            <div id="futureValuePIN"></div>
-                        </form>
-                    </div>
-                </div>
-
-                <!-- 8th: Given FV-i-n; Calculate PMT -->
-                <div class="mfc-third">
-                    <div class="container">
-                        <h3><u>Given:</u> Future Value, Annual Interest Rate per Period, Total Number of Compounding Periods</h3>
-                        <h3><u>To Find:</u> Periodic Payment</h3>
-                        <form id="paymentFVIN">
-                            <p><label for="futureValueFVIN">Future Value is $ </label><input type="text" name="futureValueFVIN" id="futureValueFVIN" autocomplete="off" required></p>
-                            <p>
-                                <label for="interestPeriodFVIN">Annual Interest Rate per Period is </label><input type="text" name="interestPeriodFVIN" id="interestPeriodFVIN" autocomplete="off" required> in 
-                                <select id="interestPeriodUnitFVIN" required>
-                                    <option disabled selected value> Please choose an option </option>
-                                    <option value="percent">Percent</option>
-                                    <option value="decimal">Decimal</option>
-                                </select>
-                            </p>
-                            <p><label for="totalPeriodsFVIN">Total Number of Compounding Periods is </label><input type="text" name="totalPeriodsFVIN" id="totalPeriodsFVIN" autocomplete="off" required></p>
-
-                            <p class="w3-center">
-                                <button onclick="paymnentFVIN()">Calculate</button>
-                                <input type="reset" value="Reset">
-                            </p>
-                            <div id="paymentFIN"></div>
-                        </form>
-                    </div>
-                </div>
-
-                <!-- 9th: Given FV-i-PMT; Calculate n -->
-                <div class="mfc-third">
-                    <div class="container">
-                        <h3><u>Given:</u> Future Value, Annual Interest Rate per Period, Periodic Payment</h3>
-                        <h3><u>To Find:</u> Total Number of Compounding Periods</h3>
-                        <form id="periodFVIPMT">
-                            <p><label for="futureValueFVIPMT">Future Value is $ </label><input type="text" name="futureValueFVIPMT" id="futureValueFVIPMT" autocomplete="off" required></p>
-                            <p>
-                                <label for="interestPeriodFVIPMT">Annual Interest Rate per Period is </label><input type="text" name="interestPeriodFVIPMT" id="interestPeriodFVIPMT" autocomplete="off" required> in 
-                                <select id="interestPeriodUnitFVIPMT" required>
-                                    <option disabled selected value> Please choose an option </option>
-                                    <option value="percent">Percent</option>
-                                    <option value="decimal">Decimal</option>
-                                </select>
-                            </p>
-                            <p><label for="paymentFVIPMT">Periodic Payment is $ </label><input type="text" name="paymentFVIPMT" id="paymentFVIPMT" autocomplete="off" required></p>
-
-                            <p class="w3-center">
-                                <button onclick="periodFVIPMT()">Calculate</button>
-                                <input type="reset" value="Reset">
-                            </p>
-                            <div id="periodFIP"></div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-                       
-            <br><br>
-
-            <!-- Footer -->
-            <footer class="white w3-center w3-padding-24">
-                <a href="https://www.youtube.com/user/samuelchukwuemeka" title="Subscribe to my YouTube channel" target="_blank"><img src="images/youtube.png" alt="Subscribe to my YouTube channel"></a>
-                <a href="https://twitter.com/samdom4peace" title="Follow me on twitter" target="_blank"><img src="images/twitter.png" alt="Follow me on twitter"></a>
-                <a href="http://samueldominicchukwuemeka.blogspot.com/?view=flipcard" title="Subscribe and follow my blog" target="_blank"><img src="images/blogger.jpg" alt="Subscribe and follow my blog"></a>
-                <div id="google_translate_element"></div>
-                <script>
-                        function googleTranslateElementInit() {
-                        new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, gaTrack: true, gaId: 'UA-102287542-1'}, 'google_translate_element');
-                        }
-                </script>
-                <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-                <p>&copy; 2019&nbsp;<a href="https://www.samuelchukwuemeka.com/" target="_blank">Samdom4Peace</a>&nbsp;Designs.</p>
-            </footer>
-            <!-- End Footer -->
-
-            <!-- End page content -->
+                Comments, ideas, areas of improvement, questions, and constructive criticisms are welcome. You may
+                contact me. <br>
+                If you are my student, please do not contact me here. Contact me via the school's system. Thank you for
+                visiting.
+            </p>
+            <p><strong>Samuel Dominic Chukwuemeka</strong> (Samdom For Peace) <span style="font-size: medium">B.Eng.,
+                    A.A.T, M.Ed., M.S</span></p>
         </div>
 
-        <script src="scripts/messages9.js"></script>
-        <script src="scripts/annuityDue.js"></script>
+        <br><br>
 
-    </body> 
+        <!-- Calculations for Annuity Due -->
+        <!-- FV-PV-PMT-M-R-T-I means Future Value - Present Value - Payment - Number of Compounding Periods Per Year - Rate - Time - Interest -->
+
+        <div class="mfc-row-padding">
+            <!-- 1st: Given PMT-M-R-T; Calculate FV-I -->
+            <div class="mfc-third">
+                <div class="container">
+                    <h3><u>Given:</u> Payment, Number of Compounding Periods Per Year, Rate, Time</h3>
+                    <h3><u>To Find:</u> Future Value, Interest</h3>
+                    <form id="futureValueInterest">
+                        <p>
+                            <label for="payment">Periodic Payment is $ </label><input type="text" name="payment"
+                                id="payment" autocomplete="off" required>
+                        </p>
+                        <p>
+                            <label for="compoundingPeriodUnit">Compounded</label>
+                            <select id="compoundingPeriodUnit" required>
+                                <option disabled selected value> Please choose an option </option>
+                                <option value="annually">Annually</option>
+                                <option value="semiannually">Semiannually</option>
+                                <option value="quarterly">Quarterly</option>
+                                <option value="monthly">Monthly</option>
+                                <option value="weekly">Weekly</option>
+                                <option value="daily-ordinary">Daily: Ordinary</option>
+                                <option value="daily-exact">Daily: Exact</option>
+                            </select>
+                        </p>
+                        <p><label for="rate">Rate is </label><input type="text" name="rate" id="rate" autocomplete="off"
+                                required> in
+                            <select id="rateUnit" required>
+                                <option disabled selected value> Please choose an option </option>
+                                <option value="percent">Percent</option>
+                                <option value="decimal">Decimal</option>
+                            </select>
+                        </p>
+                        <p><label for="time">Time is </label><input type="text" name="time" id="time" autocomplete="off"
+                                required> in
+                            <select id="timeUnit" required>
+                                <option disabled selected value> Please choose an option </option>
+                                <option value="years">Years</option>
+                                <option value="months">Months</option>
+                                <option value="weeks">Weeks</option>
+                                <option value="days_O">Days: Ordinary</option>
+                                <option value="days_E">Days: Exact</option>
+                            </select>
+                        </p>
+
+                        <p class="w3-center">
+                            <button onclick="futureValueInterest()">Calculate</button>
+                            <input type="reset" value="Reset">
+                        </p>
+                        <div id="futureValue"></div>
+                        <div id="interest"></div>
+                    </form>
+                </div>
+            </div>
+
+            <!-- 2nd: Given FV-R-M-T; Calculate PMT-I -->
+            <div class="mfc-third">
+                <div class="container">
+                    <h3><u>Given:</u> Future Value, Rate, Number of Compounding Periods Per Year, Time</h3>
+                    <h3><u>To Find:</u> Payment, Interest</h3>
+                    <form id="paymentInterest">
+                        <p><label for="pmtIfutureValue">Future Value is $ </label><input type="text"
+                                name="pmtIfutureValue" id="pmtIfutureValue" autocomplete="off" required></p>
+                        <p><label for="pmtIrate">Rate is </label><input type="text" name="pmtIrate" id="pmtIrate"
+                                autocomplete="off" required> in
+                            <select id="pmtIrateUnit" required>
+                                <option disabled selected value> Please choose an option </option>
+                                <option value="percent">Percent</option>
+                                <option value="decimal">Decimal</option>
+                            </select>
+                        </p>
+                        <p><label for="pmtIcompoundingPeriodUnit">Compounded </label>
+                            <select id="pmtIcompoundingPeriodUnit" required>
+                                <option disabled selected value> Please choose an option </option>
+                                <option value="annually">Annually</option>
+                                <option value="semiannually">Semiannually</option>
+                                <option value="quarterly">Quarterly</option>
+                                <option value="monthly">Monthly</option>
+                                <option value="weekly">Weekly</option>
+                                <option value="daily-ordinary">Daily: Ordinary</option>
+                                <option value="daily-exact">Daily: Exact</option>
+                            </select>
+                        </p>
+                        <p><label for="pmtItime">Time is </label><input type="text" name="pmtItime" id="pmtItime"
+                                autocomplete="off" required> in
+                            <select id="pmtItimeUnit" required>
+                                <option disabled selected value> Please choose an option </option>
+                                <option value="years">Years</option>
+                                <option value="months">Months</option>
+                                <option value="weeks">Weeks</option>
+                                <option value="days_O">Days: Ordinary</option>
+                                <option value="days_E">Days: Exact</option>
+                            </select>
+                        </p>
+
+                        <p class="w3-center">
+                            <button onclick="paymentInterest()">Calculate</button>
+                            <input type="reset" value="Reset">
+                        </p>
+                        <div id="pmtIpayment"></div>
+                        <div id="pmtIinterest"></div>
+                    </form>
+                </div>
+            </div>
+
+            <!-- 3rd: Given FV-PMT-R-M; Calculate TI -->
+            <div class="mfc-third">
+                <div class="container">
+                    <h3><u>Given:</u> Future Value, Payment, Rate, Number of Compounding Periods Per Year</h3>
+                    <h3><u>To Find:</u> Time, Interest</h3>
+                    <form id="timeInterest">
+                        <p><label for="tIfutureValue">Future Value is $ </label><input type="text" name="tIfutureValue"
+                                id="tIfutureValue" autocomplete="off" required></p>
+                        <p><label for="tIpayment">Periodic Payment is $ </label><input type="text" name="tIpayment"
+                                id="tIpayment" autocomplete="off" required></p>
+                        <p><label for="tIrate">Rate is </label><input type="text" name="tIrate" id="tIrate"
+                                autocomplete="off" required> in
+                            <select id="tIrateUnit" required>
+                                <option disabled selected value> Please choose an option </option>
+                                <option value="percent">Percent</option>
+                                <option value="decimal">Decimal</option>
+                            </select>
+                        </p>
+                        <p><label for="tIcompoundingPeriodUnit">Compounded </label>
+                            <select id="tIcompoundingPeriodUnit" required>
+                                <option disabled selected value> Please choose an option </option>
+                                <option value="annually">Annually</option>
+                                <option value="semiannually">Semiannually</option>
+                                <option value="quarterly">Quarterly</option>
+                                <option value="monthly">Monthly</option>
+                                <option value="weekly">Weekly</option>
+                                <option value="daily-ordinary">Daily: Ordinary</option>
+                                <option value="daily-exact">Daily: Exact</option>
+                            </select>
+                        </p>
+
+                        <p class="w3-center">
+                            <button onclick="timeInterest()">Calculate</button>
+                            <input type="reset" value="Reset">
+                        </p>
+                        <div id="tItime"></div>
+                        <div id="tIinterest"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <br><br><br><br>
+
+
+        <div class="mfc-row-padding">
+            <!-- 7th: Given PMT-i-n; Calculate FV -->
+            <div class="mfc-third">
+                <div class="container">
+                    <h3><u>Given:</u> Payment, Annual Interest Rate per Period, Total Number of Compounding Periods</h3>
+                    <h3><u>To Find:</u> Future Value</h3>
+                    <form id="futureValuePMTIN">
+                        <p><label for="paymentPMTIN">Periodic Payment is $ </label><input type="text"
+                                name="paymentPMTIN" id="paymentPMTIN" autocomplete="off" required></p>
+                        <p>
+                            <label for="interestPeriodPMTIN">Annual Interest Rate per Period is </label><input
+                                type="text" name="interestPeriodPMTIN" id="interestPeriodPMTIN" autocomplete="off"
+                                required> in
+                            <select id="interestPeriodUnitPMTIN" required>
+                                <option disabled selected value> Please choose an option </option>
+                                <option value="percent">Percent</option>
+                                <option value="decimal">Decimal</option>
+                            </select>
+                        </p>
+                        <p><label for="totalPeriodsPMTIN">Total Number of Compounding Periods is </label><input
+                                type="text" name="totalPeriodsPMTIN" id="totalPeriodsPMTIN" autocomplete="off" required>
+                        </p>
+
+                        <p class="w3-center">
+                            <button onclick="futureValuePMTIN()">Calculate</button>
+                            <input type="reset" value="Reset">
+                        </p>
+                        <div id="futureValuePIN"></div>
+                    </form>
+                </div>
+            </div>
+
+            <!-- 8th: Given FV-i-n; Calculate PMT -->
+            <div class="mfc-third">
+                <div class="container">
+                    <h3><u>Given:</u> Future Value, Annual Interest Rate per Period, Total Number of Compounding Periods
+                    </h3>
+                    <h3><u>To Find:</u> Periodic Payment</h3>
+                    <form id="paymentFVIN">
+                        <p><label for="futureValueFVIN">Future Value is $ </label><input type="text"
+                                name="futureValueFVIN" id="futureValueFVIN" autocomplete="off" required></p>
+                        <p>
+                            <label for="interestPeriodFVIN">Annual Interest Rate per Period is </label><input
+                                type="text" name="interestPeriodFVIN" id="interestPeriodFVIN" autocomplete="off"
+                                required> in
+                            <select id="interestPeriodUnitFVIN" required>
+                                <option disabled selected value> Please choose an option </option>
+                                <option value="percent">Percent</option>
+                                <option value="decimal">Decimal</option>
+                            </select>
+                        </p>
+                        <p><label for="totalPeriodsFVIN">Total Number of Compounding Periods is </label><input
+                                type="text" name="totalPeriodsFVIN" id="totalPeriodsFVIN" autocomplete="off" required>
+                        </p>
+
+                        <p class="w3-center">
+                            <button onclick="paymnentFVIN()">Calculate</button>
+                            <input type="reset" value="Reset">
+                        </p>
+                        <div id="paymentFIN"></div>
+                    </form>
+                </div>
+            </div>
+
+            <!-- 9th: Given FV-i-PMT; Calculate n -->
+            <div class="mfc-third">
+                <div class="container">
+                    <h3><u>Given:</u> Future Value, Annual Interest Rate per Period, Periodic Payment</h3>
+                    <h3><u>To Find:</u> Total Number of Compounding Periods</h3>
+                    <form id="periodFVIPMT">
+                        <p><label for="futureValueFVIPMT">Future Value is $ </label><input type="text"
+                                name="futureValueFVIPMT" id="futureValueFVIPMT" autocomplete="off" required></p>
+                        <p>
+                            <label for="interestPeriodFVIPMT">Annual Interest Rate per Period is </label><input
+                                type="text" name="interestPeriodFVIPMT" id="interestPeriodFVIPMT" autocomplete="off"
+                                required> in
+                            <select id="interestPeriodUnitFVIPMT" required>
+                                <option disabled selected value> Please choose an option </option>
+                                <option value="percent">Percent</option>
+                                <option value="decimal">Decimal</option>
+                            </select>
+                        </p>
+                        <p><label for="paymentFVIPMT">Periodic Payment is $ </label><input type="text"
+                                name="paymentFVIPMT" id="paymentFVIPMT" autocomplete="off" required></p>
+
+                        <p class="w3-center">
+                            <button onclick="periodFVIPMT()">Calculate</button>
+                            <input type="reset" value="Reset">
+                        </p>
+                        <div id="periodFIP"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <br><br>
+
+        <!-- Footer -->
+        <footer class="white w3-center w3-padding-24">
+            <a href="https://www.youtube.com/user/samuelchukwuemeka" title="Subscribe to my YouTube channel"
+                target="_blank"><img src="images/youtube.png" alt="Subscribe to my YouTube channel"></a>
+            <a href="https://twitter.com/samdom4peace" title="Follow me on twitter" target="_blank"><img
+                    src="images/twitter.png" alt="Follow me on twitter"></a>
+            <a href="http://samueldominicchukwuemeka.blogspot.com/?view=flipcard" title="Subscribe and follow my blog"
+                target="_blank"><img src="images/blogger.jpg" alt="Subscribe and follow my blog"></a>
+            <div id="google_translate_element"></div>
+            <script>
+                function googleTranslateElementInit() {
+                    new google.translate.TranslateElement({ pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, gaTrack: true, gaId: 'UA-102287542-1' }, 'google_translate_element');
+                }
+            </script>
+            <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+            <p>&copy; 2019&nbsp;<a href="https://www.samuelchukwuemeka.com/"
+                    target="_blank">Samdom4Peace</a>&nbsp;Designs.</p>
+        </footer>
+        <!-- End Footer -->
+
+        <!-- End page content -->
+    </div>
+
+    <script src="scripts/messages9.js"></script>
+    <script src="scripts/annuityDue.js"></script>
+
+</body>
+
 </html>

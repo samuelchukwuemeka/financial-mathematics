@@ -2,10 +2,8 @@
     Copyright 2023 - Samuel Dominic Chukwuemeka (SamDom For Peace)
     www.samuelchukwuemeka.com
     www.chukwuemekasamuel.com
-    www.samdomforpeace.com
-    www.chukwuemeka-samuel.appspot.com
-    www.samdomforpeace.appspot.com
-    www.finance-calculators.appspot.com/financialMathematicsLiteracy.html
+    www.samdomforpeace.com    
+    https://samuelchukwuemeka.github.io/financial-mathematics/financialMathematicsLiteracy.html
     message 12
 */
 
